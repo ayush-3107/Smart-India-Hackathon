@@ -10,6 +10,10 @@ const RegisterForm = () => {
 
   const handleRegister = async (e) => {
     e.preventDefault();
+    if (!username || !password || !role) {
+      alert('All fields are required');
+      return;
+    }
     try {
       await axios.post(`${config.apiUrl}/auth/register`, {  // Use the variable for API path
         username,
