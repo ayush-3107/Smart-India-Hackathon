@@ -29,18 +29,14 @@ const LoginForm = () => {
         navigate('/dashboard-manager');
       } else if (role === 'crew') {
         navigate('/dashboard-crew');
-<<<<<<< HEAD
-=======
       } else {
         alert('Unknown role');
->>>>>>> b7104b68875d54f5b3e8f6d3fb2093c72ca12c2d
       }
     } catch (error) {
       console.error('Login error:', error); // Log error details for debugging
       alert('Login failed: ' + (error.response?.data?.message || error.message));
     }
   };
-<<<<<<< HEAD
 
   return (
     <div className='w-screen h-screen flex items-center justify-center '>
@@ -64,33 +60,7 @@ const LoginForm = () => {
 
       </form>
     </div>
-=======
-  
-
-  return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label>Username</label>
-        <input 
-          type="text" 
-          value={username} 
-          onChange={(e) => setUsername(e.target.value)} 
-          required 
-        />
-      </div>
-      <div>
-        <label>Password</label>
-        <input 
-          type="password" 
-          value={password} 
-          onChange={(e) => setPassword(e.target.value)} 
-          required 
-        />
-      </div>
-      <button type="submit">Login</button>
-    </form>
->>>>>>> b7104b68875d54f5b3e8f6d3fb2093c72ca12c2d
-  );
+  )
 };
 
 export default LoginForm;
