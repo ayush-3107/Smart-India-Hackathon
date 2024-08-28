@@ -13,21 +13,37 @@ const Login = () => {
       const { token, role } = await login(username, password);
       localStorage.setItem('token', token);
       if (role === 'manager') {
-        navigate('/dashboard-manager'); 
+        navigate('/dashboard-manager');
       } else if (role === 'crew') {
-        navigate('/dashboard-crew'); 
+        navigate('/dashboard-crew');
       }
     } catch (error) {
       alert('Login failed: ' + error);
     }
   };
-  
+
   return (
-    <form onSubmit={handleSubmit}>
-      <input type="text" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)} required />
-      <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} required />
-      <button type="submit">Login</button>
-    </form>
+    <div className='w-screen h-screen flex items-center justify-center '>
+      <form onSubmit={handleSubmit}
+        className='w-[60%] flex flex-col items-center justify-center border-2 border-blue-800' >
+        <div className='w-full flex m-4 justify-center items-center gap-4'>
+          <p className='text-2xl '>Username:</p>
+          <input type="text" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)} required
+            className=' border-2 h-10 p-4 border-blue-500 text-black outline-none' />
+        </div>
+        <div className='w-full flex m-4 justify-center items-center gap-4'>
+          <p className='text-2xl' >Password:</p>
+          <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} required 
+           className=' border-2 h-10 p-4 border-blue-500 text-black outline-none'/>
+        </div>
+        <button class="relative px-6 py-3 border-none rounded-xl text-[#212121] bg-[#e8e8e8] font-extrabold text-lg shadow-[4px_8px_19px_-3px_rgba(0,0,0,0.27)] transition-all duration-250 overflow-hidden
+  before:content-[''] before:absolute before:top-0 before:left-0 before:h-full before:w-0 before:rounded-xl before:bg-[#212121] before:z-[-1] before:shadow-[4px_8px_19px_-3px_rgba(0,0,0,0.27)] before:transition-all before:duration-250 hover:text-[#e8e8e8] hover:before:w-full">
+  Login
+</button>
+
+
+      </form>
+    </div>
   );
 };
 
