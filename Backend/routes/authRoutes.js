@@ -32,4 +32,42 @@ router.post('/register', async (req, res) => {
   }
 });
 
+
+// Login endpoint
+router.post('/login', async (req, res) => {
+  try {
+    const { username, password } = req.body;
+    console.log('Received data:', req.body);
+
+    // Find the user by username
+    const user = await User.findOne({ username });
+    if (!user) {
+      console.log('User not found:', username);
+      return res.status(400).json({ message: 'Invalid credentials' });
+    }
+
+    // Check if the password is correct
+    const isMatch = await bcrypt.compare(password, user.password);
+    if (!isMatch) {
+      console.log('Password mismatch for user:', username);
+      return res.status(400).json({ message: 'Invalid credentials' });
+    }
+
+    // Redirect based on the user's role
+    if (user.role === 'crew') {
+      console.log('Redirecting to DashboardCrew for user:', username);
+      res.redirect('/dashboard-crew'); // Adjust the redirect path as needed
+    } else if (user.role === 'manager') {
+      console.log('Redirecting to DashboardManager for user:', username);
+      res.redirect('/dashboard-manager'); // Adjust the redirect path as needed
+    } else {
+      console.log('Unknown role for user:', username);
+      res.status(400).json({ message: 'Invalid role' });
+    }
+  } catch (error) {
+    console.error('Login error:', error);  // Log the error details
+    res.status(500).json({ message: 'Server error' });
+  }
+});
+
 module.exports = router;
