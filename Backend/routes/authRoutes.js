@@ -53,6 +53,7 @@ router.post('/login', async (req, res) => {
       return res.status(400).json({ message: 'Invalid credentials' });
     }
 
+<<<<<<< HEAD
 //     // Redirect based on the user's role
 //     if (user.role === 'crew') {
 //       console.log('Redirecting to DashboardCrew for user:', username);
@@ -66,6 +67,18 @@ router.post('/login', async (req, res) => {
 } else {
       return res.status(200).json({role: user.role});
 
+=======
+    // Redirect based on the user's role
+    if (user.role === 'crew') {
+      console.log('Redirecting to DashboardCrew for user:', username);
+      res.redirect('https://github.com/'); 
+    } else if (user.role === 'manager') {
+      console.log('Redirecting to DashboardManager for user:', username);
+      res.redirect('/dashboard-manager'); // Adjust the redirect path as needed
+    } else {
+      console.log('Unknown role for user:', username);
+      res.status(400).json({ message: 'Invalid role' });
+>>>>>>> c949a24606c954340902fca053414c7464a3df9c
     }
   } catch (error) {
     console.error('Login error:', error);  // Log the error details
