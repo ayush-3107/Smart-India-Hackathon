@@ -4,19 +4,19 @@ import axios from 'axios';
 import config from '../config';
 
 const LoginForm = () => {
-  const [username, setUsername] = useState('');
+  const [userid, setUserid] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!username || !password) {
+    if (!userid || !password) {
       alert('Username and password are required');
       return;
     }
     try {
       const response = await axios.post(`${config.apiUrl}/auth/login`, {
-        username,
+        userid,
         password,
       });
 
@@ -49,9 +49,9 @@ const LoginForm = () => {
                 <form onSubmit={handleSubmit} className="flex flex-col">
                   <input
                     type="text"
-                    placeholder="Username"
-                    value={username}
-                    onChange={(e) => setUsername(e.target.value)}
+                    placeholder="UserId"
+                    value={userid}
+                    onChange={(e) => setUserid(e.target.value)}
                     className="w-full px-8 py-4 rounded-lg font-medium bg-[rgb(254,255,250)] border border-[#95D2B3] placeholder-gray-500 text-sm focus:outline-none focus:border-[#55AD9B] focus:bg-white"
                     required
                   />
