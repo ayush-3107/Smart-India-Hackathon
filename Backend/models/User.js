@@ -10,7 +10,7 @@ const userSchema = new mongoose.Schema({
   gender: { type: String, required: true },
   yearOfJoining: { type: Number, required: true },
   address: { type: String, required: true },
-  role: { type: String, required: true }, // Manager or Crew
+  role: { type: String, enum:['manager', 'crew'], required: true }, // Manager or Crew
 
   // Crew-specific fields
   crewRole: { type: String, required: function() { return this.role === 'Crew'; } }, // Conductor/Driver

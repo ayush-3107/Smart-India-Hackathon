@@ -67,11 +67,15 @@ async function handleRegisterUser(req, res) {
 // Handle user login
 async function handleLoginUser(req, res) {
   try {
+    console.log(req.body);
+    
     const { id, password } = req.body;
     console.log('Received data:', req.body);
 
     // Find the user by ID
     const user = await User.findOne({ id });
+    console.log(user);
+    
     if (!user) {
       console.log('User not found:', id);
       return res.status(400).json({ message: 'Invalid credentials' });
@@ -85,12 +89,13 @@ async function handleLoginUser(req, res) {
     }
 
     // Handle role-based response
-    if (user.role === null) {
-      console.log('Unknown role for user:', id);
-      return res.status(400).json({ message: 'Invalid role' });
-    } else {
+    // if (user.role === null) {
+    //   console.log('Unknown role for user:', id);
+    //   return res.status(400).json({ message: 'Invalid role' });
+    // } else {
+      // Return the user role along with success message
       return res.status(200).json({ role: user.role });
-    }
+    // }
   } catch (error) {
     console.error('Login error:', error); // Log the error details
     res.status(500).json({ message: 'Server error' });
