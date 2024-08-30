@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import axios from 'axios';
-import config from '../config'; // Import the config
+import config from '../config';
+
 const RegisterForm = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -15,7 +16,7 @@ const RegisterForm = () => {
       return;
     }
     try {
-      await axios.post(`${config.apiUrl}/auth/register`, {  // Use the variable for API path
+      await axios.post(`${config.apiUrl}/auth/register`, {
         username,
         password,
         role,
@@ -23,68 +24,82 @@ const RegisterForm = () => {
       alert('Registration successful');
       navigate('/');
     } catch (error) {
-      alert('Registration failed: ' + error.response.data.message);
+      alert('Registration failed: ' + (error.response?.data?.message || error.message));
     }
   };
 
   return (
-    <div className='w-screen h-screen flex items-center justify-center bg-[url("/Bg.jpeg")] bg-cover bg-center'>
-      <form onSubmit={handleRegister}
-        className='w-auto h-auto text-white bg-transparent rounded flex flex-col items-center justify-center border-2 border-[rgba(255,255,255,0.2)]
-     backdrop-blur-sm shadow-custom p-10'>
-
-        <h1 className='text-5xl text-teal-700 my-4 font-bold'
-        >TransitMATE</h1>
-
-
-        <div className='w-full flex m-4 justify-evenly items-center gap-4'>
-          <label className='text-2xl'
-          >Username:</label>
-          <input
-            placeholder="Username"
-            type="text"
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
-            className=' border-2 h-10 p-4 bg-transparent border-blue-600 outline-none rounded-lg placeholder:text-lg ml-10'
-          />
+    <div className="min-h-screen bg-[#F1F8E8] text-gray-900 flex justify-center"> {/* Background color */}
+      <div className="max-w-screen-xl m-0 sm:m-10 bg-white shadow sm:rounded-lg flex justify-center flex-1">
+        <div className="lg:w-1/2 xl:w-5/12 p-6 sm:p-12">
+          <div className="mt-12 flex flex-col items-center">
+            <h1 className="text-2xl xl:text-3xl font-extrabold text-[#55AD9B]">Register</h1> {/* Heading color */}
+            <div className="w-full flex-1 mt-8">
+              <div className="mx-auto max-w-xs">
+                <form onSubmit={handleRegister} className="flex flex-col">
+                  <input
+                    type="text"
+                    placeholder="Username"
+                    value={username}
+                    onChange={(e) => setUsername(e.target.value)}
+                    className="w-full px-8 py-4 rounded-lg font-medium bg-[rgb(254,255,250)] border border-[#95D2B3] placeholder-gray-500 text-sm focus:outline-none focus:border-[#55AD9B] focus:bg-white"
+                    required
+                  />
+                  <input
+                    type="password"
+                    placeholder="Password"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    className="w-full px-8 py-4 rounded-lg font-medium bg-[rgb(254,255,250)] border border-[#95D2B3] placeholder-gray-500 text-sm focus:outline-none focus:border-[#55AD9B] focus:bg-white mt-5"
+                    required
+                  />
+                  <select
+                    value={role}
+                    onChange={(e) => setRole(e.target.value)}
+                    className="w-full px-8 py-4 rounded-lg font-medium bg-[rgb(254,255,250)] border border-[#95D2B3] text-sm focus:outline-none focus:border-[#55AD9B] focus:bg-white mt-5"
+                    required
+                  >
+                    <option value="manager">Manager</option>
+                    <option value="crew">Crew</option>
+                  </select>
+                  <button
+                    type="submit"
+                    className="mt-5 tracking-wide font-semibold bg-[#95D2B3] text-gray-900 w-full py-4 rounded-lg hover:bg-[#55AD9B] transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none"
+                  >
+                    <svg
+                      className="w-6 h-6 -ml-2"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M16 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+                      <circle cx="8.5" cy="7" r="4" />
+                      <path d="M20 8v6M23 11h-6" />
+                    </svg>
+                    <span className="ml-3">Register</span>
+                  </button>
+                </form>
+                <p className="mt-6 text-xs text-gray-600 text-center">
+                  Already a member?{' '}
+                  <Link to="/" className="text-[#55AD9B] hover:underline">
+                    Log In
+                  </Link>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-
-
-        <div className='w-full flex m-4 justify-evenly items-center gap-4'>
-          <label className='text-2xl '>New Password:</label>
-          <input
-            type="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            className=' border-2 h-10 p-4 bg-transparent border-blue-600 outline-none rounded-lg placeholder:text-lg'
-            placeholder="Password"
-          />
+        <div className="flex-1 bg-[#c4dca9] text-center hidden lg:flex"> 
+          <div
+            className="m-12 xl:m-16 w-full bg-contain bg-center bg-no-repeat"
+            style={{
+              backgroundImage: 'url("/login_bg.jpg")', // Path to your image
+            }}
+          ></div>
         </div>
-
-
-        <div className='w-full flex m-4 justify-evenly items-center gap-5'>
-          <label className='text-2xl '>Role:</label>
-          <select value={role} onChange={(e) => setRole(e.target.value)}
-            className='text-black w-32 h-8 px-4 text-lg outline-none rounded-md'>
-            <option value="manager">Manager</option>
-            <option value="crew">Crew</option>
-          </select>
-        </div>
-
-
-        <button type="submit"
-          className="m-4 px-7 py-3 w-32 border-none outline-none rounded-xl text-black bg-white transition ease-in-out duration-500 text-xl 
-            hover:shadow-[inset_0_-100px_0_0_blue] hover:bg-blue-800 hover:text-white  active:scale-90"
-        >Register</button>
-
-        <p
-          className="text-white font-normal text-lg px-4">Already A Member
-          <Link
-            to="/"
-            className='text-blue-500 hover:underline ml-2'
-          >Log In</Link>
-          </p>
-      </form>
+      </div>
     </div>
   );
 };
