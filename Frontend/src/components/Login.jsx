@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import config from '../config';
 
@@ -19,12 +19,12 @@ const LoginForm = () => {
         username,
         password,
       });
-      
+
       console.log('Response data:', response.data); // Log the response data for debugging
-  
+
       const { token, role } = response.data;
       localStorage.setItem('token', token);
-  
+
       if (role === 'manager') {
         navigate('/dashboard-manager');
       } else if (role === 'crew') {
@@ -39,25 +39,37 @@ const LoginForm = () => {
   };
 
   return (
-    <div className='w-screen h-screen flex items-center justify-center '>
+    <div className='w-screen h-screen flex items-center justify-center bg-[url("/Bg.jpeg")] bg-cover bg-center'>
       <form onSubmit={handleSubmit}
-        className='w-[60%] flex flex-col items-center justify-center border-2 border-blue-800' >
+        className='w-auto h-auto text-white bg-transparent rounded-2xl flex flex-wrap flex-col items-center justify-center border-2 border-[rgba(255,255,255,0.2)]
+        backdrop-blur-sm shadow-custom p-10' >
+
+          <h1 className='text-5xl text-teal-700 my-4 font-bold'
+          >TransitMATE</h1>
+
         <div className='w-full flex m-4 justify-center items-center gap-4'>
           <p className='text-2xl '>Username:</p>
           <input type="text" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)} required
-            className=' border-2 h-10 p-4 border-blue-500 text-black outline-none' />
+            className=' border-2 h-10 p-4 bg-transparent border-blue-600 outline-none rounded-lg placeholder:text-lg' />
         </div>
-        <div className='w-full flex m-4 justify-center items-center gap-4'>
+
+        <div className='w-full flex m-4 justify-center items-center gap-[18px]'>
           <p className='text-2xl' >Password:</p>
-          <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} required 
-           className=' border-2 h-10 p-4 border-blue-500 text-black outline-none'/>
+          <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} required
+            className=' border-2 h-10 p-4 bg-transparent border-blue-600 outline-none rounded-lg placeholder:text-lg' />
         </div>
-        <button class="relative px-6 py-3 border-none rounded-xl text-[#212121] bg-[#e8e8e8] font-extrabold text-lg shadow-[4px_8px_19px_-3px_rgba(0,0,0,0.27)] transition-all duration-250 overflow-hidden
-  before:content-[''] before:absolute before:top-0 before:left-0 before:h-full before:w-0 before:rounded-xl before:bg-[#212121] before:z-[-1] before:shadow-[4px_8px_19px_-3px_rgba(0,0,0,0.27)] before:transition-all before:duration-250 hover:text-[#e8e8e8] hover:before:w-full">
-  Login
-</button>
 
+        <button className="m-4 px-7 py-3 w-32 border-none outline-none rounded-xl text-black bg-white transition ease-in-out duration-500 text-xl 
+            hover:shadow-[inset_0_-100px_0_0_blue] hover:bg-blue-800 hover:text-white  active:scale-90" >
+          Login
+        </button>
 
+        <p
+        className="text-white font-normal text-lg px-4">New Member?
+          <Link 
+        to="/register"
+        className='text-blue-500 hover:underline ml-2'
+        >Register</Link></p>
       </form>
     </div>
   )
