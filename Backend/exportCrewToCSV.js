@@ -3,9 +3,9 @@ const mongoose = require('mongoose');
 const fs = require('fs');
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 const User = require('./models/User'); // Make sure the path to your User model is correct
-
+require('dotenv').config(); 
 // MongoDB connection URI
-const url = 'mongodb://127.0.0.1:27017/Userdb';
+const url =process.env.MONGO_URI ;
 
 // Connect to MongoDB
 mongoose.connect(url,{})
