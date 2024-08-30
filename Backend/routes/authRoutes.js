@@ -6,28 +6,47 @@ const router = express.Router();
 // Registration endpoint
 router.post('/register', async (req, res) => {
   try {
-    const { username, password, role } = req.body;
+    const { name, id, password, phoneNumber, email, dob, gender, yearOfJoining, address, role, crewRole, experience, skillLevel, timingPreferences } = req.body;
+
     console.log('Received data:', req.body);
 
     // Check if the user already exists
-    const existingUser = await User.findOne({ username });
+    const existingUser = await User.findOne({ id });
     if (existingUser) {
-      console.log('Username already exists:', username);
-      return res.status(400).json({ message: 'Username already exists' });
+      return res.status(400).json({ message: 'User ID already exists' });
     }
 
     // Hash the password
     const hashedPassword = await bcrypt.hash(password, 10);
-    console.log('Hashed password:', hashedPassword);
 
-    // Create a new user
-    const newUser = new User({ username, password: hashedPassword, role });
-    await newUser.save();
-    console.log('User saved successfully:', newUser);
+    // Create a new user object
+    const newUser = {
+      name,
+      id,
+      password: hashedPassword,
+      phoneNumber,
+      email,
+      dob,
+      gender,
+      yearOfJoining,
+      address,
+      role
+    };
+
+    // Add crew-specific fields if the role is 'Crew'
+    if (role === 'Crew') {
+      newUser.crewRole = crewRole;
+      newUser.experience = experience;
+      newUser.skillLevel = skillLevel;
+      newUser.timingPreferences = timingPreferences;
+    }
+
+    // Save the new user to the database
+    await new User(newUser).save();
 
     res.status(201).json({ message: 'User registered successfully' });
   } catch (error) {
-    console.error('Registration error:', error);  // Log the error details
+    console.error('Registration error:', error);
     res.status(500).json({ message: 'Server error' });
   }
 });
