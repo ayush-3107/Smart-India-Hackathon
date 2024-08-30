@@ -8,6 +8,7 @@ const RegisterForm = () => {
     username: '',
     userid: '',
     email: '',
+    dob: '',
     phone: '',
     gender: '',
     address: '',
@@ -18,6 +19,7 @@ const RegisterForm = () => {
     skill: '',
     timingPreferences: ''
   });
+  console.log(formData);
 
   const navigate = useNavigate();
 
@@ -69,7 +71,16 @@ const RegisterForm = () => {
                     placeholder="User Id"
                     value={formData.userid}
                     onChange={handleChange}
-                    className="w-full px-8 py-4 rounded-lg font-medium bg-[rgb(254,255,250)] border border-[#95D2B3] placeholder-gray-500 text-sm focus:outline-none focus:border-[#55AD9B] focus:bg-white"
+                    className="w-full px-8 py-4 rounded-lg font-medium bg-[rgb(254,255,250)] border border-[#95D2B3] placeholder-gray-500 text-sm focus:outline-none focus:border-[#55AD9B] focus:bg-white mt-5"
+                    required
+                  />
+                  <input
+                    type="Date"
+                    name="dob"
+                    placeholder="Date of Birth"
+                    value={formData.dob}
+                    onChange={handleChange}
+                    className="w-full px-8 py-4 rounded-lg font-medium bg-[rgb(254,255,250)] border border-[#95D2B3] placeholder-gray-500 text-sm focus:outline-none focus:border-[#55AD9B] focus:bg-white mt-5"
                     required
                   />
                   <input
