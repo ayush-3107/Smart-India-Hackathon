@@ -15,16 +15,14 @@ const LoginForm = () => {
       return;
     }
     try {
-      // console.log("Hello");
       const response = await axios.post(`${config.apiUrl}/auth/login`, {
         username,
         password,
       });
 
-      console.log('Response data:', response.data); // Log the response data for debugging
+      console.log('Response data:', response.data);
 
       const { token, role } = response.data;
-      // console.log(token);
       localStorage.setItem('token', token);
 
       if (role === 'manager') {
@@ -35,46 +33,76 @@ const LoginForm = () => {
         alert('Unknown role');
       }
     } catch (error) {
-      console.error('Login error:', error); // Log error details for debugging
+      console.error('Login error:', error);
       alert('Login failed: ' + (error.response?.data?.message || error.message));
     }
   };
 
   return (
-    <div className='w-screen h-screen flex items-center justify-center bg-[url("/Bg.jpeg")] bg-cover bg-center'>
-      <form onSubmit={handleSubmit}
-        className='w-auto h-auto text-white bg-transparent rounded-2xl flex flex-wrap flex-col items-center justify-center border-2 border-[rgba(255,255,255,0.2)]
-        backdrop-blur-sm shadow-custom p-10' >
-
-          <h1 className='text-5xl text-teal-700 my-4 font-bold'
-          >TransitMATE</h1>
-
-        <div className='w-full flex m-4 justify-center items-center gap-4'>
-          <p className='text-2xl '>Username:</p>
-          <input type="text" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)} required
-            className=' border-2 h-10 p-4 bg-transparent border-blue-600 outline-none rounded-lg placeholder:text-lg' />
+    <div className="min-h-screen bg-[#F1F8E8] text-gray-900 flex justify-center"> {/* Updated background color */}
+      <div className="max-w-screen-xl m-0 sm:m-10 bg-white shadow sm:rounded-lg flex justify-center flex-1">
+        <div className="lg:w-1/2 xl:w-5/12 p-6 sm:p-12">
+          <div className="mt-12 flex flex-col items-center">
+            <h1 className="text-2xl xl:text-3xl font-extrabold text-[#55AD9B]">Sign In</h1> {/* Updated text color */}
+            <div className="w-full flex-1 mt-8">
+              <div className="mx-auto max-w-xs">
+                <form onSubmit={handleSubmit} className="flex flex-col">
+                  <input
+                    type="text"
+                    placeholder="Username"
+                    value={username}
+                    onChange={(e) => setUsername(e.target.value)}
+                    className="w-full px-8 py-4 rounded-lg font-medium bg-[rgb(254,255,250)] border border-[#95D2B3] placeholder-gray-500 text-sm focus:outline-none focus:border-[#55AD9B] focus:bg-white"
+                    required
+                  />
+                  <input
+                    type="password"
+                    placeholder="Password"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    className="w-full px-8 py-4 rounded-lg font-medium bg-[rgb(254,255,250)] border border-[#95D2B3] placeholder-gray-500 text-sm focus:outline-none focus:border-[#55AD9B] focus:bg-white mt-5"
+                    required
+                  />
+                  <button
+                    type="submit"
+                    className="mt-5 tracking-wide font-semibold bg-[#95D2B3] text-gray-900 w-full py-4 rounded-lg hover:bg-[#55AD9B] transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none"
+                  >
+                    <svg
+                      className="w-6 h-6 -ml-2"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M16 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+                      <circle cx="8.5" cy="7" r="4" />
+                      <path d="M20 8v6M23 11h-6" />
+                    </svg>
+                    <span className="ml-3">Login</span>
+                  </button>
+                </form>
+                <p className="mt-6 text-xs text-gray-600 text-center">
+                  New Member?{' '}
+                  <Link to="/register" className="text-[#55AD9B] hover:underline">
+                    Register
+                  </Link>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div className='w-full flex m-4 justify-center items-center gap-[18px]'>
-          <p className='text-2xl' >Password:</p>
-          <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} required
-            className=' border-2 h-10 p-4 bg-transparent border-blue-600 outline-none rounded-lg placeholder:text-lg' />
+        <div className="flex-1 bg-[#c4dca9] text-center hidden lg:flex ">
+          <div
+            className="m-12 xl:m-16 w-full bg-contain bg-center bg-no-repeat "
+            style={{
+              backgroundImage: 'url("/login_bg.jpg")', 
+            }}
+          ></div>
         </div>
-
-        <button className="m-4 px-7 py-3 w-32 border-none outline-none rounded-xl text-black bg-white transition ease-in-out duration-500 text-xl 
-            hover:shadow-[inset_0_-100px_0_0_blue] hover:bg-blue-800 hover:text-white  active:scale-90" >
-          Login
-        </button>
-
-        <p
-        className="text-white font-normal text-lg px-4">New Member?
-          <Link 
-        to="/register"
-        className='text-blue-500 hover:underline ml-2'
-        >Register</Link></p>
-      </form>
+      </div>
     </div>
-  )
+  );
 };
 
 export default LoginForm;
