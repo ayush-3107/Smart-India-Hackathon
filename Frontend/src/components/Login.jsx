@@ -52,7 +52,7 @@ const LoginForm = () => {
           <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} required 
            className=' border-2 h-10 p-4 border-blue-500 text-black outline-none'/>
         </div>
-        <button class="relative px-6 py-3 border-none rounded-xl text-[#212121] bg-[#e8e8e8] font-extrabold text-lg shadow-[4px_8px_19px_-3px_rgba(0,0,0,0.27)] transition-all duration-250 overflow-hidden
+        <button className="relative px-6 py-3 border-none rounded-xl text-[#212121] bg-[#e8e8e8] font-extrabold text-lg shadow-[4px_8px_19px_-3px_rgba(0,0,0,0.27)] transition-all duration-250 overflow-hidden
   before:content-[''] before:absolute before:top-0 before:left-0 before:h-full before:w-0 before:rounded-xl before:bg-[#212121] before:z-[-1] before:shadow-[4px_8px_19px_-3px_rgba(0,0,0,0.27)] before:transition-all before:duration-250 hover:text-[#e8e8e8] hover:before:w-full">
   Login
 </button>

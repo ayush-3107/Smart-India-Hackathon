@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const authRoutes = require('./routes/authRoutes');
 const cors = require('cors');
 require('dotenv').config(); // Load environment variables from .env file
+const connectMongodb=require("./db/connection")
 
 const app = express();
 
@@ -12,11 +13,9 @@ app.use(express.json()); // Middleware to parse JSON bodies
 
 // Routes
 app.use('/api/auth', authRoutes);
-
+ 
 // Database connection
-mongoose.connect('mongodb://127.0.0.1:27017/Userdb', {
-}).then(() => console.log('MongoDB connected'))
-  .catch(err => console.error('MongoDB connection error:', err));
+connectMongodb(process.env.MONGO_URI);
 
   
 const PORT = process.env.PORT || 5000;
