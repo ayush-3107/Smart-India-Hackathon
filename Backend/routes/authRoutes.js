@@ -56,7 +56,7 @@ router.post('/login', async (req, res) => {
     // Redirect based on the user's role
     if (user.role === 'crew') {
       console.log('Redirecting to DashboardCrew for user:', username);
-      res.redirect('/dashboard-crew'); // Adjust the redirect path as needed
+      res.redirect('https://github.com/'); 
     } else if (user.role === 'manager') {
       console.log('Redirecting to DashboardManager for user:', username);
       res.redirect('/dashboard-manager'); // Adjust the redirect path as needed
