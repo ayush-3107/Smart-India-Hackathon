@@ -15,6 +15,7 @@ const LoginForm = () => {
       return;
     }
     try {
+      // console.log("Hello");
       const response = await axios.post(`${config.apiUrl}/auth/login`, {
         username,
         password,
@@ -23,6 +24,7 @@ const LoginForm = () => {
       console.log('Response data:', response.data); // Log the response data for debugging
 
       const { token, role } = response.data;
+      // console.log(token);
       localStorage.setItem('token', token);
 
       if (role === 'manager') {
