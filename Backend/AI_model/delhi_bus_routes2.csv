@@ -1,0 +1,31 @@
+Route ID,Agency ID,Route Short Name,Route Desc,Start Point,End Point,Route Difficulty,Distance (km)
+1,DTC,445,East to South Delhi Route,Anand Vihar ISBT,Badarpur Border,7,15.4
+2,DTC,623,South to West Delhi Route,Nehru Place,Uttam Nagar Terminal,4,17.3
+3,DTC,610,North to South Delhi Route,Azadpur,Nizamuddin Railway Station,8,12.5
+4,DTC,522,South to Central Delhi Route,Mehrauli,Mori Gate,5,8.7
+5,DTC,703,West to East Delhi Route,Uttam Nagar Terminal,Anand Vihar ISBT,7,22.1
+6,DTC,728,Central to South Delhi Route,Dhaula Kuan,Badarpur Border,10,14.8
+7,DTC,871,West to Central Delhi Route,Janakpuri West,Shivaji Stadium,3,10.9
+8,DTC,849,South to North Delhi Route,Saket,Narela,7,19.4
+9,DTC,534,East to South Delhi Route,Mayur Vihar Phase 3,Safdarjung Terminal,8,16.7
+10,DTC,615,South to North Delhi Route,Lajpat Nagar,Jahangirpuri,5,11.2
+11,DTC,835,North to South Delhi Route,Mukherjee Nagar,Nehru Place,4,13.8
+12,DTC,715,West to North Delhi Route,Uttam Nagar Terminal,ISBT Kashmere Gate,8,18.9
+13,DTC,611,North to South Delhi Route,Azadpur,Malviya Nagar,8,10.3
+14,DTC,533,East to South Delhi Route,Mayur Vihar Phase 3,Badarpur Border,3,16.5
+15,DTC,401,North to South Delhi Route,Kashmere Gate ISBT,Saket,6,14.2
+16,DTC,419,Central to West Delhi Route,Dhaula Kuan,Dwarka Sector 10,5,20.7
+17,DTC,711,North West to South Delhi Route,Rohini Sector 22,AIIMS,2,18.3
+18,DTC,812,South to East Delhi Route,Vasant Kunj,ISBT Anand Vihar,8,17.6
+19,DTC,500,South to North Delhi Route,Mehrauli,ISBT Kashmere Gate,6,12.9
+20,DTC,421,South West to North Delhi Route,Vasant Vihar,ISBT Kashmere Gate,2,15.7
+21,DTC,302,East to South Delhi Route,East Delhi,AIIMS,5,19.3
+22,DTC,725,West to East Delhi Route,Janakpuri,ISBT Anand Vihar,1,14.6
+23,DTC,511,Central to West Delhi Route,Sarai Kale Khan,Dhaula Kuan,10,16.1
+24,DTC,816,North West to South Delhi Route,Rohini Sector 9,Nehru Place,6,13.4
+25,DTC,432,East to North Delhi Route,Vikas Marg,ISBT Kashmere Gate,9,15.2
+26,DTC,519,West to South Delhi Route,Rajouri Garden,AIIMS,1,17.9
+27,DTC,611,North West to South Delhi Route,Pitampura,Saket,10,18.6
+28,DTC,629,West to South Delhi Route,Dwarka Sector 21,Okhla,3,16.2
+29,DTC,845,West to North Delhi Route,Janakpuri,ISBT Kashmere Gate,7,20.1
+30,DTC,504,South to Central Delhi Route,AIIMS,Nizamuddin Railway Station,4,21.3
