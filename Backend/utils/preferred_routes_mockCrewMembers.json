@@ -1,0 +1,102 @@
+[
+    {
+        "id": "93151601-9f8b-437f-bbb6-5debdfa9af54",
+        "preferredRoute": "Route 101",
+        "shift": "Morning"
+    },
+    {
+        "id": "62feb655-c978-498b-8f0d-9a5e97d6b6b4",
+        "preferredRoute": "Route 102",
+        "shift": "Morning"
+    },
+    {
+        "id": "5e182924-a2e1-43c3-8543-e5d99339a09a",
+        "preferredRoute": "Route 103",
+        "shift": "Morning"
+    },
+    {
+        "id": "42ccafdc-c7a7-4c91-bdc7-35184c91dfa5",
+        "preferredRoute": "Route 104",
+        "shift": "Evening"
+    },
+    {
+        "id": "3cc927b7-9837-4dda-a5b3-2dd9a76b0608",
+        "preferredRoute": "Route 105",
+        "shift": "Morning"
+    },
+    {
+        "id": "e5e2649e-e276-43ef-9fc7-9487179b0614",
+        "preferredRoute": "Route 106",
+        "shift": "Evening"
+    },
+    {
+        "id": "e1f887d0-4bd4-4d67-aafa-1c62de2b6bd8",
+        "preferredRoute": "Route 107",
+        "shift": "Morning"
+    },
+    {
+        "id": "1d76984e-02cb-4249-a5ed-bb041620be37",
+        "preferredRoute": "Route 108",
+        "shift": "Evening"
+    },
+    {
+        "id": "05e50f0c-32cb-4172-84b6-29709d335d1b",
+        "preferredRoute": "Route 109",
+        "shift": "Evening"
+    },
+    {
+        "id": "c096d549-cb00-4980-8cea-42efba032193",
+        "preferredRoute": "Route 110",
+        "shift": "Morning"
+    },
+    {
+        "id": "66fab608-cdb5-4b18-86f3-815562cadea8",
+        "preferredRoute": "Route 111",
+        "shift": "Morning"
+    },
+    {
+        "id": "5e182924-a2e1-43c3-8543-e5d99339a09a",
+        "preferredRoute": "Route 112",
+        "shift": "Evening"
+    },
+    {
+        "id": "304354c0-af87-473c-8231-99cbb6be1dff",
+        "preferredRoute": "Route 113",
+        "shift": "Morning"
+    },
+    {
+        "id": "f95694fe-0d76-477f-9d58-cc0ff48867c4",
+        "preferredRoute": "Route 114",
+        "shift": "Afternoon"
+    },
+    {
+        "id": "f1cfe42d-3d6a-4715-b34d-f06828e403b0",
+        "preferredRoute": "Route 115",
+        "shift": "Evening"
+    },
+    {
+        "id": "d5da9a1a-bc78-40ba-8e39-4f6aeab78fe6",
+        "preferredRoute": "Route 116",
+        "shift": "Morning"
+    },
+    {
+        "id": "6bbb6753-befa-4ef2-811e-7568632e3826",
+        "preferredRoute": "Route 117",
+        "shift": "Afternoon"
+    },
+    {
+        "id": "683e652d-f035-4d32-9a42-0f89f9906dcd",
+        "preferredRoute": "Route 118",
+        "shift": "Morning"
+    },
+    {
+        "id": "9f0df172-83f6-4fda-8526-f41076403e4f",
+        "preferredRoute": "Route 119",
+        "shift": "Evening"
+    },
+    {
+        "id": "7a5d83af-f48e-4d4f-8151-5be025b104c4",
+        "preferredRoute": "Route 120",
+        "shift": "Morning"
+    }
+]
