@@ -28,8 +28,7 @@ const DashboardManager = () => {
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error loading data: {error.message}</p>;
 
-  // Extract headers from the keys of the first data item
-  const headers = data.length > 0 ? Object.keys(data[0]) : [];
+
 
   return (
     <>
@@ -39,8 +38,8 @@ const DashboardManager = () => {
         <table className="w-[90%] table-auto">
           <thead>
             <tr className="bg-[#F1F8E8]">
-              {headers.map((header) => (
-                <th key={header} className="py-4 px-6 text-left text-gray-600 font-bold uppercase whitespace-nowrap">
+              {Object.keys(data[0]).map((header) => (
+                <th key={header} className="py-4 px-6 text-left text-gray-600 font-bold uppercase whitespace-nowrap text-center">
                   {header.charAt(0).toUpperCase() + header.slice(1)}
                 </th>
               ))}
@@ -49,9 +48,9 @@ const DashboardManager = () => {
           <tbody className="bg-white">
             {data.map((row, index) => (
               <tr key={index}>
-                {headers.map((header) => (
-                  <td key={header} className="py-4 px-6 border-b border-gray-200 break-words">
-                    {row[header] || '-'}
+                {Object.values(row).map((value,i) => (
+                  <td key={i} className="py-4 px-6 border-b border-gray-200 break-words text-center">
+                    {value}
                   </td>
                 ))}
               </tr>
