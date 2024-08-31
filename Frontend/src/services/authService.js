@@ -1,9 +1,9 @@
 import axios from 'axios';
 import config from '../config';
 
-export const login = async (username, password) => {
+export const login = async (userid, password) => {
   try {
-    const res = await axios.post(`${config.apiUrl}/auth/login`, { username, password });
+    const res = await axios.post(`${config.apiUrl}/auth/login`, { userid, password });
     return res.data;
   } catch (error) {
     throw error.response.data.error;

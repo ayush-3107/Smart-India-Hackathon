@@ -19,7 +19,7 @@ const RegisterForm = () => {
     skill: '',
     timingPreferences: ''
   });
-  console.log(formData);
+  // console.log(formData);
 
   const navigate = useNavigate();
 
