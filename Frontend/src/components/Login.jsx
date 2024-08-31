@@ -24,6 +24,8 @@ const LoginForm = () => {
 
       const { token, role } = response.data;
       localStorage.setItem('token', token);
+      console.log(token);
+      
       axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
 
 
@@ -35,7 +37,7 @@ const LoginForm = () => {
       if (role === 'manager') {
         navigate('/dashboard-manager');
       } else if (role === 'crew') {
-        navigate('/dashboard-crew');
+        navigate('/dashboard-crew',);
       } else {
         alert('Unknown role');
       }
