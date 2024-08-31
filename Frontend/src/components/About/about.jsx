@@ -1,6 +1,7 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
+
 
 const AboutPage = () => {
   const features = [
@@ -113,6 +114,7 @@ const AboutPage = () => {
           ))}
         </div>
       </section>
+      <Footer />
     </>
   );
 };
