@@ -14,10 +14,10 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
 # Load the crew dataset
-crew_data = pd.read_csv("/content/MOCK_DATA.csv")
+crew_data = pd.read_csv(r"C:\Users\malav\OneDrive\Desktop\Programming\SIH\Smart-India-Hackathon\Backend\AI_model\MOCK_DATA.csv")
 
 # Load the route dataset
-route_data = pd.read_csv('/content/delhi_bus_routes2.csv')
+route_data = pd.read_csv(r'C:\Users\malav\OneDrive\Desktop\Programming\SIH\Smart-India-Hackathon\Backend\AI_model\delhi_bus_routes2.csv')
 
 # Explore the datasets
 print(crew_data.head())
@@ -49,7 +49,6 @@ def get_lat_long_opencage(address):
 # Sample data loading (replace with your actual data loading process)
 # crew_data = pd.read_csv('cleaned_crew_data.csv')
 # route_data = pd.read_csv('route_data.csv')
-
 # Apply the function using OpenCage with rate limiting
 crew_data['Crew_Lat'], crew_data['Crew_Long'] = zip(*crew_data['Address'].apply(get_lat_long_opencage))
 route_data['Start_Lat'], route_data['Start_Long'] = zip(*route_data['Start Point'].apply(get_lat_long_opencage))
