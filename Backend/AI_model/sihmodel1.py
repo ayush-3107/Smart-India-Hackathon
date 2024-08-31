@@ -20,8 +20,8 @@ crew_data = pd.read_csv(r"C:\Users\malav\OneDrive\Desktop\Programming\SIH\Smart-
 route_data = pd.read_csv(r'C:\Users\malav\OneDrive\Desktop\Programming\SIH\Smart-India-Hackathon\Backend\AI_model\delhi_bus_routes2.csv')
 
 # Explore the datasets
-print(crew_data.head())
-print(route_data.head())
+#print(crew_data.head())
+#print(route_data.head())
 
 from geopy.geocoders import OpenCage
 import pandas as pd
@@ -58,8 +58,8 @@ route_data['Start_Lat'], route_data['Start_Long'] = zip(*route_data['Start Point
 # route_data.to_csv('updated_route_data.csv', index=False)
 
 # Display some of the updated data
-print(crew_data.head())
-print(route_data.head())
+#print(crew_data.head())
+#print(route_data.head())
 
 #pip install opencage
 from opencage.geocoder import OpenCageGeocode
