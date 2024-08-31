@@ -1,50 +1,107 @@
-const bcrypt = require('bcryptjs');
-const jwt = require('jsonwebtoken');
+const bcrypt = require('bcrypt');
 const User = require('../models/User');
 
-exports.register = async (req, res) => {
-  const { username, password, role } = req.body;
-
+// Handle user registration
+async function handleRegisterUser(req, res) {
   try {
-    const existingUser = await User.findOne({ username });
+    const {
+      name,
+      id,
+      password,
+      phoneNumber,
+      email,
+      dob,
+      gender,
+      yearOfJoining,
+      address,
+      role,
+      crewRole,
+      experience,
+      skillLevel,
+      timingPreferences,
+    } = req.body;
+
+    console.log('Received data:', req.body);
+
+    // Check if the user already exists
+    const existingUser = await User.findOne({ id });
     if (existingUser) {
-      return res.status(400).json({ error: 'User already exists' });
+      return res.status(400).json({ message: 'User ID already exists' });
     }
 
+    // Hash the password
     const hashedPassword = await bcrypt.hash(password, 10);
-    const newUser = new User({
-      username,
-      password: hashedPassword,
-      role,
-    });
 
-    await newUser.save();
+    // Create a new user object
+    const newUser = {
+      name,
+      id,
+      password: hashedPassword,
+      phoneNumber,
+      email,
+      dob,
+      gender,
+      address,
+      role,
+    };
+
+    // Add crew-specific fields if the role is 'Crew'
+    if (role === 'Crew') {
+      newUser.crewRole = crewRole;
+      newUser.experience = experience;
+      newUser.skillLevel = skillLevel;
+      newUser.timingPreferences = timingPreferences;
+    }
+
+    // Save the new user to the database
+    await new User(newUser).save();
+
     res.status(201).json({ message: 'User registered successfully' });
   } catch (error) {
-    res.status(500).json({ error: 'Server error' });
+    console.error('Registration error:', error);
+    res.status(500).json({ message: 'Server error' });
   }
-};
+}
 
-exports.login = async (req, res) => {
-  const { username, password } = req.body;
-
+// Handle user login
+async function handleLoginUser(req, res) {
   try {
-    const user = await User.findOne({ username });
+    console.log(req.body);
+    
+    const { id, password } = req.body;
+    console.log('Received data:', req.body);
+
+    // Find the user by ID
+    const user = await User.findOne({ id });
+    console.log(user);
+    
     if (!user) {
-      return res.status(400).json({ error: 'Invalid credentials' });
+      console.log('User not found:', id);
+      return res.status(400).json({ message: 'Invalid credentials' });
     }
 
+    // Check if the password is correct
     const isMatch = await bcrypt.compare(password, user.password);
     if (!isMatch) {
-      return res.status(400).json({ error: 'Invalid credentials' });
+      console.log('Password mismatch for user:', id);
+      return res.status(400).json({ message: 'Invalid credentials' });
     }
 
-    const token = jwt.sign({ id: user._id, role: user.role }, process.env.JWT_SECRET, {
-      expiresIn: '1h',
-    });
-
-    res.json({ token, role: user.role });
+    // Handle role-based response
+    // if (user.role === null) {
+    //   console.log('Unknown role for user:', id);
+    //   return res.status(400).json({ message: 'Invalid role' });
+    // } else {
+      // Return the user role along with success message
+      return res.status(200).json({ role: user.role });
+    // }
   } catch (error) {
-    res.status(500).json({ error: 'Server error' });
+    console.error('Login error:', error); // Log the error details
+    res.status(500).json({ message: 'Server error' });
   }
+}
+
+module.exports = {
+  handleRegisterUser,
+  handleLoginUser,
 };

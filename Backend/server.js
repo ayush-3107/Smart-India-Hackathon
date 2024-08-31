@@ -8,7 +8,9 @@ const connectMongodb=require("./db/connection")
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({ origin: 'http://localhost:5173', // Update this to match your frontend URL
+    credentials: true, // If you're sending cookies
+    }));
 app.use(express.json()); // Middleware to parse JSON bodies
 
 // Routes
@@ -18,5 +20,5 @@ app.use('/api/auth', authRoutes);
 connectMongodb(process.env.MONGO_URI);
 
   
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT ;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
