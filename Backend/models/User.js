@@ -1,15 +1,14 @@
 const mongoose = require('mongoose');
 
 const userSchema = new mongoose.Schema({
-  name: { type: String, required: true },
-  id: { type: String, required: true, unique: true },
-  password: { type: String, required: true },
-  phoneNumber: { type: String, required: true },
-  email: { type: String, required: true, unique: true },
+  name: { type: String, required: true, trim: true },
+  id: { type: String, required: true, unique: true, trim: true },
+  password: { type: String, required: true , minlength: 4},
+  phoneNumber: { type: String, required: true, unique: true },
+  email: { type: String, required: true, unique: true, trim: true },
   dob: { type: Date, required: true },
-  gender: { type: String, required: true },
-  yearOfJoining: { type: Number, required: true },
-  address: { type: String, required: true },
+  gender: { type: String, required: true ,enum: ['male', 'female' ,'other']},
+  address: { type: String, required: true ,trim: true},
   role: { type: String, enum:['manager', 'crew'], required: true }, // Manager or Crew
 
   // Crew-specific fields
