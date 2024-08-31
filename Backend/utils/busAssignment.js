@@ -1,5 +1,5 @@
 const crewMembers = require('./mockCrewMembers'); // Import crew members mock data
-const buses = require('./mockBuses'); // Import buses mock data
+const buses = require('./updated_mockBuses_101_to_120.json'); // Import buses mock data
 const preferredRoutes = require('./preferred_routes_mockCrewMembers.json'); // Import preferred routes mock data
 
 const fs = require('fs');
