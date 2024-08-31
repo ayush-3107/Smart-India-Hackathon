@@ -24,6 +24,9 @@ const LoginForm = () => {
 
       const { token, role } = response.data;
       localStorage.setItem('token', token);
+      axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
+
+
       console.log(response);
       
       console.log(`role is `,role);

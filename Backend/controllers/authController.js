@@ -1,5 +1,7 @@
 const bcrypt = require('bcrypt');
 const User = require('../models/User');
+const jwt = require('jsonwebtoken');
+const secretKey = 'schedule_line_crew&manager:999';
 
 // Handle user registration
 async function handleRegisterUser(req, res) {
@@ -86,14 +88,20 @@ async function handleLoginUser(req, res) {
       return res.status(400).json({ message: 'Invalid credentials' });
     }
 
-    // Handle role-based response
-    // if (user.role === null) {
-    //   console.log('Unknown role for user:', id);
-    //   return res.status(400).json({ message: 'Invalid role' });
-    // } else {
-      // Return the user role along with success message
-      return res.status(200).json({ role: user.role });
-    // }
+    const token = jwt.sign(
+      { id: user.id, role: user.role }, 
+      secretKey, 
+      { expiresIn: '2h' } // Token expires in 2 hour
+    );
+
+    // Respond with the token and user role
+    return res.status(200).json({ 
+      message: 'Login successful', 
+      token, 
+      role: user.role 
+    });
+      //return res.status(200).json({ token,role: user.role });
+    
   } catch (error) {
     console.error('Login error:', error); // Log the error details
     res.status(500).json({ message: 'Server error' });
