@@ -5,6 +5,7 @@ const DashboardManager = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
+  const [searchQuery, setSearchQuery] = useState('');
   const entriesPerPage = 20;
 
   useEffect(() => {
@@ -30,17 +31,27 @@ const DashboardManager = () => {
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error loading data: {error.message}</p>;
 
+  // Handle search functionality
+  const handleSearchChange = (event) => {
+    setSearchQuery(event.target.value);
+    setCurrentPage(1); // Reset to the first page when searching
+  };
 
+  const filteredData = data.filter(row => 
+    Object.values(row).find(value =>
+      value.toString().toLowerCase().includes(searchQuery.toLowerCase())
+    )
+  );
 
   // Calculate the index of the first and last entry on the current page
   const indexOfLastEntry = currentPage * entriesPerPage;
   const indexOfFirstEntry = indexOfLastEntry - entriesPerPage;
 
   // Get the current entries to display
-  const currentEntries = data.slice(indexOfFirstEntry, indexOfLastEntry);
+  const currentEntries = filteredData.slice(indexOfFirstEntry, indexOfLastEntry);
 
   // Calculate the total number of pages
-  const totalPages = Math.ceil(data.length / entriesPerPage);
+  const totalPages = Math.ceil(filteredData.length / entriesPerPage);
 
   // Change page handler
   const handlePageChange = (pageNumber) => {
@@ -54,10 +65,25 @@ const DashboardManager = () => {
       <div className="shadow-lg rounded-lg flex flex-col items-center justify-center">
         <img src="ScheduLine_Tagline_img.png" className="bg-cover bg-center" alt="Banner" />
         <h1 className="text-center text-5xl p-8 font-semibold text-green-900">Crew Details</h1>
+        <div className="flex items-center w-[90%] mb-4">
+          <input
+            type="text"
+            placeholder="Search..."
+            value={searchQuery}
+            onChange={handleSearchChange}
+            className="px-4 py-2 border border-gray-300 rounded-lg w-full"
+          />
+          <button
+            onClick={() => setSearchQuery('')}
+            className="ml-4 px-4 py-2 bg-[#55AD9B] text-white rounded-lg hover:bg-[#95D2B3]"
+          >
+            Clear
+          </button>
+        </div>
         <table className="w-[90%] table-auto">
           <thead>
             <tr className="bg-[#F1F8E8]">
-              {Object.keys(data[0]).map((header) => (
+              {Object.keys(filteredData[0] || {}).map((header) => (
                 <th key={header} className="py-4 px-6 text-gray-600 font-bold uppercase whitespace-nowrap text-center">
                   {header.charAt(0).toUpperCase() + header.slice(1)}
                 </th>
@@ -67,7 +93,7 @@ const DashboardManager = () => {
           <tbody className="bg-white">
             {currentEntries.map((row, index) => (
               <tr key={index}>
-                {Object.values(row).map((value,i) => (
+                {Object.values(row).map((value, i) => (
                   <td key={i} className="py-4 px-6 border-b border-gray-200 break-words text-center">
                     {value}
                   </td>

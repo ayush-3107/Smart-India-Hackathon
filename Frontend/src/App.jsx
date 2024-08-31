@@ -8,6 +8,7 @@ import RegisterPage from './pages/RegisterPage';
 import Contact from './components/Contact/Contact';
 import AboutPage from './components/About/about';
 import SimpleOutlet from './components/SimpleOutlet';
+import BusInfo from './components/Bus Info/BusInfo';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/dashboard-crew" element={<DashboardCrew />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/BusInfo" element={<BusInfo />} />
         </Route>
 
         {/* Layout without Header and Footer */}
