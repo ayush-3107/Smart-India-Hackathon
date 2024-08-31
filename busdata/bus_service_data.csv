@@ -1,0 +1,1001 @@
+Name,ID,RouteShortNum,BusNum,CrewRole,StartingPoint,StartTime,EndTime
+Viraj Choudhury,DTC511DPR,971,DL19 S 4621,Driver,Nehru Place,02:06:57,04:06:57
+Harshil Wagle,DTC337VUV,971,DL19 S 4621,Conductor,Nehru Place,02:06:57,04:06:57
+Gautam Raju,DTC245JBI,260,DL57 S 1590,Driver,Kashmere Gate,11:48:02,13:48:02
+Pallavi Savant,DTC349DDA,260,DL57 S 1590,Conductor,Kashmere Gate,11:48:02,13:48:02
+Vinaya Yadav,DTC358DFI,587,DL12 S 1403,Driver,Nehru Place,07:32:13,10:32:13
+Aarna Dhar,DTC981UGL,587,DL12 S 1403,Conductor,Nehru Place,07:32:13,10:32:13
+Pranit Pall,DTC921RAI,842,DL89 S 4426,Driver,Sarojini Nagar,01:16:00,03:16:00
+Xiti Jayaraman,DTC463ABW,842,DL89 S 4426,Conductor,Sarojini Nagar,01:16:00,03:16:00
+Odika Taneja,DTC551QKO,431,DL34 S 6798,Driver,Hauz Khas,07:46:59,10:46:59
+Chasmum Bhargava,DTC836XHE,431,DL34 S 6798,Conductor,Hauz Khas,07:46:59,10:46:59
+Libni Narang,DTC227NTK,536,DL69 S 3489,Driver,Kashmere Gate,06:13:09,11:13:09
+Yug Dave,DTC421NOK,536,DL69 S 3489,Conductor,Kashmere Gate,06:13:09,11:13:09
+Girik Gopal,DTC695UUA,733,DL41 S 3152,Driver,Hauz Khas,19:00:31,23:00:31
+Jackson Agate,DTC723YPO,733,DL41 S 3152,Conductor,Hauz Khas,19:00:31,23:00:31
+Upma Setty,DTC414ILC,263,DL99 S 2302,Driver,Lajpat Nagar,18:05:57,22:05:57
+Lekha Dugar,DTC412KPR,263,DL99 S 2302,Conductor,Lajpat Nagar,18:05:57,22:05:57
+Qadim Dalal,DTC357MLR,490,DL97 S 2744,Driver,AIIMS,00:32:04,02:32:04
+Ladli Dubey,DTC368QIC,490,DL97 S 2744,Conductor,AIIMS,00:32:04,02:32:04
+Daniel Jha,DTC467IEN,132,DL10 S 7464,Driver,Lajpat Nagar,04:30:35,08:30:35
+Onveer Goel,DTC476YAT,132,DL10 S 7464,Conductor,Lajpat Nagar,04:30:35,08:30:35
+Rajata Dewan,DTC538AVL,901,DL47 S 2891,Driver,Lajpat Nagar,21:39:29,23:39:29
+Hredhaan Khurana,DTC444XKZ,901,DL47 S 2891,Conductor,Lajpat Nagar,21:39:29,23:39:29
+Siya Chaudhari,DTC681DJG,103,DL36 S 2530,Driver,Rajiv Chowk,06:45:17,09:45:17
+Yasti Misra,DTC992NEI,103,DL36 S 2530,Conductor,Rajiv Chowk,06:45:17,09:45:17
+Aachal Chhabra,DTC767KAA,808,DL24 S 1018,Driver,Sarojini Nagar,06:33:06,09:33:06
+Brinda Mohan,DTC496WTD,808,DL24 S 1018,Conductor,Sarojini Nagar,06:33:06,09:33:06
+Girish Kaur,DTC256TXL,773,DL77 S 3985,Driver,Rajiv Chowk,18:06:22,23:06:22
+Forum Shetty,DTC783PWH,773,DL77 S 3985,Conductor,Rajiv Chowk,18:06:22,23:06:22
+Yash Sabharwal,DTC451LAE,294,DL63 S 1596,Driver,Kashmere Gate,05:59:16,10:59:16
+Vrinda Issac,DTC465SSK,294,DL63 S 1596,Conductor,Kashmere Gate,05:59:16,10:59:16
+Odika Acharya,DTC714SQF,806,DL49 S 8216,Driver,Kashmere Gate,04:02:21,06:02:21
+Damini Dada,DTC182RGS,806,DL49 S 8216,Conductor,Kashmere Gate,04:02:21,06:02:21
+Kai Salvi,DTC849TUA,948,DL78 S 6242,Driver,AIIMS,21:30:55,02:30:55
+Timothy Gaba,DTC449JIS,948,DL78 S 6242,Conductor,AIIMS,21:30:55,02:30:55
+Nidra Bansal,DTC597FVU,335,DL13 S 4163,Driver,Saket,05:21:47,08:21:47
+Ethan Johal,DTC764URA,335,DL13 S 4163,Conductor,Saket,05:21:47,08:21:47
+Rachana Bains,DTC860EBV,188,DL87 S 7738,Driver,AIIMS,09:35:20,12:35:20
+Zashil Date,DTC653ETF,188,DL87 S 7738,Conductor,AIIMS,09:35:20,12:35:20
+Teerth Lalla,DTC221NHC,459,DL13 S 7657,Driver,Saket,06:41:57,08:41:57
+Mason Murthy,DTC759WHG,459,DL13 S 7657,Conductor,Saket,06:41:57,08:41:57
+Azaan Bhardwaj,DTC182OPQ,954,DL52 S 5103,Driver,Sarojini Nagar,11:52:23,13:52:23
+Janani Bhasin,DTC926JOS,954,DL52 S 5103,Conductor,Sarojini Nagar,11:52:23,13:52:23
+Ronith Barad,DTC944JAV,221,DL84 S 7298,Driver,Janakpuri,13:06:01,16:06:01
+Warhi Handa,DTC619WXL,221,DL84 S 7298,Conductor,Janakpuri,13:06:01,16:06:01
+Yauvani Basu,DTC891EZU,723,DL39 S 7678,Driver,Sarojini Nagar,05:17:26,09:17:26
+Turvi Kakar,DTC191ABC,723,DL39 S 7678,Conductor,Sarojini Nagar,05:17:26,09:17:26
+Anthony Upadhyay,DTC708BXN,483,DL17 S 4688,Driver,Janakpuri,08:55:10,12:55:10
+Agastya Pant,DTC374GFN,483,DL17 S 4688,Conductor,Janakpuri,08:55:10,12:55:10
+Siddharth Dasgupta,DTC609IZT,422,DL12 S 9028,Driver,Karol Bagh,06:26:45,09:26:45
+Radha Date,DTC255AOE,422,DL12 S 9028,Conductor,Karol Bagh,06:26:45,09:26:45
+Yachana Issac,DTC372AQU,440,DL93 S 9488,Driver,Lajpat Nagar,13:42:28,16:42:28
+Anamika Natarajan,DTC234VCV,440,DL93 S 9488,Conductor,Lajpat Nagar,13:42:28,16:42:28
+Jackson Varma,DTC294ZYU,323,DL38 S 8315,Driver,AIIMS,06:25:02,09:25:02
+Victor Hora,DTC630CEU,323,DL38 S 8315,Conductor,AIIMS,06:25:02,09:25:02
+Hemang Sagar,DTC185YDS,974,DL15 S 7384,Driver,Nehru Place,23:17:45,04:17:45
+Gaurangi Edwin,DTC432TFO,974,DL15 S 7384,Conductor,Nehru Place,23:17:45,04:17:45
+Frederick Balasubramanian,DTC943XQR,933,DL80 S 6361,Driver,Rajiv Chowk,11:09:52,14:09:52
+Aryan Ramachandran,DTC789ZUZ,933,DL80 S 6361,Conductor,Rajiv Chowk,11:09:52,14:09:52
+Urmi Vasa,DTC901ZPY,860,DL71 S 2969,Driver,Saket,12:05:21,16:05:21
+Yutika Samra,DTC442EGW,860,DL71 S 2969,Conductor,Saket,12:05:21,16:05:21
+Rudra Mitra,DTC844HMH,637,DL71 S 6314,Driver,Kashmere Gate,11:35:09,14:35:09
+Darsh Om,DTC708IRC,637,DL71 S 6314,Conductor,Kashmere Gate,11:35:09,14:35:09
+Vamakshi Mahajan,DTC205ZBN,901,DL53 S 2061,Driver,Lajpat Nagar,13:36:13,15:36:13
+Sanaya Issac,DTC625XBH,901,DL53 S 2061,Conductor,Lajpat Nagar,13:36:13,15:36:13
+Jhalak Toor,DTC109GEK,425,DL19 S 1583,Driver,AIIMS,09:20:17,11:20:17
+Advaith Chadha,DTC439GDW,425,DL19 S 1583,Conductor,AIIMS,09:20:17,11:20:17
+Matthew Patla,DTC594VTR,478,DL65 S 6762,Driver,Sarojini Nagar,19:15:46,21:15:46
+Janaki Sen,DTC646XRO,478,DL65 S 6762,Conductor,Sarojini Nagar,19:15:46,21:15:46
+Chaaya Nanda,DTC143UVH,603,DL76 S 4014,Driver,Rajiv Chowk,00:24:31,05:24:31
+Yamini Apte,DTC727UZJ,603,DL76 S 4014,Conductor,Rajiv Chowk,00:24:31,05:24:31
+Atharv Sandal,DTC459YMF,920,DL74 S 8628,Driver,Nehru Place,07:52:17,12:52:17
+Hiral Deo,DTC469WXI,920,DL74 S 8628,Conductor,Nehru Place,07:52:17,12:52:17
+Chavvi Kaul,DTC945JCZ,262,DL72 S 4092,Driver,Hauz Khas,21:00:10,01:00:10
+Ishaan Mandal,DTC232YEN,262,DL72 S 4092,Conductor,Hauz Khas,21:00:10,01:00:10
+Pushti Bath,DTC813QNC,276,DL69 S 3347,Driver,Karol Bagh,10:16:25,13:16:25
+Pushti Varma,DTC135UGK,276,DL69 S 3347,Conductor,Karol Bagh,10:16:25,13:16:25
+Jagvi Sami,DTC524QFF,906,DL35 S 5348,Driver,Nehru Place,03:37:14,06:37:14
+Guneet Tiwari,DTC436PAQ,906,DL35 S 5348,Conductor,Nehru Place,03:37:14,06:37:14
+Daniel Chakraborty,DTC213GQP,824,DL98 S 7764,Driver,Kashmere Gate,01:33:03,05:33:03
+Simon Shere,DTC388WSP,824,DL98 S 7764,Conductor,Kashmere Gate,01:33:03,05:33:03
+Pratyush Ravel,DTC103MHC,348,DL15 S 2155,Driver,Nehru Place,04:38:24,08:38:24
+Agastya Wadhwa,DTC665KEG,348,DL15 S 2155,Conductor,Nehru Place,04:38:24,08:38:24
+Yochana Narain,DTC395UQQ,467,DL83 S 1273,Driver,Karol Bagh,04:21:31,07:21:31
+Zilmil Sarma,DTC744FCE,467,DL83 S 1273,Conductor,Karol Bagh,04:21:31,07:21:31
+Anya Chahal,DTC451ECX,254,DL80 S 4912,Driver,Saket,19:57:03,22:57:03
+Urvashi Deshmukh,DTC511PJM,254,DL80 S 4912,Conductor,Saket,19:57:03,22:57:03
+Ekavir Parekh,DTC776ZYY,780,DL19 S 6657,Driver,Saket,10:50:17,14:50:17
+Aarav Solanki,DTC624WCO,780,DL19 S 6657,Conductor,Saket,10:50:17,14:50:17
+Upadhriti Varughese,DTC792UWC,640,DL92 S 4797,Driver,Kashmere Gate,08:24:01,11:24:01
+Hemani Sengupta,DTC627JJB,640,DL92 S 4797,Conductor,Kashmere Gate,08:24:01,11:24:01
+Manya Palla,DTC129YSQ,636,DL60 S 4805,Driver,Kashmere Gate,12:58:13,17:58:13
+Aradhana Uppal,DTC709TVN,636,DL60 S 4805,Conductor,Kashmere Gate,12:58:13,17:58:13
+Lohit Raja,DTC299LUG,163,DL41 S 2799,Driver,Karol Bagh,16:16:00,20:16:00
+Xiti Dewan,DTC941OFS,163,DL41 S 2799,Conductor,Karol Bagh,16:16:00,20:16:00
+Faqid Dave,DTC927VZO,263,DL65 S 4156,Driver,Kashmere Gate,23:06:54,02:06:54
+Anika Chada,DTC105MBU,263,DL65 S 4156,Conductor,Kashmere Gate,23:06:54,02:06:54
+Raagini Ganguly,DTC452FMU,713,DL88 S 7334,Driver,Saket,04:35:23,06:35:23
+Fariq Nazareth,DTC242FBO,713,DL88 S 7334,Conductor,Saket,04:35:23,06:35:23
+Veda Sachdeva,DTC683EYM,191,DL66 S 8531,Driver,Hauz Khas,00:29:49,05:29:49
+Chaitaly Virk,DTC818WRU,191,DL66 S 8531,Conductor,Hauz Khas,00:29:49,05:29:49
+Jeet Choudhury,DTC534QEG,490,DL94 S 8905,Driver,Lajpat Nagar,17:02:52,20:02:52
+Varsha Natarajan,DTC997GIP,490,DL94 S 8905,Conductor,Lajpat Nagar,17:02:52,20:02:52
+Andrew Dugar,DTC212XBQ,453,DL53 S 3344,Driver,Janakpuri,13:58:09,18:58:09
+Adweta Shankar,DTC211AYN,453,DL53 S 3344,Conductor,Janakpuri,13:58:09,18:58:09
+Sanaya Thaman,DTC153PKF,458,DL59 S 1911,Driver,Rajiv Chowk,09:50:45,12:50:45
+Gauri Bhatia,DTC287HTH,458,DL59 S 1911,Conductor,Rajiv Chowk,09:50:45,12:50:45
+Niharika Johal,DTC671PSK,225,DL30 S 3279,Driver,Rajiv Chowk,12:45:52,14:45:52
+Raagini Dubey,DTC534RRN,225,DL30 S 3279,Conductor,Rajiv Chowk,12:45:52,14:45:52
+Waida Magar,DTC932WMX,752,DL93 S 9172,Driver,Janakpuri,19:51:08,00:51:08
+Nihal Sheth,DTC748BFL,752,DL93 S 9172,Conductor,Janakpuri,19:51:08,00:51:08
+Wishi Sastry,DTC756PCQ,135,DL88 S 9915,Driver,Hauz Khas,01:18:45,03:18:45
+Chavvi Padmanabhan,DTC731VIM,135,DL88 S 9915,Conductor,Hauz Khas,01:18:45,03:18:45
+Akshay Wali,DTC438UOE,149,DL47 S 6752,Driver,Lajpat Nagar,03:32:37,07:32:37
+Ekanta Pal,DTC454PRU,149,DL47 S 6752,Conductor,Lajpat Nagar,03:32:37,07:32:37
+Tanveer Dara,DTC120PLX,939,DL93 S 1985,Driver,Saket,05:36:53,07:36:53
+Aarav Lanka,DTC636COJ,939,DL93 S 1985,Conductor,Saket,05:36:53,07:36:53
+Aachal Raghavan,DTC112AYM,217,DL62 S 2515,Driver,Janakpuri,20:06:29,00:06:29
+Varsha Gokhale,DTC953IKH,217,DL62 S 2515,Conductor,Janakpuri,20:06:29,00:06:29
+Raagini Ahuja,DTC548AYC,642,DL23 S 9710,Driver,Hauz Khas,03:13:16,07:13:16
+Watika Tank,DTC677UGS,642,DL23 S 9710,Conductor,Hauz Khas,03:13:16,07:13:16
+Fiyaz Tailor,DTC851EBY,191,DL69 S 1585,Driver,Janakpuri,20:53:16,22:53:16
+Zarna Mandal,DTC374KXK,191,DL69 S 1585,Conductor,Janakpuri,20:53:16,22:53:16
+Karan Sastry,DTC524IJZ,432,DL11 S 4312,Driver,Sarojini Nagar,03:51:45,06:51:45
+Madhavi Chahal,DTC529BET,432,DL11 S 4312,Conductor,Sarojini Nagar,03:51:45,06:51:45
+Kamala Arora,DTC631MDN,896,DL90 S 1297,Driver,Sarojini Nagar,00:19:46,05:19:46
+Gagan Narayan,DTC986NSW,896,DL90 S 1297,Conductor,Sarojini Nagar,00:19:46,05:19:46
+Gopal Tiwari,DTC184AEI,974,DL89 S 2244,Driver,Kashmere Gate,08:39:49,12:39:49
+Oni Datta,DTC810BZC,974,DL89 S 2244,Conductor,Kashmere Gate,08:39:49,12:39:49
+Raghav Panchal,DTC301BQN,482,DL26 S 8562,Driver,Kashmere Gate,06:38:40,10:38:40
+Utkarsh Sankar,DTC448MGI,482,DL26 S 8562,Conductor,Kashmere Gate,06:38:40,10:38:40
+Garima Kala,DTC579QUF,348,DL66 S 8578,Driver,Janakpuri,01:14:19,06:14:19
+Girish Parsa,DTC930SLS,348,DL66 S 8578,Conductor,Janakpuri,01:14:19,06:14:19
+Vincent Narasimhan,DTC706AWS,443,DL92 S 1275,Driver,AIIMS,18:37:19,23:37:19
+Vasana Rai,DTC947OJV,443,DL92 S 1275,Conductor,AIIMS,18:37:19,23:37:19
+Rachana Upadhyay,DTC877MKT,421,DL11 S 2877,Driver,AIIMS,07:48:37,10:48:37
+Jatin Mangat,DTC780OOJ,421,DL11 S 2877,Conductor,AIIMS,07:48:37,10:48:37
+Neel Venkataraman,DTC280FOF,505,DL10 S 9508,Driver,AIIMS,04:26:58,08:26:58
+Kalpit Padmanabhan,DTC371PCE,505,DL10 S 9508,Conductor,AIIMS,04:26:58,08:26:58
+Tamanna Nagar,DTC402IPS,635,DL88 S 1188,Driver,Lajpat Nagar,21:44:41,00:44:41
+Mitesh Dayal,DTC183KQB,635,DL88 S 1188,Conductor,Lajpat Nagar,21:44:41,00:44:41
+Janaki Hari,DTC633IOM,418,DL84 S 3252,Driver,Kashmere Gate,14:07:03,16:07:03
+Saanvi Sura,DTC550GHH,418,DL84 S 3252,Conductor,Kashmere Gate,14:07:03,16:07:03
+Udarsh Tank,DTC888UGX,241,DL35 S 1459,Driver,Sarojini Nagar,06:02:21,09:02:21
+Vritti Dewan,DTC220TED,241,DL35 S 1459,Conductor,Sarojini Nagar,06:02:21,09:02:21
+Widisha Sahota,DTC471WXI,366,DL15 S 2012,Driver,Karol Bagh,11:53:07,16:53:07
+Urvi Shah,DTC409ISZ,366,DL15 S 2012,Conductor,Karol Bagh,11:53:07,16:53:07
+Fiyaz Saraf,DTC485QIQ,783,DL43 S 5892,Driver,Sarojini Nagar,21:57:11,00:57:11
+Hemani Atwal,DTC210NVB,783,DL43 S 5892,Conductor,Sarojini Nagar,21:57:11,00:57:11
+Veer Ranganathan,DTC837TVD,505,DL70 S 9579,Driver,Hauz Khas,14:09:10,18:09:10
+Sai More,DTC658QJH,505,DL70 S 9579,Conductor,Hauz Khas,14:09:10,18:09:10
+Victor Nigam,DTC138NSK,402,DL31 S 4647,Driver,Lajpat Nagar,07:58:13,12:58:13
+Vaishnavi Deo,DTC940ROT,402,DL31 S 4647,Conductor,Lajpat Nagar,07:58:13,12:58:13
+Rehaan Badami,DTC920VAO,825,DL99 S 2548,Driver,Saket,08:32:53,11:32:53
+Nimrat Kamdar,DTC825TEU,825,DL99 S 2548,Conductor,Saket,08:32:53,11:32:53
+Nidhi Devi,DTC446ZLH,304,DL72 S 5282,Driver,Janakpuri,01:18:55,03:18:55
+Chanchal Yadav,DTC393BTQ,304,DL72 S 5282,Conductor,Janakpuri,01:18:55,03:18:55
+Ria Devan,DTC112ZTK,893,DL66 S 4887,Driver,Nehru Place,03:39:40,06:39:40
+Anya Bhandari,DTC221TNZ,893,DL66 S 4887,Conductor,Nehru Place,03:39:40,06:39:40
+Netra Seshadri,DTC500RUD,326,DL80 S 9702,Driver,Lajpat Nagar,16:09:26,20:09:26
+Jeet Hegde,DTC303TZU,326,DL80 S 9702,Conductor,Lajpat Nagar,16:09:26,20:09:26
+Garima Vala,DTC746CCI,884,DL62 S 1505,Driver,Hauz Khas,00:32:56,02:32:56
+Bimala Kibe,DTC335RZU,884,DL62 S 1505,Conductor,Hauz Khas,00:32:56,02:32:56
+Bina Puri,DTC747NAA,465,DL73 S 7372,Driver,Rajiv Chowk,12:02:14,16:02:14
+Rajata Nazareth,DTC751INY,465,DL73 S 7372,Conductor,Rajiv Chowk,12:02:14,16:02:14
+Damini Pal,DTC336WGI,330,DL67 S 5078,Driver,Saket,04:18:59,06:18:59
+Yagnesh Khalsa,DTC450XUZ,330,DL67 S 5078,Conductor,Saket,04:18:59,06:18:59
+Anirudh Gala,DTC732HXD,748,DL22 S 9677,Driver,Rajiv Chowk,13:16:53,18:16:53
+Abhiram Rai,DTC321MCJ,748,DL22 S 9677,Conductor,Rajiv Chowk,13:16:53,18:16:53
+Jai De,DTC442QKI,985,DL86 S 3508,Driver,Janakpuri,15:54:58,18:54:58
+Ekaja Guha,DTC914CAP,985,DL86 S 3508,Conductor,Janakpuri,15:54:58,18:54:58
+Sachi Nagarajan,DTC242ASD,369,DL88 S 1660,Driver,Hauz Khas,23:12:57,01:12:57
+Chasmum Deo,DTC212SIN,369,DL88 S 1660,Conductor,Hauz Khas,23:12:57,01:12:57
+Janya Parsa,DTC868SOF,758,DL84 S 2683,Driver,Rajiv Chowk,01:38:30,06:38:30
+Aishani Bahl,DTC392HCE,758,DL84 S 2683,Conductor,Rajiv Chowk,01:38:30,06:38:30
+Kalpit Manne,DTC988HMM,353,DL54 S 5151,Driver,Kashmere Gate,16:44:09,19:44:09
+Chaman Ravi,DTC401HCV,353,DL54 S 5151,Conductor,Kashmere Gate,16:44:09,19:44:09
+Balvan Kari,DTC705HYY,578,DL25 S 2478,Driver,Rajiv Chowk,15:06:11,17:06:11
+Gautami Vala,DTC253FJV,578,DL25 S 2478,Conductor,Rajiv Chowk,15:06:11,17:06:11
+Ayush Bawa,DTC964FWA,284,DL69 S 7122,Driver,Saket,15:46:41,17:46:41
+Warhi Manne,DTC454CZU,284,DL69 S 7122,Conductor,Saket,15:46:41,17:46:41
+Rajeshri Dhingra,DTC688OVQ,863,DL65 S 7149,Driver,AIIMS,08:11:42,13:11:42
+Chanchal Bhardwaj,DTC602KLF,863,DL65 S 7149,Conductor,AIIMS,08:11:42,13:11:42
+Madhavi Sridhar,DTC363DHC,856,DL40 S 7668,Driver,Rajiv Chowk,12:39:29,14:39:29
+Inaya Dhingra,DTC841URR,856,DL40 S 7668,Conductor,Rajiv Chowk,12:39:29,14:39:29
+Michael Kapoor,DTC434MIP,450,DL62 S 6190,Driver,Saket,14:56:10,19:56:10
+Andrew Lall,DTC217JRC,450,DL62 S 6190,Conductor,Saket,14:56:10,19:56:10
+Yash Dugal,DTC719ZPF,952,DL20 S 3251,Driver,Karol Bagh,09:24:26,12:24:26
+Ishanvi Virk,DTC362BQK,952,DL20 S 3251,Conductor,Karol Bagh,09:24:26,12:24:26
+Reyansh Kurian,DTC628OFZ,720,DL59 S 2940,Driver,Hauz Khas,05:53:48,10:53:48
+Wridesh Soni,DTC116KWK,720,DL59 S 2940,Conductor,Hauz Khas,05:53:48,10:53:48
+Chaman Krish,DTC910DFS,314,DL35 S 7523,Driver,AIIMS,12:36:22,16:36:22
+Nisha Dixit,DTC756AYD,314,DL35 S 7523,Conductor,AIIMS,12:36:22,16:36:22
+Benjamin Vora,DTC504TUM,574,DL28 S 5986,Driver,Kashmere Gate,18:56:32,20:56:32
+Lakshmi Sandhu,DTC474KNU,574,DL28 S 5986,Conductor,Kashmere Gate,18:56:32,20:56:32
+Yachana Kohli,DTC853QYU,503,DL68 S 8123,Driver,Karol Bagh,15:42:18,19:42:18
+Vasana Hayer,DTC574QCA,503,DL68 S 8123,Conductor,Karol Bagh,15:42:18,19:42:18
+Pranit Jayaraman,DTC697WIG,600,DL25 S 4161,Driver,Nehru Place,10:30:58,14:30:58
+Jasmit Raju,DTC844NAV,600,DL25 S 4161,Conductor,Nehru Place,10:30:58,14:30:58
+Shravya Doshi,DTC350VME,621,DL34 S 4644,Driver,Nehru Place,05:40:37,10:40:37
+Maanav Ganesan,DTC473FIX,621,DL34 S 4644,Conductor,Nehru Place,05:40:37,10:40:37
+Shaurya Sarraf,DTC563DIQ,868,DL33 S 7552,Driver,AIIMS,00:34:33,02:34:33
+Wridesh Kamdar,DTC481XZB,868,DL33 S 7552,Conductor,AIIMS,00:34:33,02:34:33
+Daksha Thaker,DTC142ETR,655,DL65 S 4214,Driver,Saket,07:38:30,11:38:30
+Daksh Krish,DTC437NHX,655,DL65 S 4214,Conductor,Saket,07:38:30,11:38:30
+Sai Karan,DTC554WZN,279,DL72 S 6689,Driver,Nehru Place,12:43:10,15:43:10
+Balhaar Bansal,DTC791ZVG,279,DL72 S 6689,Conductor,Nehru Place,12:43:10,15:43:10
+Saanvi Desai,DTC879KRJ,966,DL11 S 7816,Driver,Janakpuri,16:27:47,19:27:47
+Harini Ramanathan,DTC349SJQ,966,DL11 S 7816,Conductor,Janakpuri,16:27:47,19:27:47
+Mugdha Shukla,DTC516RTF,874,DL53 S 1460,Driver,Nehru Place,23:20:34,02:20:34
+Yochana Chacko,DTC615QIE,874,DL53 S 1460,Conductor,Nehru Place,23:20:34,02:20:34
+Chakradhar Sachdev,DTC368PCD,850,DL67 S 5102,Driver,Janakpuri,09:00:33,12:00:33
+Gautami Soni,DTC385WXL,850,DL67 S 5102,Conductor,Janakpuri,09:00:33,12:00:33
+Hemang Mandal,DTC923SAW,157,DL48 S 3482,Driver,Janakpuri,12:49:10,14:49:10
+Manthan Garg,DTC348MIO,157,DL48 S 3482,Conductor,Janakpuri,12:49:10,14:49:10
+Varsha Oza,DTC772PCB,403,DL74 S 4998,Driver,AIIMS,18:37:16,22:37:16
+Chaaya Randhawa,DTC131MZT,403,DL74 S 4998,Conductor,AIIMS,18:37:16,22:37:16
+Yashica Gour,DTC102IVL,256,DL58 S 2596,Driver,Hauz Khas,03:32:49,05:32:49
+Chanakya Bajaj,DTC349MHO,256,DL58 S 2596,Conductor,Hauz Khas,03:32:49,05:32:49
+Pushti Nigam,DTC888RBU,626,DL36 S 1760,Driver,Rajiv Chowk,22:23:50,02:23:50
+Priya Dass,DTC557COO,626,DL36 S 1760,Conductor,Rajiv Chowk,22:23:50,02:23:50
+Samaksh Gandhi,DTC712SJO,759,DL89 S 6411,Driver,Saket,21:16:30,01:16:30
+Janaki Rao,DTC400MGO,759,DL89 S 6411,Conductor,Saket,21:16:30,01:16:30
+Vedika Merchant,DTC774SBH,125,DL38 S 7781,Driver,Hauz Khas,15:26:05,18:26:05
+Baghyawati Balakrishnan,DTC227HNF,125,DL38 S 7781,Conductor,Hauz Khas,15:26:05,18:26:05
+Upasna Gour,DTC834ENB,876,DL21 S 6789,Driver,Hauz Khas,18:37:11,23:37:11
+Qabil Bhatti,DTC441SXX,876,DL21 S 6789,Conductor,Hauz Khas,18:37:11,23:37:11
+David Nigam,DTC181OQL,770,DL15 S 9207,Driver,Hauz Khas,03:52:05,07:52:05
+Hiral Ramanathan,DTC766PUK,770,DL15 S 9207,Conductor,Hauz Khas,03:52:05,07:52:05
+Yagnesh Hegde,DTC437JRO,549,DL55 S 3511,Driver,Hauz Khas,21:31:24,02:31:24
+Veer Sem,DTC990DZA,549,DL55 S 3511,Conductor,Hauz Khas,21:31:24,02:31:24
+Nidhi Karan,DTC789LRG,459,DL68 S 8613,Driver,Hauz Khas,05:34:25,08:34:25
+Kamala Murthy,DTC878UDN,459,DL68 S 8613,Conductor,Hauz Khas,05:34:25,08:34:25
+Anvi Gill,DTC190LVH,457,DL94 S 3691,Driver,Saket,00:40:36,05:40:36
+Indali Dube,DTC172PZI,457,DL94 S 3691,Conductor,Saket,00:40:36,05:40:36
+Nikita Suresh,DTC306KMY,834,DL90 S 4947,Driver,Kashmere Gate,18:53:36,23:53:36
+Girik Sarin,DTC992GUO,834,DL90 S 4947,Conductor,Kashmere Gate,18:53:36,23:53:36
+Nachiket Magar,DTC137IRA,681,DL24 S 2902,Driver,Janakpuri,22:16:12,03:16:12
+Unnati Yadav,DTC623TUL,681,DL24 S 2902,Conductor,Janakpuri,22:16:12,03:16:12
+Hemang Narayan,DTC665CBA,807,DL78 S 6891,Driver,Kashmere Gate,18:16:08,23:16:08
+Samesh Kota,DTC112GOF,807,DL78 S 6891,Conductor,Kashmere Gate,18:16:08,23:16:08
+Chameli Sekhon,DTC626QGF,611,DL80 S 2482,Driver,Janakpuri,00:13:20,04:13:20
+Jai Parmer,DTC176VST,611,DL80 S 2482,Conductor,Janakpuri,00:13:20,04:13:20
+Vaishnavi Tak,DTC721CBT,550,DL86 S 8055,Driver,Sarojini Nagar,07:49:27,11:49:27
+Eshana Rajagopal,DTC112BNU,550,DL86 S 8055,Conductor,Sarojini Nagar,07:49:27,11:49:27
+Sanaya Nagar,DTC424APL,882,DL52 S 9436,Driver,Karol Bagh,21:34:28,00:34:28
+Aashi Dhawan,DTC720QTT,882,DL52 S 9436,Conductor,Karol Bagh,21:34:28,00:34:28
+Anirudh Vig,DTC468VGF,409,DL16 S 6802,Driver,AIIMS,14:05:58,19:05:58
+Matthew Parmar,DTC334LZZ,409,DL16 S 6802,Conductor,AIIMS,14:05:58,19:05:58
+Reva Dubey,DTC193ZVR,747,DL81 S 9716,Driver,Saket,04:24:40,09:24:40
+Tanay Kibe,DTC438SHV,747,DL81 S 9716,Conductor,Saket,04:24:40,09:24:40
+Ishwar Mittal,DTC546CDH,263,DL69 S 5641,Driver,Hauz Khas,00:46:32,02:46:32
+Aadi Chokshi,DTC128PTI,263,DL69 S 5641,Conductor,Hauz Khas,00:46:32,02:46:32
+Oscar Dutta,DTC520AQS,255,DL79 S 6762,Driver,Kashmere Gate,03:15:23,07:15:23
+Yatin Kannan,DTC276HLW,255,DL79 S 6762,Conductor,Kashmere Gate,03:15:23,07:15:23
+Nisha Chandran,DTC653EHF,173,DL11 S 3947,Driver,Nehru Place,05:53:15,08:53:15
+Abhimanyu Rout,DTC484AGG,173,DL11 S 3947,Conductor,Nehru Place,05:53:15,08:53:15
+Tanish Dara,DTC607TOY,790,DL55 S 8436,Driver,Nehru Place,21:46:59,00:46:59
+Lavanya Singhal,DTC128GLX,790,DL55 S 8436,Conductor,Nehru Place,21:46:59,00:46:59
+Ekavir Nayak,DTC216MPJ,189,DL39 S 5317,Driver,Kashmere Gate,06:39:37,10:39:37
+Ranveer Natt,DTC829QUS,189,DL39 S 5317,Conductor,Kashmere Gate,06:39:37,10:39:37
+Naveen Mahajan,DTC655UJM,995,DL80 S 5131,Driver,Kashmere Gate,05:45:39,09:45:39
+Rachana Dutta,DTC355XVD,995,DL80 S 5131,Conductor,Kashmere Gate,05:45:39,09:45:39
+Noah Rajagopalan,DTC854MJG,332,DL66 S 1615,Driver,Lajpat Nagar,23:22:17,02:22:17
+Kai Chopra,DTC266VEZ,332,DL66 S 1615,Conductor,Lajpat Nagar,23:22:17,02:22:17
+Xalak More,DTC671ZQW,639,DL71 S 8967,Driver,Saket,20:04:34,01:04:34
+Deepa Karnik,DTC457RXK,639,DL71 S 8967,Conductor,Saket,20:04:34,01:04:34
+Bhavika Natt,DTC593QYO,981,DL10 S 6855,Driver,Nehru Place,00:47:28,03:47:28
+Varenya Gupta,DTC613JQQ,981,DL10 S 6855,Conductor,Nehru Place,00:47:28,03:47:28
+Rishi Sagar,DTC890OLD,346,DL64 S 5515,Driver,Sarojini Nagar,11:11:03,16:11:03
+Warhi Subramaniam,DTC975BAK,346,DL64 S 5515,Conductor,Sarojini Nagar,11:11:03,16:11:03
+Umang Gala,DTC181PTB,391,DL81 S 8239,Driver,AIIMS,00:52:51,02:52:51
+Ayaan Kapoor,DTC618XUB,391,DL81 S 8239,Conductor,AIIMS,00:52:51,02:52:51
+Krish Balay,DTC238RUR,987,DL65 S 4454,Driver,Rajiv Chowk,00:11:55,04:11:55
+Ubika Naidu,DTC595FRE,987,DL65 S 4454,Conductor,Rajiv Chowk,00:11:55,04:11:55
+Geetika Sur,DTC167CLD,263,DL25 S 2421,Driver,Kashmere Gate,17:42:39,19:42:39
+Radhika Dugal,DTC494USF,263,DL25 S 2421,Conductor,Kashmere Gate,17:42:39,19:42:39
+Noah Pillay,DTC290XXS,374,DL21 S 2950,Driver,Nehru Place,12:35:33,17:35:33
+Vrinda Bhakta,DTC442IGR,374,DL21 S 2950,Conductor,Nehru Place,12:35:33,17:35:33
+Varsha Pingle,DTC560OKT,163,DL27 S 2067,Driver,Nehru Place,10:29:56,13:29:56
+Sanya Boase,DTC367LHD,163,DL27 S 2067,Conductor,Nehru Place,10:29:56,13:29:56
+Damyanti Banik,DTC821EUF,424,DL35 S 8236,Driver,AIIMS,07:09:42,09:09:42
+Kashvi Basu,DTC303KPZ,424,DL35 S 8236,Conductor,AIIMS,07:09:42,09:09:42
+Karan Pau,DTC350ZHN,864,DL22 S 3563,Driver,Sarojini Nagar,13:44:58,18:44:58
+Aarini Bhagat,DTC793MKT,864,DL22 S 3563,Conductor,Sarojini Nagar,13:44:58,18:44:58
+Tanveer Magar,DTC757GJA,840,DL66 S 5256,Driver,Lajpat Nagar,17:05:01,19:05:01
+Aishani Karan,DTC665HZF,840,DL66 S 5256,Conductor,Lajpat Nagar,17:05:01,19:05:01
+Sai Sane,DTC255YWT,444,DL90 S 5638,Driver,Rajiv Chowk,05:36:46,07:36:46
+Alka Loyal,DTC900JJK,444,DL90 S 5638,Conductor,Rajiv Chowk,05:36:46,07:36:46
+Ishanvi Prabhakar,DTC904TTT,680,DL12 S 8967,Driver,Janakpuri,07:22:47,10:22:47
+Krishna Talwar,DTC807ZQS,680,DL12 S 8967,Conductor,Janakpuri,07:22:47,10:22:47
+Anjali Rao,DTC565OTI,228,DL50 S 6247,Driver,Rajiv Chowk,22:51:42,03:51:42
+Oscar Badal,DTC789YWS,228,DL50 S 6247,Conductor,Rajiv Chowk,22:51:42,03:51:42
+Chakradhar Agrawal,DTC293WVA,617,DL42 S 2876,Driver,Rajiv Chowk,05:40:29,08:40:29
+Tara Bhat,DTC989IVA,617,DL42 S 2876,Conductor,Rajiv Chowk,05:40:29,08:40:29
+Faqid Sankar,DTC373CQR,923,DL66 S 6101,Driver,Hauz Khas,22:08:20,01:08:20
+Ekanta Madan,DTC104LIL,923,DL66 S 6101,Conductor,Hauz Khas,22:08:20,01:08:20
+Abha Kadakia,DTC912HLV,710,DL14 S 5453,Driver,Hauz Khas,08:07:54,11:07:54
+Anirudh Iyengar,DTC689ONR,710,DL14 S 5453,Conductor,Hauz Khas,08:07:54,11:07:54
+Urvashi Mitra,DTC556JZG,398,DL58 S 6668,Driver,Janakpuri,17:59:42,21:59:42
+Timothy Varghese,DTC600KIA,398,DL58 S 6668,Conductor,Janakpuri,17:59:42,21:59:42
+Wishi Nair,DTC269WQW,358,DL16 S 6093,Driver,Lajpat Nagar,14:37:37,16:37:37
+Teerth Prabhu,DTC581SHN,358,DL16 S 6093,Conductor,Lajpat Nagar,14:37:37,16:37:37
+Zarna Deol,DTC773KEV,948,DL69 S 5280,Driver,Karol Bagh,17:22:01,19:22:01
+Ayushman Hora,DTC607JIQ,948,DL69 S 5280,Conductor,Karol Bagh,17:22:01,19:22:01
+Madhav Shanker,DTC267XIY,901,DL73 S 2356,Driver,Saket,21:53:35,00:53:35
+Xiti Lanka,DTC725YMK,901,DL73 S 2356,Conductor,Saket,21:53:35,00:53:35
+Raghav Chanda,DTC244YPV,219,DL96 S 1194,Driver,Saket,01:49:08,04:49:08
+Ekantika Saini,DTC171QCC,219,DL96 S 1194,Conductor,Saket,01:49:08,04:49:08
+Sai Tella,DTC431IVZ,726,DL43 S 2625,Driver,Janakpuri,22:58:10,02:58:10
+Chanakya Golla,DTC666VZN,726,DL43 S 2625,Conductor,Janakpuri,22:58:10,02:58:10
+Triya Ranganathan,DTC816UOC,791,DL75 S 4491,Driver,Karol Bagh,09:34:41,11:34:41
+Girik Viswanathan,DTC954EZL,791,DL75 S 4491,Conductor,Karol Bagh,09:34:41,11:34:41
+Ishita Pal,DTC122VTF,681,DL78 S 4901,Driver,Janakpuri,14:13:02,16:13:02
+Gavin Sodhi,DTC975NBO,681,DL78 S 4901,Conductor,Janakpuri,14:13:02,16:13:02
+Garima Ganesh,DTC862NFK,103,DL73 S 6199,Driver,Saket,22:00:32,03:00:32
+Omya Kamdar,DTC449JIB,103,DL73 S 6199,Conductor,Saket,22:00:32,03:00:32
+William Pingle,DTC129OVT,895,DL91 S 3702,Driver,Karol Bagh,12:19:43,16:19:43
+Nihal Ramaswamy,DTC255FME,895,DL91 S 3702,Conductor,Karol Bagh,12:19:43,16:19:43
+Ishita Sinha,DTC903POB,379,DL15 S 3293,Driver,Kashmere Gate,22:25:43,02:25:43
+Daksh Bail,DTC705GIR,379,DL15 S 3293,Conductor,Kashmere Gate,22:25:43,02:25:43
+Nimrat Seth,DTC885XIF,972,DL43 S 7852,Driver,Lajpat Nagar,20:27:56,23:27:56
+Benjamin Mahajan,DTC879LUO,972,DL43 S 7852,Conductor,Lajpat Nagar,20:27:56,23:27:56
+Advik Kakar,DTC432ESX,787,DL69 S 7374,Driver,Karol Bagh,22:35:08,02:35:08
+Azad Sanghvi,DTC964RRL,787,DL69 S 7374,Conductor,Karol Bagh,22:35:08,02:35:08
+Chandani Bhargava,DTC576DUJ,477,DL21 S 3599,Driver,Lajpat Nagar,14:08:44,16:08:44
+Lajita Parikh,DTC172IYQ,477,DL21 S 3599,Conductor,Lajpat Nagar,14:08:44,16:08:44
+Brinda Morar,DTC805ZQW,800,DL36 S 6130,Driver,Nehru Place,02:42:55,06:42:55
+Widisha Mandal,DTC529CGF,800,DL36 S 6130,Conductor,Nehru Place,02:42:55,06:42:55
+Ekavir Dua,DTC190ENT,666,DL99 S 7279,Driver,Janakpuri,10:15:10,14:15:10
+Yug Bera,DTC508BZB,666,DL99 S 7279,Conductor,Janakpuri,10:15:10,14:15:10
+Amol Thakkar,DTC917RTF,430,DL22 S 9181,Driver,Janakpuri,15:27:22,19:27:22
+Lohit Munshi,DTC938UGR,430,DL22 S 9181,Conductor,Janakpuri,15:27:22,19:27:22
+Tanay Kala,DTC920OZV,856,DL23 S 4235,Driver,Nehru Place,07:42:29,09:42:29
+Vansha Joshi,DTC222IKF,856,DL23 S 4235,Conductor,Nehru Place,07:42:29,09:42:29
+Ranveer Sankar,DTC883UCP,179,DL18 S 8350,Driver,Karol Bagh,16:57:54,18:57:54
+Shivansh Bansal,DTC989LUQ,179,DL18 S 8350,Conductor,Karol Bagh,16:57:54,18:57:54
+Frederick Panchal,DTC523TSG,269,DL68 S 6558,Driver,Karol Bagh,09:32:39,11:32:39
+Vanya Pall,DTC696PJZ,269,DL68 S 6558,Conductor,Karol Bagh,09:32:39,11:32:39
+Upma Konda,DTC601YTZ,290,DL18 S 5673,Driver,AIIMS,00:42:32,03:42:32
+Ubika Mallick,DTC282ZFW,290,DL18 S 5673,Conductor,AIIMS,00:42:32,03:42:32
+Vanya Badal,DTC965KZJ,271,DL43 S 5184,Driver,AIIMS,02:52:45,04:52:45
+Gautami Dhar,DTC182VPP,271,DL43 S 5184,Conductor,AIIMS,02:52:45,04:52:45
+Girik Bhalla,DTC654UPO,227,DL51 S 9237,Driver,Lajpat Nagar,05:56:13,08:56:13
+Benjamin Rastogi,DTC448XMM,227,DL51 S 9237,Conductor,Lajpat Nagar,05:56:13,08:56:13
+Eiravati Chopra,DTC578OYM,496,DL81 S 4969,Driver,Nehru Place,04:19:22,09:19:22
+Bhanumati Mukherjee,DTC244BCF,496,DL81 S 4969,Conductor,Nehru Place,04:19:22,09:19:22
+Champak Sinha,DTC720HXX,825,DL29 S 3433,Driver,Sarojini Nagar,16:17:54,21:17:54
+Michael Koshy,DTC679CBW,825,DL29 S 3433,Conductor,Sarojini Nagar,16:17:54,21:17:54
+Ishani Gala,DTC127RYV,412,DL46 S 9263,Driver,Kashmere Gate,09:27:07,14:27:07
+Urmi Subramaniam,DTC388FGG,412,DL46 S 9263,Conductor,Kashmere Gate,09:27:07,14:27:07
+Qabil Golla,DTC421CUX,238,DL10 S 7323,Driver,Karol Bagh,16:42:31,19:42:31
+Naksh Mangal,DTC793BQV,238,DL10 S 7323,Conductor,Karol Bagh,16:42:31,19:42:31
+Nathan Banik,DTC431TUU,377,DL36 S 1669,Driver,Karol Bagh,02:06:27,04:06:27
+Nisha Kuruvilla,DTC727WXA,377,DL36 S 1669,Conductor,Karol Bagh,02:06:27,04:06:27
+Aadhya Master,DTC293YCA,428,DL90 S 2234,Driver,Sarojini Nagar,22:14:34,03:14:34
+Eta Sidhu,DTC531HGL,428,DL90 S 2234,Conductor,Sarojini Nagar,22:14:34,03:14:34
+Rushil Zacharia,DTC852ZRO,926,DL46 S 7243,Driver,Hauz Khas,12:13:14,17:13:14
+Tristan Bhatnagar,DTC719IBQ,926,DL46 S 7243,Conductor,Hauz Khas,12:13:14,17:13:14
+Jacob Merchant,DTC850ZJA,744,DL52 S 8060,Driver,Kashmere Gate,20:05:57,00:05:57
+Robert Mahajan,DTC368WWU,744,DL52 S 8060,Conductor,Kashmere Gate,20:05:57,00:05:57
+Turvi Varkey,DTC625DQU,162,DL59 S 5250,Driver,Rajiv Chowk,20:58:29,01:58:29
+Laban Deshmukh,DTC751MPW,162,DL59 S 5250,Conductor,Rajiv Chowk,20:58:29,01:58:29
+Varsha Zacharia,DTC332WRJ,508,DL57 S 1772,Driver,Kashmere Gate,06:47:03,08:47:03
+Reva Nagarajan,DTC671XQG,508,DL57 S 1772,Conductor,Kashmere Gate,06:47:03,08:47:03
+Sneha Korpal,DTC570TKX,967,DL34 S 2844,Driver,Rajiv Chowk,07:08:26,11:08:26
+Noah Dubey,DTC582NGX,967,DL34 S 2844,Conductor,Rajiv Chowk,07:08:26,11:08:26
+Hardik Lad,DTC167QPS,350,DL78 S 5197,Driver,Janakpuri,21:26:44,02:26:44
+Priya Narasimhan,DTC882ZOD,350,DL78 S 5197,Conductor,Janakpuri,21:26:44,02:26:44
+Lipika Mane,DTC122AJL,399,DL87 S 2019,Driver,Rajiv Chowk,18:52:01,20:52:01
+Panini Thakur,DTC856XGU,399,DL87 S 2019,Conductor,Rajiv Chowk,18:52:01,20:52:01
+Frado Badami,DTC783UEE,763,DL35 S 9936,Driver,Nehru Place,01:19:09,06:19:09
+Hema Mitra,DTC805OAH,763,DL35 S 9936,Conductor,Nehru Place,01:19:09,06:19:09
+Hiral Muni,DTC449RMB,821,DL46 S 6567,Driver,AIIMS,02:29:13,07:29:13
+Amruta Dhar,DTC143OQR,821,DL46 S 6567,Conductor,AIIMS,02:29:13,07:29:13
+Luke Sant,DTC603PEO,273,DL30 S 1572,Driver,Hauz Khas,16:42:45,18:42:45
+Ranbir Sachar,DTC182AJL,273,DL30 S 1572,Conductor,Hauz Khas,16:42:45,18:42:45
+Divya Dave,DTC325ZNB,790,DL82 S 2047,Driver,Rajiv Chowk,01:28:34,04:28:34
+Raksha Mukherjee,DTC517ZSB,790,DL82 S 2047,Conductor,Rajiv Chowk,01:28:34,04:28:34
+Watika Atwal,DTC770VNR,388,DL78 S 1319,Driver,Kashmere Gate,03:56:19,08:56:19
+Mohini Ahluwalia,DTC408BLT,388,DL78 S 1319,Conductor,Kashmere Gate,03:56:19,08:56:19
+Unni Menon,DTC694KIC,695,DL47 S 5532,Driver,Kashmere Gate,13:59:20,16:59:20
+Vedant Soman,DTC935JRW,695,DL47 S 5532,Conductor,Kashmere Gate,13:59:20,16:59:20
+Frederick Basu,DTC947UUE,125,DL90 S 5137,Driver,Janakpuri,01:32:20,05:32:20
+Chakradev Sani,DTC592ROJ,125,DL90 S 5137,Conductor,Janakpuri,01:32:20,05:32:20
+Harsh Dewan,DTC999XEX,858,DL66 S 7612,Driver,AIIMS,18:50:05,21:50:05
+Vasudha Swamy,DTC984PDR,858,DL66 S 7612,Conductor,AIIMS,18:50:05,21:50:05
+Ladli Mitter,DTC449IPF,729,DL72 S 2999,Driver,Janakpuri,09:31:53,13:31:53
+Maanav Divan,DTC867KTT,729,DL72 S 2999,Conductor,Janakpuri,09:31:53,13:31:53
+Anirudh Gandhi,DTC610DWI,245,DL86 S 2182,Driver,Kashmere Gate,04:23:48,06:23:48
+Arjun Kale,DTC115JXH,245,DL86 S 2182,Conductor,Kashmere Gate,04:23:48,06:23:48
+Vedhika Andra,DTC686AIY,475,DL18 S 4962,Driver,Hauz Khas,21:09:15,02:09:15
+Vamakshi Savant,DTC224UKB,475,DL18 S 4962,Conductor,Hauz Khas,21:09:15,02:09:15
+Abhiram Dyal,DTC910EPJ,973,DL62 S 2024,Driver,Karol Bagh,04:18:40,09:18:40
+Suhani Doshi,DTC660PVF,973,DL62 S 2024,Conductor,Karol Bagh,04:18:40,09:18:40
+Isaiah Ratta,DTC777NJC,863,DL22 S 4348,Driver,Sarojini Nagar,22:22:29,03:22:29
+Vrishti Naidu,DTC464LID,863,DL22 S 4348,Conductor,Sarojini Nagar,22:22:29,03:22:29
+Sathvik Kant,DTC592IKM,910,DL30 S 7590,Driver,Lajpat Nagar,00:54:56,02:54:56
+Januja Date,DTC499XZM,910,DL30 S 7590,Conductor,Lajpat Nagar,00:54:56,02:54:56
+Aarini Vala,DTC158JVU,995,DL42 S 5630,Driver,AIIMS,02:53:44,04:53:44
+Praneel Kohli,DTC902DHB,995,DL42 S 5630,Conductor,AIIMS,02:53:44,04:53:44
+William Chaudhari,DTC833ULS,477,DL31 S 9322,Driver,Hauz Khas,03:23:56,05:23:56
+Liam Viswanathan,DTC331DUK,477,DL31 S 9322,Conductor,Hauz Khas,03:23:56,05:23:56
+Ranveer Narayanan,DTC932ONH,762,DL51 S 4255,Driver,Lajpat Nagar,05:52:40,10:52:40
+Ria Morar,DTC933QOG,762,DL51 S 4255,Conductor,Lajpat Nagar,05:52:40,10:52:40
+Daksha Kar,DTC969OHE,882,DL13 S 9334,Driver,Rajiv Chowk,04:29:29,07:29:29
+Anusha Wagle,DTC237JFL,882,DL13 S 9334,Conductor,Rajiv Chowk,04:29:29,07:29:29
+Ojas Savant,DTC139UDN,571,DL39 S 5002,Driver,Hauz Khas,03:38:25,07:38:25
+Gautami Joshi,DTC978GKH,571,DL39 S 5002,Conductor,Hauz Khas,03:38:25,07:38:25
+Omkaar Raju,DTC477DMQ,485,DL45 S 9276,Driver,Sarojini Nagar,02:16:00,04:16:00
+Rayaan Viswanathan,DTC853FHP,485,DL45 S 9276,Conductor,Sarojini Nagar,02:16:00,04:16:00
+Mohini Agrawal,DTC403JCG,475,DL96 S 9038,Driver,Lajpat Nagar,03:23:02,08:23:02
+Simon Sawhney,DTC687ZWK,475,DL96 S 9038,Conductor,Lajpat Nagar,03:23:02,08:23:02
+Timothy Chaudhuri,DTC297UJL,178,DL78 S 1839,Driver,Rajiv Chowk,23:35:26,03:35:26
+Charan Ram,DTC562VLD,178,DL78 S 1839,Conductor,Rajiv Chowk,23:35:26,03:35:26
+Ishani Ramakrishnan,DTC544WHZ,363,DL28 S 3604,Driver,Sarojini Nagar,08:58:30,12:58:30
+Nathan Zachariah,DTC258YEI,363,DL28 S 3604,Conductor,Sarojini Nagar,08:58:30,12:58:30
+Siya Dube,DTC929ZRG,425,DL49 S 4027,Driver,Kashmere Gate,23:53:46,02:53:46
+Sachi Dixit,DTC415MMZ,425,DL49 S 4027,Conductor,Kashmere Gate,23:53:46,02:53:46
+Darpan Kapoor,DTC654HNO,469,DL57 S 4672,Driver,AIIMS,22:20:28,03:20:28
+Amaira Kapadia,DTC461VSG,469,DL57 S 4672,Conductor,AIIMS,22:20:28,03:20:28
+Nitesh Raman,DTC534MGJ,877,DL56 S 1792,Driver,Janakpuri,20:09:37,22:09:37
+Luke Chaudry,DTC208LCU,877,DL56 S 1792,Conductor,Janakpuri,20:09:37,22:09:37
+Dhriti Parmer,DTC314JHB,394,DL96 S 1528,Driver,Karol Bagh,19:56:45,22:56:45
+Nikita Rao,DTC395CWB,394,DL96 S 1528,Conductor,Karol Bagh,19:56:45,22:56:45
+Yatin Mohanty,DTC129GST,702,DL39 S 8577,Driver,Rajiv Chowk,08:22:18,10:22:18
+Priya Chandran,DTC133DRN,702,DL39 S 8577,Conductor,Rajiv Chowk,08:22:18,10:22:18
+Widisha Chana,DTC600VKU,356,DL23 S 8954,Driver,Sarojini Nagar,07:35:46,10:35:46
+Chakrika Joshi,DTC671ZZP,356,DL23 S 8954,Conductor,Sarojini Nagar,07:35:46,10:35:46
+Jairaj Dalal,DTC516DSN,986,DL83 S 4174,Driver,Janakpuri,15:43:15,18:43:15
+Rishi Pradhan,DTC987PNM,986,DL83 S 4174,Conductor,Janakpuri,15:43:15,18:43:15
+Charvi Roy,DTC682NNQ,410,DL83 S 1481,Driver,Lajpat Nagar,20:29:09,01:29:09
+Pushti Kurian,DTC426QQP,410,DL83 S 1481,Conductor,Lajpat Nagar,20:29:09,01:29:09
+Matthew Dube,DTC508RRH,484,DL47 S 1019,Driver,Lajpat Nagar,18:51:51,22:51:51
+Quincy Chand,DTC976BPZ,484,DL47 S 1019,Conductor,Lajpat Nagar,18:51:51,22:51:51
+Gautam Vala,DTC775ASX,990,DL78 S 8659,Driver,Kashmere Gate,12:44:39,17:44:39
+Faqid Pathak,DTC868DQE,990,DL78 S 8659,Conductor,Kashmere Gate,12:44:39,17:44:39
+Tanay Anne,DTC295YJA,893,DL67 S 9445,Driver,Karol Bagh,01:45:38,04:45:38
+Harish Iyengar,DTC302XZW,893,DL67 S 9445,Conductor,Karol Bagh,01:45:38,04:45:38
+Liam Barman,DTC553SSE,517,DL67 S 8086,Driver,Janakpuri,03:18:30,06:18:30
+Abha Badal,DTC583HUW,517,DL67 S 8086,Conductor,Janakpuri,03:18:30,06:18:30
+Bachittar Subramanian,DTC852ORD,122,DL19 S 3773,Driver,Karol Bagh,19:11:26,22:11:26
+Waida Dixit,DTC971EII,122,DL19 S 3773,Conductor,Karol Bagh,19:11:26,22:11:26
+Tamanna Sagar,DTC943CFL,830,DL80 S 9627,Driver,Karol Bagh,11:11:04,16:11:04
+William Verma,DTC546FEJ,830,DL80 S 9627,Conductor,Karol Bagh,11:11:04,16:11:04
+Jai Wadhwa,DTC519VJC,511,DL80 S 9743,Driver,Rajiv Chowk,00:14:35,05:14:35
+Karan Kari,DTC751KJA,511,DL80 S 9743,Conductor,Rajiv Chowk,00:14:35,05:14:35
+Rudra Tella,DTC105HBR,271,DL95 S 4288,Driver,Nehru Place,01:46:40,06:46:40
+Peter Nagar,DTC346FLG,271,DL95 S 4288,Conductor,Nehru Place,01:46:40,06:46:40
+Damyanti Toor,DTC178ZBX,917,DL41 S 5399,Driver,Rajiv Chowk,13:45:36,18:45:36
+Siya Brar,DTC309EEX,917,DL41 S 5399,Conductor,Rajiv Chowk,13:45:36,18:45:36
+Nathan Chaudhari,DTC683JRA,937,DL59 S 1901,Driver,Saket,17:36:47,21:36:47
+Rishi Raj,DTC211ILD,937,DL59 S 1901,Conductor,Saket,17:36:47,21:36:47
+Rayaan Panchal,DTC444FEC,888,DL73 S 1257,Driver,Janakpuri,23:16:21,04:16:21
+Gayathri Chad,DTC941XUI,888,DL73 S 1257,Conductor,Janakpuri,23:16:21,04:16:21
+Unni Banerjee,DTC435FVS,172,DL25 S 5545,Driver,Rajiv Chowk,06:35:40,11:35:40
+Balhaar Atwal,DTC955WCZ,172,DL25 S 5545,Conductor,Rajiv Chowk,06:35:40,11:35:40
+Jeet Das,DTC201MRA,107,DL41 S 8624,Driver,AIIMS,21:07:40,23:07:40
+Madhavi Kant,DTC296OCN,107,DL41 S 8624,Conductor,AIIMS,21:07:40,23:07:40
+Sai Madan,DTC165EUW,538,DL33 S 2512,Driver,Nehru Place,23:59:51,02:59:51
+Yutika Upadhyay,DTC133VEJ,538,DL33 S 2512,Conductor,Nehru Place,23:59:51,02:59:51
+Brijesh Deol,DTC874PLU,579,DL82 S 2891,Driver,Nehru Place,19:30:28,21:30:28
+Pooja Guha,DTC279YUS,579,DL82 S 2891,Conductor,Nehru Place,19:30:28,21:30:28
+Maanas Hari,DTC668NZF,831,DL67 S 8956,Driver,Lajpat Nagar,11:36:07,14:36:07
+Faqid Sagar,DTC501LVI,831,DL67 S 8956,Conductor,Lajpat Nagar,11:36:07,14:36:07
+Madhav Radhakrishnan,DTC766AAN,271,DL18 S 2233,Driver,Lajpat Nagar,22:52:29,03:52:29
+Kevin Rajagopalan,DTC401GWI,271,DL18 S 2233,Conductor,Lajpat Nagar,22:52:29,03:52:29
+Jagdish Swaminathan,DTC525ZLZ,217,DL68 S 2603,Driver,Lajpat Nagar,00:55:26,04:55:26
+Benjamin Narayan,DTC509VBH,217,DL68 S 2603,Conductor,Lajpat Nagar,00:55:26,04:55:26
+Urvashi Gupta,DTC696CLG,266,DL84 S 8667,Driver,Lajpat Nagar,02:09:51,07:09:51
+Qarin Dubey,DTC757HAT,266,DL84 S 8667,Conductor,Lajpat Nagar,02:09:51,07:09:51
+Max Date,DTC582SNJ,227,DL12 S 2146,Driver,Rajiv Chowk,22:21:18,01:21:18
+Ria Mander,DTC643UXY,227,DL12 S 2146,Conductor,Rajiv Chowk,22:21:18,01:21:18
+Qushi Sinha,DTC197BJW,248,DL74 S 8873,Driver,Nehru Place,23:17:18,01:17:18
+Aarav Thakkar,DTC681REC,248,DL74 S 8873,Conductor,Nehru Place,23:17:18,01:17:18
+Rayaan Pal,DTC625VZR,475,DL43 S 8147,Driver,Lajpat Nagar,22:49:10,03:49:10
+Timothy Dora,DTC421IBV,475,DL43 S 8147,Conductor,Lajpat Nagar,22:49:10,03:49:10
+Chandani Raj,DTC161BKD,549,DL31 S 8305,Driver,Sarojini Nagar,00:06:29,02:06:29
+Gaurang Kannan,DTC989UOQ,549,DL31 S 8305,Conductor,Sarojini Nagar,00:06:29,02:06:29
+Unni Gade,DTC109PLL,562,DL96 S 3009,Driver,Rajiv Chowk,07:54:33,10:54:33
+Falak Ratta,DTC594BPC,562,DL96 S 3009,Conductor,Rajiv Chowk,07:54:33,10:54:33
+Ranbir Sankar,DTC865CON,921,DL84 S 2096,Driver,Hauz Khas,10:52:40,13:52:40
+Leena Walla,DTC525GTF,921,DL84 S 2096,Conductor,Hauz Khas,10:52:40,13:52:40
+Tamanna Roy,DTC208HCT,772,DL65 S 3680,Driver,Rajiv Chowk,13:05:01,17:05:01
+Isaac Chaudhry,DTC125YHZ,772,DL65 S 3680,Conductor,Rajiv Chowk,13:05:01,17:05:01
+Gaurika Bandi,DTC743UZQ,376,DL83 S 4826,Driver,AIIMS,20:39:44,01:39:44
+Chandani Dada,DTC356LRW,376,DL83 S 4826,Conductor,AIIMS,20:39:44,01:39:44
+Siddharth Rout,DTC168ZCX,725,DL97 S 9695,Driver,Sarojini Nagar,12:05:16,16:05:16
+Krisha Dugal,DTC294TAB,725,DL97 S 9695,Conductor,Sarojini Nagar,12:05:16,16:05:16
+Radhika Sahota,DTC419GBW,221,DL49 S 2452,Driver,Karol Bagh,03:29:20,05:29:20
+Wazir Sani,DTC680STN,221,DL49 S 2452,Conductor,Karol Bagh,03:29:20,05:29:20
+Pahal Hari,DTC939WJR,854,DL36 S 7543,Driver,AIIMS,01:55:37,04:55:37
+Chakrika Khatri,DTC109XTQ,854,DL36 S 7543,Conductor,AIIMS,01:55:37,04:55:37
+Urishilla Chad,DTC673TGQ,219,DL62 S 9969,Driver,Nehru Place,15:43:49,19:43:49
+Vaishnavi Agarwal,DTC818VLP,219,DL62 S 9969,Conductor,Nehru Place,15:43:49,19:43:49
+Shivani Dutt,DTC523WLW,939,DL91 S 7761,Driver,Hauz Khas,15:44:43,17:44:43
+Jhalak Comar,DTC353IYX,939,DL91 S 7761,Conductor,Hauz Khas,15:44:43,17:44:43
+Lopa Oak,DTC557HNJ,603,DL95 S 2794,Driver,Sarojini Nagar,00:37:03,02:37:03
+Benjamin Ratta,DTC814EAT,603,DL95 S 2794,Conductor,Sarojini Nagar,00:37:03,02:37:03
+Lohit Patil,DTC189WGQ,191,DL35 S 2253,Driver,Janakpuri,12:44:13,17:44:13
+Amara Swamy,DTC446USD,191,DL35 S 2253,Conductor,Janakpuri,12:44:13,17:44:13
+Veda Manne,DTC178ZWM,761,DL44 S 7160,Driver,Hauz Khas,02:21:02,07:21:02
+Pratyush Chhabra,DTC672BTB,761,DL44 S 7160,Conductor,Hauz Khas,02:21:02,07:21:02
+Vamakshi Chakrabarti,DTC347QSO,567,DL38 S 4800,Driver,Rajiv Chowk,16:41:46,18:41:46
+Jacob Mistry,DTC428XRL,567,DL38 S 4800,Conductor,Rajiv Chowk,16:41:46,18:41:46
+Anika Bhandari,DTC955WZJ,225,DL71 S 3124,Driver,Hauz Khas,15:33:05,20:33:05
+Chaitanya Vala,DTC240HXV,225,DL71 S 3124,Conductor,Hauz Khas,15:33:05,20:33:05
+Kashish Badami,DTC515JBQ,499,DL16 S 5549,Driver,Saket,00:34:08,02:34:08
+Naksh Datta,DTC145LTW,499,DL16 S 5549,Conductor,Saket,00:34:08,02:34:08
+Aarush Shukla,DTC867UHN,875,DL82 S 4034,Driver,Karol Bagh,14:30:20,19:30:20
+Brinda Gopal,DTC517ZGP,875,DL82 S 4034,Conductor,Karol Bagh,14:30:20,19:30:20
+Sara Raju,DTC455YQQ,284,DL96 S 1573,Driver,Lajpat Nagar,06:05:37,09:05:37
+Anita Bose,DTC955HQP,284,DL96 S 1573,Conductor,Lajpat Nagar,06:05:37,09:05:37
+Udyati Varty,DTC302NBE,155,DL77 S 2935,Driver,Lajpat Nagar,17:35:54,21:35:54
+David Narain,DTC396CMH,155,DL77 S 2935,Conductor,Lajpat Nagar,17:35:54,21:35:54
+Yashodhara Murty,DTC103LNV,775,DL52 S 3013,Driver,Saket,02:59:54,06:59:54
+Krishna Morar,DTC860SQX,775,DL52 S 3013,Conductor,Saket,02:59:54,06:59:54
+Jeremiah Garg,DTC893WCZ,410,DL97 S 6293,Driver,Rajiv Chowk,02:48:02,07:48:02
+Nitara Dyal,DTC727HKZ,410,DL97 S 6293,Conductor,Rajiv Chowk,02:48:02,07:48:02
+Bishakha Raman,DTC381AEG,861,DL89 S 9575,Driver,Rajiv Chowk,05:38:01,08:38:01
+Ijaya Sha,DTC862ITY,861,DL89 S 9575,Conductor,Rajiv Chowk,05:38:01,08:38:01
+Netra Bahl,DTC418CRQ,683,DL68 S 3243,Driver,Janakpuri,19:00:54,23:00:54
+Sudiksha Sami,DTC986FXV,683,DL68 S 3243,Conductor,Janakpuri,19:00:54,23:00:54
+Rohan Mangat,DTC831PHM,706,DL83 S 2396,Driver,Rajiv Chowk,10:15:20,14:15:20
+Aryan Sharma,DTC218FDX,706,DL83 S 2396,Conductor,Rajiv Chowk,10:15:20,14:15:20
+Darpan Natt,DTC307AQM,718,DL23 S 8449,Driver,Lajpat Nagar,15:25:15,19:25:15
+Zashil Bhakta,DTC106UTY,718,DL23 S 8449,Conductor,Lajpat Nagar,15:25:15,19:25:15
+Edhitha Taneja,DTC600YKV,884,DL26 S 7048,Driver,Sarojini Nagar,21:16:34,01:16:34
+Laban Maharaj,DTC440WZZ,884,DL26 S 7048,Conductor,Sarojini Nagar,21:16:34,01:16:34
+Quincy Mangat,DTC926OVL,395,DL77 S 2518,Driver,Lajpat Nagar,15:00:45,18:00:45
+Adweta Sankar,DTC490IRE,395,DL77 S 2518,Conductor,Lajpat Nagar,15:00:45,18:00:45
+Shivansh Desai,DTC888VFB,902,DL17 S 1359,Driver,Hauz Khas,01:22:13,06:22:13
+Ekansh Ramanathan,DTC566XKI,902,DL17 S 1359,Conductor,Hauz Khas,01:22:13,06:22:13
+Ladli Nair,DTC140YVO,285,DL81 S 3826,Driver,Lajpat Nagar,02:56:28,07:56:28
+Azad Tella,DTC230NDZ,285,DL81 S 3826,Conductor,Lajpat Nagar,02:56:28,07:56:28
+Nathaniel Palan,DTC203ZZM,778,DL13 S 3830,Driver,Hauz Khas,20:42:02,00:42:02
+Falak Walla,DTC491CCT,778,DL13 S 3830,Conductor,Hauz Khas,20:42:02,00:42:02
+Jagat Kulkarni,DTC579CUJ,101,DL71 S 1947,Driver,Hauz Khas,03:10:41,05:10:41
+Gabriel Devi,DTC966WRI,101,DL71 S 1947,Conductor,Hauz Khas,03:10:41,05:10:41
+Upkaar Deshpande,DTC966QLG,329,DL71 S 8909,Driver,Nehru Place,23:50:53,03:50:53
+Andrew Raj,DTC799RIC,329,DL71 S 8909,Conductor,Nehru Place,23:50:53,03:50:53
+Unnati Swaminathan,DTC296NXU,876,DL19 S 2158,Driver,Janakpuri,14:21:26,16:21:26
+Urmi Baral,DTC839INC,876,DL19 S 2158,Conductor,Janakpuri,14:21:26,16:21:26
+Rajata Batra,DTC365ABH,852,DL25 S 3669,Driver,Lajpat Nagar,21:46:49,00:46:49
+Dhruv Loke,DTC615UHU,852,DL25 S 3669,Conductor,Lajpat Nagar,21:46:49,00:46:49
+Dominic Khatri,DTC429TUU,475,DL90 S 3165,Driver,Saket,05:25:05,07:25:05
+Vihaan Bedi,DTC570VRX,475,DL90 S 3165,Conductor,Saket,05:25:05,07:25:05
+Warda Ramanathan,DTC699AXS,470,DL93 S 9341,Driver,Saket,13:30:58,16:30:58
+Daniel Pillai,DTC397XQB,470,DL93 S 9341,Conductor,Saket,13:30:58,16:30:58
+Hitesh Bhandari,DTC508YOJ,996,DL39 S 1913,Driver,Karol Bagh,11:05:14,13:05:14
+Amaira Tailor,DTC817NIQ,996,DL39 S 1913,Conductor,Karol Bagh,11:05:14,13:05:14
+Libni Brahmbhatt,DTC619RAN,990,DL57 S 7821,Driver,Janakpuri,16:32:50,19:32:50
+Bhavika Ratti,DTC602ULR,990,DL57 S 7821,Conductor,Janakpuri,16:32:50,19:32:50
+Maanas Sarma,DTC309WJH,196,DL81 S 1752,Driver,Lajpat Nagar,00:00:20,04:00:20
+Vrinda Krishna,DTC322IIJ,196,DL81 S 1752,Conductor,Lajpat Nagar,00:00:20,04:00:20
+Qushi Kar,DTC736IAM,683,DL43 S 2075,Driver,Rajiv Chowk,00:10:57,05:10:57
+Oni Dixit,DTC608QQO,683,DL43 S 2075,Conductor,Rajiv Chowk,00:10:57,05:10:57
+Vincent Sandhu,DTC644NDP,394,DL11 S 2671,Driver,Nehru Place,04:30:38,07:30:38
+Chavvi Chada,DTC687PRF,394,DL11 S 2671,Conductor,Nehru Place,04:30:38,07:30:38
+Yahvi Thakkar,DTC865GFA,478,DL89 S 6670,Driver,Saket,22:14:49,00:14:49
+Ishani Chowdhury,DTC257XRP,478,DL89 S 6670,Conductor,Saket,22:14:49,00:14:49
+Ishaan Sanghvi,DTC732DGP,279,DL18 S 6694,Driver,Rajiv Chowk,18:40:04,21:40:04
+Aditya Bhatia,DTC637XFJ,279,DL18 S 6694,Conductor,Rajiv Chowk,18:40:04,21:40:04
+Janani Savant,DTC278VVM,217,DL46 S 6075,Driver,Kashmere Gate,07:17:34,09:17:34
+Radhika Gera,DTC150VZI,217,DL46 S 6075,Conductor,Kashmere Gate,07:17:34,09:17:34
+Baghyawati Bedi,DTC864OMZ,699,DL67 S 6773,Driver,AIIMS,04:41:34,08:41:34
+Jagvi Lanka,DTC445QOW,699,DL67 S 6773,Conductor,AIIMS,04:41:34,08:41:34
+Unnati Kumar,DTC497ILJ,657,DL38 S 1606,Driver,Hauz Khas,10:04:29,12:04:29
+Geetika Khalsa,DTC307JFY,657,DL38 S 1606,Conductor,Hauz Khas,10:04:29,12:04:29
+Ikshita Magar,DTC232KIY,243,DL96 S 5420,Driver,Janakpuri,18:37:54,23:37:54
+Netra Choudhury,DTC651VMC,243,DL96 S 5420,Conductor,Janakpuri,18:37:54,23:37:54
+Yochana Minhas,DTC610GAA,803,DL38 S 1049,Driver,Nehru Place,15:28:03,19:28:03
+Waida Mahajan,DTC800XIR,803,DL38 S 1049,Conductor,Nehru Place,15:28:03,19:28:03
+Wazir Kothari,DTC912NVY,304,DL88 S 1439,Driver,Lajpat Nagar,13:13:15,17:13:15
+Damyanti Goyal,DTC731BEP,304,DL88 S 1439,Conductor,Lajpat Nagar,13:13:15,17:13:15
+Vamakshi Batra,DTC376UYI,375,DL64 S 8650,Driver,Saket,21:48:40,23:48:40
+Kala Issac,DTC532YHR,375,DL64 S 8650,Conductor,Saket,21:48:40,23:48:40
+Fariq Shenoy,DTC754SXG,192,DL43 S 1287,Driver,Janakpuri,14:29:39,17:29:39
+Krishna Shan,DTC254LAN,192,DL43 S 1287,Conductor,Janakpuri,14:29:39,17:29:39
+Kamya Brahmbhatt,DTC128MFR,500,DL81 S 6671,Driver,Janakpuri,06:12:18,10:12:18
+Dalbir Bhattacharyya,DTC727EOL,500,DL81 S 6671,Conductor,Janakpuri,06:12:18,10:12:18
+Oscar Sampath,DTC441IGD,623,DL40 S 8139,Driver,Rajiv Chowk,12:50:26,17:50:26
+Ikbal Narain,DTC624QWA,623,DL40 S 8139,Conductor,Rajiv Chowk,12:50:26,17:50:26
+Ishaan Hora,DTC632YKZ,792,DL21 S 3658,Driver,Karol Bagh,22:14:01,02:14:01
+Tarak Bumb,DTC421YTW,792,DL21 S 3658,Conductor,Karol Bagh,22:14:01,02:14:01
+Sathvik Butala,DTC749SLP,923,DL41 S 2779,Driver,Janakpuri,01:22:25,05:22:25
+Aarnav Rattan,DTC631FGX,923,DL41 S 2779,Conductor,Janakpuri,01:22:25,05:22:25
+Dayita Keer,DTC983WXY,173,DL53 S 3842,Driver,Janakpuri,16:37:39,19:37:39
+Naveen Baria,DTC367PSQ,173,DL53 S 3842,Conductor,Janakpuri,16:37:39,19:37:39
+Deepa Mandal,DTC265ZDE,861,DL65 S 8430,Driver,AIIMS,23:53:14,04:53:14
+Yagnesh Batra,DTC116FSI,861,DL65 S 8430,Conductor,AIIMS,23:53:14,04:53:14
+Chandani Pandya,DTC182GKS,584,DL60 S 5315,Driver,Lajpat Nagar,19:32:16,23:32:16
+Gagan Zachariah,DTC138NMV,584,DL60 S 5315,Conductor,Lajpat Nagar,19:32:16,23:32:16
+Zaitra Devan,DTC346UEK,330,DL72 S 8241,Driver,Lajpat Nagar,16:47:40,18:47:40
+Aryan Pall,DTC474PZW,330,DL72 S 8241,Conductor,Lajpat Nagar,16:47:40,18:47:40
+Sai Chander,DTC993JQO,888,DL91 S 7115,Driver,Karol Bagh,01:39:30,04:39:30
+Thomas Bora,DTC353FOB,888,DL91 S 7115,Conductor,Karol Bagh,01:39:30,04:39:30
+Sudiksha Khalsa,DTC866RJD,362,DL27 S 1935,Driver,Rajiv Chowk,21:23:02,00:23:02
+Logan Mallick,DTC356EYA,362,DL27 S 1935,Conductor,Rajiv Chowk,21:23:02,00:23:02
+Pavani Bhagat,DTC156CNX,755,DL60 S 2194,Driver,Hauz Khas,08:08:05,10:08:05
+Maya Kumer,DTC895QLV,755,DL60 S 2194,Conductor,Hauz Khas,08:08:05,10:08:05
+Aarnav Dixit,DTC964CBA,374,DL39 S 9129,Driver,Sarojini Nagar,19:51:37,00:51:37
+David Grewal,DTC283XXG,374,DL39 S 9129,Conductor,Sarojini Nagar,19:51:37,00:51:37
+Ojas Patla,DTC663AUL,350,DL93 S 6573,Driver,Hauz Khas,21:47:28,01:47:28
+Yauvani Khare,DTC577WZL,350,DL93 S 6573,Conductor,Hauz Khas,21:47:28,01:47:28
+Amol Rajagopalan,DTC712ARA,167,DL17 S 5031,Driver,Sarojini Nagar,23:58:09,04:58:09
+Qabil Sahota,DTC656OOF,167,DL17 S 5031,Conductor,Sarojini Nagar,23:58:09,04:58:09
+Ikshita Sen,DTC754XSC,779,DL47 S 7425,Driver,Sarojini Nagar,03:00:40,08:00:40
+Irya Narula,DTC715IYC,779,DL47 S 7425,Conductor,Sarojini Nagar,03:00:40,08:00:40
+Aditya Brahmbhatt,DTC159XGU,162,DL53 S 3660,Driver,Lajpat Nagar,11:03:52,15:03:52
+Dev Chaudhari,DTC968ZID,162,DL53 S 3660,Conductor,Lajpat Nagar,11:03:52,15:03:52
+Ridhi Lata,DTC670NZA,965,DL63 S 6311,Driver,AIIMS,15:47:40,18:47:40
+Ucchal Singh,DTC201DGH,965,DL63 S 6311,Conductor,AIIMS,15:47:40,18:47:40
+Tamanna Bali,DTC191IRN,120,DL41 S 9051,Driver,Rajiv Chowk,04:57:01,09:57:01
+Yasti Banik,DTC284VMO,120,DL41 S 9051,Conductor,Rajiv Chowk,04:57:01,09:57:01
+Fitan Mahal,DTC218IIL,525,DL88 S 7269,Driver,Rajiv Chowk,04:54:38,09:54:38
+Devansh Pandey,DTC356CPN,525,DL88 S 7269,Conductor,Rajiv Chowk,04:54:38,09:54:38
+Theodore Mistry,DTC183FEV,914,DL93 S 5287,Driver,Nehru Place,16:05:04,21:05:04
+Wakeeta Krishna,DTC899DCS,914,DL93 S 5287,Conductor,Nehru Place,16:05:04,21:05:04
+Ansh Kannan,DTC404TAY,195,DL83 S 2534,Driver,AIIMS,13:21:26,16:21:26
+Yachana Kohli,DTC296GOZ,195,DL83 S 2534,Conductor,AIIMS,13:21:26,16:21:26
+Warjas Konda,DTC972UMA,215,DL84 S 9022,Driver,AIIMS,23:57:15,01:57:15
+Yashodhara Cherian,DTC642BPF,215,DL84 S 9022,Conductor,AIIMS,23:57:15,01:57:15
+Nihal Dubey,DTC878POX,673,DL35 S 8977,Driver,Nehru Place,14:24:36,16:24:36
+Sanaya Sodhi,DTC703PVB,673,DL35 S 8977,Conductor,Nehru Place,14:24:36,16:24:36
+Gayathri Gokhale,DTC379NAX,867,DL72 S 7028,Driver,Kashmere Gate,14:23:08,19:23:08
+Mohini Bumb,DTC885IML,867,DL72 S 7028,Conductor,Kashmere Gate,14:23:08,19:23:08
+Raghav Mani,DTC388JYU,664,DL56 S 6227,Driver,Kashmere Gate,16:29:47,18:29:47
+Inaya Narula,DTC594WTR,664,DL56 S 6227,Conductor,Kashmere Gate,16:29:47,18:29:47
+Oliver Trivedi,DTC657NOW,553,DL61 S 2455,Driver,Rajiv Chowk,22:46:45,01:46:45
+Omisha Chacko,DTC697WPZ,553,DL61 S 2455,Conductor,Rajiv Chowk,22:46:45,01:46:45
+Zaid Kamdar,DTC244PNP,915,DL77 S 5000,Driver,Rajiv Chowk,06:50:01,11:50:01
+Madhav Ganesan,DTC119LIS,915,DL77 S 5000,Conductor,Rajiv Chowk,06:50:01,11:50:01
+Umang Mishra,DTC259CNW,377,DL38 S 8874,Driver,Sarojini Nagar,15:04:49,18:04:49
+Karan Walla,DTC101OJD,377,DL38 S 8874,Conductor,Sarojini Nagar,15:04:49,18:04:49
+Yashica Ramaswamy,DTC856IER,703,DL23 S 5599,Driver,Kashmere Gate,19:26:03,21:26:03
+Darsh Comar,DTC954ITN,703,DL23 S 5599,Conductor,Kashmere Gate,19:26:03,21:26:03
+Radha Morar,DTC685ECW,309,DL48 S 1720,Driver,AIIMS,12:54:26,14:54:26
+Shivansh Wali,DTC422TDT,309,DL48 S 1720,Conductor,AIIMS,12:54:26,14:54:26
+Unnati Salvi,DTC300MKZ,648,DL42 S 4669,Driver,Sarojini Nagar,15:47:51,17:47:51
+Faraj Suri,DTC575RAP,648,DL42 S 4669,Conductor,Sarojini Nagar,15:47:51,17:47:51
+Hitesh Sankar,DTC564WGV,787,DL42 S 7650,Driver,Karol Bagh,05:22:26,07:22:26
+Upma Murthy,DTC680LLE,787,DL42 S 7650,Conductor,Karol Bagh,05:22:26,07:22:26
+Yashvi Balasubramanian,DTC680HDG,983,DL59 S 2137,Driver,Karol Bagh,23:47:35,02:47:35
+Abeer Acharya,DTC544KEU,983,DL59 S 2137,Conductor,Karol Bagh,23:47:35,02:47:35
+Girish Rai,DTC786DGH,297,DL69 S 5444,Driver,Karol Bagh,16:20:19,19:20:19
+Hemal Iyer,DTC125KPF,297,DL69 S 5444,Conductor,Karol Bagh,16:20:19,19:20:19
+Ayaan Ben,DTC784EXE,776,DL94 S 7520,Driver,Janakpuri,16:18:42,21:18:42
+Ayaan Kara,DTC454PDE,776,DL94 S 7520,Conductor,Janakpuri,16:18:42,21:18:42
+Charita Ahluwalia,DTC648KWS,791,DL65 S 1715,Driver,Hauz Khas,19:39:17,23:39:17
+Tristan Merchant,DTC472NEK,791,DL65 S 1715,Conductor,Hauz Khas,19:39:17,23:39:17
+Naksh Mann,DTC575JBJ,629,DL28 S 2763,Driver,Sarojini Nagar,12:40:26,14:40:26
+Amruta Behl,DTC917NZW,629,DL28 S 2763,Conductor,Sarojini Nagar,12:40:26,14:40:26
+Dayita Mitra,DTC129XWV,215,DL40 S 4325,Driver,Saket,12:57:03,14:57:03
+Vedant Sastry,DTC662MTJ,215,DL40 S 4325,Conductor,Saket,12:57:03,14:57:03
+Jack Borde,DTC312WSL,604,DL50 S 5437,Driver,AIIMS,00:26:13,03:26:13
+Dakshesh Khalsa,DTC816WZH,604,DL50 S 5437,Conductor,AIIMS,00:26:13,03:26:13
+Dalaja Walla,DTC168SUT,929,DL11 S 7606,Driver,Lajpat Nagar,18:07:14,20:07:14
+Nitara Yogi,DTC241IKI,929,DL11 S 7606,Conductor,Lajpat Nagar,18:07:14,20:07:14
+Maanas Nayak,DTC266CZJ,577,DL12 S 4041,Driver,AIIMS,05:22:34,10:22:34
+Ishani Sarin,DTC204RXV,577,DL12 S 4041,Conductor,AIIMS,05:22:34,10:22:34
+Chakrika Dhaliwal,DTC797PVI,127,DL21 S 2355,Driver,Hauz Khas,00:23:00,04:23:00
+Falak Som,DTC504HYX,127,DL21 S 2355,Conductor,Hauz Khas,00:23:00,04:23:00
+Idika Lad,DTC691LIE,481,DL81 S 7347,Driver,Janakpuri,18:49:36,22:49:36
+Amaira Solanki,DTC278FWV,481,DL81 S 7347,Conductor,Janakpuri,18:49:36,22:49:36
+Bishakha Mistry,DTC168WPS,304,DL99 S 7098,Driver,Hauz Khas,17:07:33,20:07:33
+Janani Manda,DTC796OID,304,DL99 S 7098,Conductor,Hauz Khas,17:07:33,20:07:33
+Aarini Oza,DTC536FGI,969,DL76 S 2693,Driver,Saket,20:03:46,23:03:46
+Farhan Narasimhan,DTC903LKS,969,DL76 S 2693,Conductor,Saket,20:03:46,23:03:46
+Vrinda Deshmukh,DTC993RLC,538,DL63 S 3162,Driver,Hauz Khas,17:31:48,22:31:48
+Watika Keer,DTC500XMW,538,DL63 S 3162,Conductor,Hauz Khas,17:31:48,22:31:48
+Tripti Sarkar,DTC791BMV,614,DL77 S 8794,Driver,Nehru Place,16:02:40,20:02:40
+Netra Reddy,DTC518SKF,614,DL77 S 8794,Conductor,Nehru Place,16:02:40,20:02:40
+Lajita Kale,DTC286XSE,450,DL70 S 3918,Driver,Janakpuri,21:28:21,23:28:21
+Wazir Rege,DTC804AWW,450,DL70 S 3918,Conductor,Janakpuri,21:28:21,23:28:21
+Laksh Sidhu,DTC109NVF,416,DL21 S 7302,Driver,Saket,20:12:16,23:12:16
+Dayita Ganesh,DTC316AHI,416,DL21 S 7302,Conductor,Saket,20:12:16,23:12:16
+Hredhaan Singh,DTC311XWM,362,DL14 S 5896,Driver,Saket,07:02:38,09:02:38
+Ria Joshi,DTC531NKE,362,DL14 S 5896,Conductor,Saket,07:02:38,09:02:38
+Onkar Dube,DTC882NBB,705,DL68 S 2346,Driver,Sarojini Nagar,22:27:10,00:27:10
+Wyatt Iyengar,DTC162DDX,705,DL68 S 2346,Conductor,Sarojini Nagar,22:27:10,00:27:10
+Sarthak Pall,DTC493MAL,926,DL14 S 4124,Driver,Lajpat Nagar,21:23:45,02:23:45
+Rushil Shukla,DTC811FVU,926,DL14 S 4124,Conductor,Lajpat Nagar,21:23:45,02:23:45
+Radha Bhardwaj,DTC148YKB,230,DL25 S 3236,Driver,Sarojini Nagar,21:37:17,23:37:17
+Hredhaan Nazareth,DTC584ZTG,230,DL25 S 3236,Conductor,Sarojini Nagar,21:37:17,23:37:17
+Xiti Shere,DTC857YQE,174,DL49 S 8595,Driver,Saket,04:52:26,06:52:26
+Matthew Chand,DTC512OOF,174,DL49 S 8595,Conductor,Saket,04:52:26,06:52:26
+Ansh Ramesh,DTC770QTO,792,DL53 S 2831,Driver,Lajpat Nagar,19:53:42,21:53:42
+Quincy Khare,DTC126ZYZ,792,DL53 S 2831,Conductor,Lajpat Nagar,19:53:42,21:53:42
+Yashica Vasa,DTC427XUQ,299,DL71 S 9624,Driver,Janakpuri,12:50:01,15:50:01
+Radha Murty,DTC410RLR,299,DL71 S 9624,Conductor,Janakpuri,12:50:01,15:50:01
+Baghyawati Chakrabarti,DTC440GPN,926,DL57 S 7849,Driver,Karol Bagh,22:31:26,01:31:26
+Yashvi Gade,DTC878MWL,926,DL57 S 7849,Conductor,Karol Bagh,22:31:26,01:31:26
+Oliver Chander,DTC143HOU,527,DL99 S 2587,Driver,Rajiv Chowk,19:18:50,23:18:50
+Yadavi Yadav,DTC398ORY,527,DL99 S 2587,Conductor,Rajiv Chowk,19:18:50,23:18:50
+Jack Kashyap,DTC303UBU,390,DL51 S 1941,Driver,Kashmere Gate,01:00:33,03:00:33
+Matthew Wable,DTC125MQA,390,DL51 S 1941,Conductor,Kashmere Gate,01:00:33,03:00:33
+Chakradev Bhakta,DTC351UMP,409,DL28 S 4941,Driver,Karol Bagh,17:24:39,22:24:39
+Lipika Issac,DTC107IBE,409,DL28 S 4941,Conductor,Karol Bagh,17:24:39,22:24:39
+Kamala Tandon,DTC540ZSE,586,DL43 S 2360,Driver,Lajpat Nagar,19:30:27,23:30:27
+Vedant Chowdhury,DTC361VHD,586,DL43 S 2360,Conductor,Lajpat Nagar,19:30:27,23:30:27
+Chatura Sarin,DTC753YIF,311,DL79 S 5559,Driver,Kashmere Gate,01:29:41,05:29:41
+Netra Bhatti,DTC471TYI,311,DL79 S 5559,Conductor,Kashmere Gate,01:29:41,05:29:41
+Sneha Guha,DTC872BOJ,228,DL63 S 5031,Driver,Kashmere Gate,17:23:53,22:23:53
+Nidhi Sarraf,DTC201UKA,228,DL63 S 5031,Conductor,Kashmere Gate,17:23:53,22:23:53
+Mitali Kumer,DTC716MDT,766,DL23 S 8544,Driver,Rajiv Chowk,15:58:52,17:58:52
+Ladli Palla,DTC464JOL,766,DL23 S 8544,Conductor,Rajiv Chowk,15:58:52,17:58:52
+Chasmum Bawa,DTC627HRE,438,DL86 S 6923,Driver,Sarojini Nagar,08:31:25,12:31:25
+Andrew Narula,DTC378CGN,438,DL86 S 6923,Conductor,Sarojini Nagar,08:31:25,12:31:25
+Charan Dutt,DTC271LSW,435,DL62 S 7656,Driver,Rajiv Chowk,16:16:40,18:16:40
+Lajita Aurora,DTC152DIU,435,DL62 S 7656,Conductor,Rajiv Chowk,16:16:40,18:16:40
+Xiti Ray,DTC467RZA,140,DL53 S 5795,Driver,Nehru Place,17:35:07,21:35:07
+Timothy Gill,DTC837RTQ,140,DL53 S 5795,Conductor,Nehru Place,17:35:07,21:35:07
+Anusha Bal,DTC989UHY,320,DL46 S 8468,Driver,Saket,02:20:05,07:20:05
+Inaya Dewan,DTC965PDF,320,DL46 S 8468,Conductor,Saket,02:20:05,07:20:05
+Jagvi Bahl,DTC591DSV,962,DL16 S 2275,Driver,Nehru Place,16:38:33,19:38:33
+Forum Andra,DTC511ZBO,962,DL16 S 2275,Conductor,Nehru Place,16:38:33,19:38:33
+Sathvik Bath,DTC978DGN,509,DL21 S 8885,Driver,Nehru Place,05:39:52,07:39:52
+Alexander Ramaswamy,DTC980JNF,509,DL21 S 8885,Conductor,Nehru Place,05:39:52,07:39:52
+Parth Raj,DTC816IKP,324,DL78 S 3814,Driver,Rajiv Chowk,02:35:54,04:35:54
+Ubika Nayar,DTC577EJF,324,DL78 S 3814,Conductor,Rajiv Chowk,02:35:54,04:35:54
+Kavya Bhalla,DTC601OHM,786,DL18 S 1008,Driver,Kashmere Gate,04:16:03,06:16:03
+Daksh Dara,DTC979BWA,786,DL18 S 1008,Conductor,Kashmere Gate,04:16:03,06:16:03
+Anmol Bhagat,DTC674SQT,151,DL79 S 9506,Driver,Rajiv Chowk,17:39:08,21:39:08
+Gagan Mistry,DTC409EUJ,151,DL79 S 9506,Conductor,Rajiv Chowk,17:39:08,21:39:08
+Vivaan Balay,DTC378GVG,767,DL40 S 6863,Driver,Nehru Place,19:37:11,22:37:11
+Yatan Kannan,DTC444VKO,767,DL40 S 6863,Conductor,Nehru Place,19:37:11,22:37:11
+Wridesh Brahmbhatt,DTC528IZB,855,DL67 S 4499,Driver,Kashmere Gate,02:00:56,06:00:56
+Aashi Dugal,DTC582OSM,855,DL67 S 4499,Conductor,Kashmere Gate,02:00:56,06:00:56
+Chakrika Gara,DTC461XXU,751,DL13 S 4442,Driver,Saket,02:00:21,05:00:21
+Zansi Kar,DTC804MDV,751,DL13 S 4442,Conductor,Saket,02:00:21,05:00:21
+Rudra Ghosh,DTC247SRN,958,DL90 S 4250,Driver,Janakpuri,08:16:45,10:16:45
+Nihal Puri,DTC147HJT,958,DL90 S 4250,Conductor,Janakpuri,08:16:45,10:16:45
+Upadhriti Andra,DTC424TKJ,796,DL38 S 3646,Driver,Nehru Place,11:21:39,15:21:39
+Manthan Khanna,DTC574IBX,796,DL38 S 3646,Conductor,Nehru Place,11:21:39,15:21:39
+Xiti Bail,DTC366FNA,748,DL29 S 4166,Driver,Karol Bagh,01:08:47,05:08:47
+Turvi Butala,DTC868IFS,748,DL29 S 4166,Conductor,Karol Bagh,01:08:47,05:08:47
+Dominic Rama,DTC838AVW,453,DL38 S 6081,Driver,Rajiv Chowk,15:01:18,18:01:18
+Upasna Boase,DTC315ISG,453,DL38 S 6081,Conductor,Rajiv Chowk,15:01:18,18:01:18
+Devika Lalla,DTC982OOM,546,DL26 S 5633,Driver,Saket,11:28:44,15:28:44
+Darika Kamdar,DTC429ALO,546,DL26 S 5633,Conductor,Saket,11:28:44,15:28:44
+Zehaan Sengupta,DTC858TWA,669,DL18 S 9916,Driver,Lajpat Nagar,17:16:44,19:16:44
+Rayaan Ranganathan,DTC666DRR,669,DL18 S 9916,Conductor,Lajpat Nagar,17:16:44,19:16:44
+Farhan Goswami,DTC208BVG,136,DL95 S 9342,Driver,Hauz Khas,01:20:16,05:20:16
+Azaan Lala,DTC521CWA,136,DL95 S 9342,Conductor,Hauz Khas,01:20:16,05:20:16
+Aachal Luthra,DTC155VEU,638,DL54 S 7310,Driver,Kashmere Gate,13:25:32,18:25:32
+Hemang Madan,DTC686RBF,638,DL54 S 7310,Conductor,Kashmere Gate,13:25:32,18:25:32
+Nitara Soni,DTC384OZU,820,DL72 S 3665,Driver,Rajiv Chowk,13:21:11,17:21:11
+Ijaya Khare,DTC980NXD,820,DL72 S 3665,Conductor,Rajiv Chowk,13:21:11,17:21:11
+Anusha Ratti,DTC926QBR,360,DL18 S 4058,Driver,Rajiv Chowk,04:26:51,07:26:51
+Om Zachariah,DTC837QPX,360,DL18 S 4058,Conductor,Rajiv Chowk,04:26:51,07:26:51
+Lakshmi Johal,DTC746YPV,938,DL98 S 1117,Driver,Saket,08:32:16,11:32:16
+Ganga Natt,DTC874KFK,938,DL98 S 1117,Conductor,Saket,08:32:16,11:32:16
+Jatin Bala,DTC804VIM,425,DL78 S 4916,Driver,Lajpat Nagar,17:27:52,21:27:52
+Luke Balasubramanian,DTC269KGI,425,DL78 S 4916,Conductor,Lajpat Nagar,17:27:52,21:27:52
+Balvan Bal,DTC952KCK,857,DL17 S 1592,Driver,Sarojini Nagar,09:44:19,11:44:19
+Vincent Bumb,DTC942EMI,857,DL17 S 1592,Conductor,Sarojini Nagar,09:44:19,11:44:19
+Mitali Rana,DTC392APX,223,DL21 S 7695,Driver,Karol Bagh,16:51:25,18:51:25
+Pooja Tata,DTC653SEX,223,DL21 S 7695,Conductor,Karol Bagh,16:51:25,18:51:25
+Luke Krish,DTC248PDX,390,DL72 S 5094,Driver,Sarojini Nagar,11:01:03,15:01:03
+Manan Varughese,DTC740ERZ,390,DL72 S 5094,Conductor,Sarojini Nagar,11:01:03,15:01:03
+Libni Hari,DTC356UZP,104,DL11 S 6691,Driver,Saket,18:23:42,20:23:42
+Jacob Andra,DTC167BNY,104,DL11 S 6691,Conductor,Saket,18:23:42,20:23:42
+Yuvraj Amble,DTC498AAY,848,DL39 S 7308,Driver,Rajiv Chowk,11:21:24,15:21:24
+Atharv Tara,DTC594DJU,848,DL39 S 7308,Conductor,Rajiv Chowk,11:21:24,15:21:24
+Arjun Raghavan,DTC923XBB,204,DL24 S 5487,Driver,Karol Bagh,04:49:58,07:49:58
+Balveer Mohan,DTC506GAE,204,DL24 S 5487,Conductor,Karol Bagh,04:49:58,07:49:58
+Falak Mander,DTC413WRP,468,DL68 S 2629,Driver,AIIMS,05:57:53,07:57:53
+Nirja Bhardwaj,DTC634MJS,468,DL68 S 2629,Conductor,AIIMS,05:57:53,07:57:53
+Nathaniel Suri,DTC248UZD,603,DL33 S 1556,Driver,Sarojini Nagar,05:12:21,07:12:21
+David Gera,DTC353TDG,603,DL33 S 1556,Conductor,Sarojini Nagar,05:12:21,07:12:21
+Ira Madan,DTC394IZW,630,DL80 S 3936,Driver,AIIMS,17:57:31,20:57:31
+Fariq Gaba,DTC787YRE,630,DL80 S 3936,Conductor,AIIMS,17:57:31,20:57:31
+Chatresh Dyal,DTC102VUZ,804,DL58 S 7484,Driver,Hauz Khas,12:09:32,14:09:32
+Udyati Rege,DTC346PFD,804,DL58 S 7484,Conductor,Hauz Khas,12:09:32,14:09:32
+Anusha Narain,DTC941XIH,281,DL85 S 7934,Driver,Rajiv Chowk,15:58:04,17:58:04
+Anjali Dugar,DTC639BYC,281,DL85 S 7934,Conductor,Rajiv Chowk,15:58:04,17:58:04
+Rayaan Varkey,DTC700FCD,953,DL71 S 1857,Driver,Sarojini Nagar,06:23:54,09:23:54
+Ryan Dixit,DTC999NHZ,953,DL71 S 1857,Conductor,Sarojini Nagar,06:23:54,09:23:54
+Vidhi Taneja,DTC400ZDW,629,DL18 S 6410,Driver,Janakpuri,15:02:06,19:02:06
+Ansh Naidu,DTC457ZSG,629,DL18 S 6410,Conductor,Janakpuri,15:02:06,19:02:06
+Praneel Hari,DTC482SFP,320,DL63 S 3114,Driver,Kashmere Gate,14:31:26,18:31:26
+Onkar Dave,DTC284YSG,320,DL63 S 3114,Conductor,Kashmere Gate,14:31:26,18:31:26
+Rajata Garg,DTC734LNO,760,DL11 S 9386,Driver,Sarojini Nagar,13:56:35,18:56:35
+Gautam Pillay,DTC540PXM,760,DL11 S 9386,Conductor,Sarojini Nagar,13:56:35,18:56:35
+Lipika Mukherjee,DTC673WNZ,970,DL18 S 7863,Driver,AIIMS,22:00:08,01:00:08
+Pahal Yohannan,DTC755LLU,970,DL18 S 7863,Conductor,AIIMS,22:00:08,01:00:08
+Thomas Munshi,DTC291AHR,991,DL68 S 1450,Driver,Kashmere Gate,09:33:39,13:33:39
+Mekhala Ganesh,DTC506AOE,991,DL68 S 1450,Conductor,Kashmere Gate,09:33:39,13:33:39
+Tamanna Ram,DTC971GBW,110,DL89 S 7403,Driver,Janakpuri,05:15:49,09:15:49
+Orinder Mannan,DTC958BIV,110,DL89 S 7403,Conductor,Janakpuri,05:15:49,09:15:49
+Manan Padmanabhan,DTC599KEK,271,DL94 S 9922,Driver,Rajiv Chowk,18:10:02,23:10:02
+Nirja Lad,DTC352YIG,271,DL94 S 9922,Conductor,Rajiv Chowk,18:10:02,23:10:02
+Bhavani Dutt,DTC345UFC,998,DL62 S 9043,Driver,Nehru Place,14:36:18,19:36:18
+Inaya Datta,DTC824LZN,998,DL62 S 9043,Conductor,Nehru Place,14:36:18,19:36:18
+Faqid Krishnamurthy,DTC614KBH,961,DL42 S 1814,Driver,Rajiv Chowk,01:21:37,06:21:37
+Ishwar Sant,DTC822IAY,961,DL42 S 1814,Conductor,Rajiv Chowk,01:21:37,06:21:37
+Vidhi Kanda,DTC324YEL,659,DL74 S 4910,Driver,Sarojini Nagar,08:46:28,12:46:28
+Damini Yogi,DTC805YUX,659,DL74 S 4910,Conductor,Sarojini Nagar,08:46:28,12:46:28
+Yauvani Nigam,DTC892SUO,628,DL87 S 4478,Driver,AIIMS,22:51:20,02:51:20
+Ucchal Deshmukh,DTC591MGP,628,DL87 S 4478,Conductor,AIIMS,22:51:20,02:51:20
+Akshay Dewan,DTC202VRX,204,DL26 S 7977,Driver,Hauz Khas,02:25:07,07:25:07
+Saumya Kumar,DTC611GEH,204,DL26 S 7977,Conductor,Hauz Khas,02:25:07,07:25:07
+Faras Mutti,DTC364OHU,367,DL99 S 3925,Driver,Janakpuri,10:14:55,12:14:55
+Fiyaz Datta,DTC338UDD,367,DL99 S 3925,Conductor,Janakpuri,10:14:55,12:14:55
+Yoshita Dani,DTC419UJE,488,DL68 S 4339,Driver,Hauz Khas,21:12:20,01:12:20
+Zarna Sarna,DTC912IHG,488,DL68 S 4339,Conductor,Hauz Khas,21:12:20,01:12:20
+Dev Hayre,DTC649UAV,110,DL79 S 4504,Driver,Rajiv Chowk,19:19:25,21:19:25
+Isaac Cheema,DTC842ETW,110,DL79 S 4504,Conductor,Rajiv Chowk,19:19:25,21:19:25
+Jeevika Sethi,DTC924MPP,957,DL18 S 7339,Driver,AIIMS,13:37:34,16:37:34
+Hredhaan Tailor,DTC706FUB,957,DL18 S 7339,Conductor,AIIMS,13:37:34,16:37:34
+Anirudh Gaba,DTC514INT,557,DL19 S 7882,Driver,AIIMS,21:22:41,02:22:41
+Vinaya Majumdar,DTC609DRZ,557,DL19 S 7882,Conductor,AIIMS,21:22:41,02:22:41
+Chaitanya Borah,DTC244QTN,925,DL59 S 5960,Driver,Karol Bagh,00:55:42,04:55:42
+Rudra Atwal,DTC767VLT,925,DL59 S 5960,Conductor,Karol Bagh,00:55:42,04:55:42
+Logan Chacko,DTC250LOT,412,DL99 S 3263,Driver,Lajpat Nagar,07:11:08,11:11:08
+Kiaan Karan,DTC335XSH,412,DL99 S 3263,Conductor,Lajpat Nagar,07:11:08,11:11:08
+George Mitter,DTC238YYX,918,DL79 S 4240,Driver,Lajpat Nagar,07:44:15,11:44:15
+Harita Deo,DTC432IPB,918,DL79 S 4240,Conductor,Lajpat Nagar,07:44:15,11:44:15
+Robert Borra,DTC626IER,581,DL80 S 8559,Driver,Karol Bagh,07:56:18,11:56:18
+Harini Boase,DTC206VHP,581,DL80 S 8559,Conductor,Karol Bagh,07:56:18,11:56:18
+Rachita Nazareth,DTC941MEC,306,DL71 S 9047,Driver,Karol Bagh,11:26:13,16:26:13
+Kalpit Kibe,DTC889PKK,306,DL71 S 9047,Conductor,Karol Bagh,11:26:13,16:26:13
+Hemangini Prashad,DTC583VXY,956,DL27 S 3787,Driver,Saket,04:57:55,09:57:55
+Oviya Bir,DTC422AEZ,956,DL27 S 3787,Conductor,Saket,04:57:55,09:57:55
+Amruta Khatri,DTC896KIO,212,DL86 S 7739,Driver,AIIMS,01:13:47,04:13:47
+Faras Kar,DTC859MIU,212,DL86 S 7739,Conductor,AIIMS,01:13:47,04:13:47
+Faris Shan,DTC478JPM,837,DL19 S 3172,Driver,Nehru Place,19:29:01,22:29:01
+Wahab Dave,DTC575HBX,837,DL19 S 3172,Conductor,Nehru Place,19:29:01,22:29:01
+Raksha Joshi,DTC156DHF,909,DL52 S 9039,Driver,Nehru Place,10:02:23,12:02:23
+Hredhaan Chana,DTC104BHC,909,DL52 S 9039,Conductor,Nehru Place,10:02:23,12:02:23
+Yashasvi Buch,DTC379QPF,944,DL66 S 4929,Driver,AIIMS,16:49:20,19:49:20
+Neelima Viswanathan,DTC904GJU,944,DL66 S 4929,Conductor,AIIMS,16:49:20,19:49:20
+Brijesh Baral,DTC510ETG,276,DL52 S 3157,Driver,Nehru Place,21:40:34,02:40:34
+Rachit Hari,DTC594QUD,276,DL52 S 3157,Conductor,Nehru Place,21:40:34,02:40:34
+Dalaja Lad,DTC350BLB,256,DL53 S 6674,Driver,Sarojini Nagar,11:43:46,14:43:46
+Matthew Puri,DTC197CAG,256,DL53 S 6674,Conductor,Sarojini Nagar,11:43:46,14:43:46
+Yutika Krishnamurthy,DTC846FIX,211,DL25 S 5315,Driver,Hauz Khas,22:02:19,01:02:19
+Advaith Gandhi,DTC269IHU,211,DL25 S 5315,Conductor,Hauz Khas,22:02:19,01:02:19
+Arjun Yohannan,DTC737FOY,368,DL11 S 7920,Driver,Karol Bagh,03:35:36,07:35:36
+Hemani Khanna,DTC895GZY,368,DL11 S 7920,Conductor,Karol Bagh,03:35:36,07:35:36
+Lekha Bains,DTC962MAD,421,DL37 S 5695,Driver,Lajpat Nagar,06:13:10,08:13:10
+Onkar Solanki,DTC505TLC,421,DL37 S 5695,Conductor,Lajpat Nagar,06:13:10,08:13:10
+Udant Reddy,DTC147EDS,514,DL33 S 8584,Driver,AIIMS,03:06:19,08:06:19
+Divya Sarkar,DTC879FOR,514,DL33 S 8584,Conductor,AIIMS,03:06:19,08:06:19
+Qasim Bhakta,DTC960SIY,424,DL39 S 6928,Driver,Janakpuri,21:19:28,00:19:28
+Bahadurjit Pau,DTC364SGO,424,DL39 S 6928,Conductor,Janakpuri,21:19:28,00:19:28
+Yutika Keer,DTC497INY,487,DL16 S 4517,Driver,Lajpat Nagar,07:32:17,10:32:17
+Aayush Shenoy,DTC359RFU,487,DL16 S 4517,Conductor,Lajpat Nagar,07:32:17,10:32:17
+Harinakshi Thaker,DTC414CJN,494,DL64 S 8083,Driver,Sarojini Nagar,02:41:54,07:41:54
+Pranav Char,DTC672VGE,494,DL64 S 8083,Conductor,Sarojini Nagar,02:41:54,07:41:54
+Kamala Kaur,DTC667IYV,430,DL17 S 4133,Driver,Karol Bagh,02:50:28,07:50:28
+Noah Mukherjee,DTC948WCM,430,DL17 S 4133,Conductor,Karol Bagh,02:50:28,07:50:28
+Hritik Dhawan,DTC531ASO,143,DL53 S 3982,Driver,Janakpuri,11:50:10,13:50:10
+Akshay Dixit,DTC195VVN,143,DL53 S 3982,Conductor,Janakpuri,11:50:10,13:50:10
+Sara Raval,DTC713MFH,310,DL23 S 5848,Driver,Karol Bagh,06:45:10,10:45:10
+Vidhi Bahl,DTC718JXK,310,DL23 S 5848,Conductor,Karol Bagh,06:45:10,10:45:10
+Siddharth Mukhopadhyay,DTC341OMF,531,DL86 S 4889,Driver,Lajpat Nagar,08:34:38,10:34:38
+Mitali Sengupta,DTC865WSH,531,DL86 S 4889,Conductor,Lajpat Nagar,08:34:38,10:34:38
+Gavin Kaul,DTC986KQT,910,DL12 S 5336,Driver,Kashmere Gate,15:31:34,18:31:34
+Radha Kashyap,DTC159SZR,910,DL12 S 5336,Conductor,Kashmere Gate,15:31:34,18:31:34
+Anay Varkey,DTC613QGF,409,DL32 S 9828,Driver,Karol Bagh,05:02:19,08:02:19
+Victor Om,DTC940GZF,409,DL32 S 9828,Conductor,Karol Bagh,05:02:19,08:02:19
+Saksham Halder,DTC866LUX,142,DL22 S 6396,Driver,Karol Bagh,15:35:45,19:35:45
+Yatan Buch,DTC356ASE,142,DL22 S 6396,Conductor,Karol Bagh,15:35:45,19:35:45
+Chaaya Mall,DTC963FTD,252,DL99 S 8961,Driver,Karol Bagh,05:28:21,10:28:21
+Irya Vasa,DTC242MNP,252,DL99 S 8961,Conductor,Karol Bagh,05:28:21,10:28:21
+Chandran Bose,DTC763OMM,648,DL55 S 4472,Driver,Sarojini Nagar,06:58:16,10:58:16
+Ijaya Swaminathan,DTC196MPI,648,DL55 S 4472,Conductor,Sarojini Nagar,06:58:16,10:58:16
+Vasatika Sethi,DTC252SGX,715,DL10 S 7345,Driver,Janakpuri,15:18:48,18:18:48
+Luke Bakshi,DTC645AOJ,715,DL10 S 7345,Conductor,Janakpuri,15:18:48,18:18:48
+Udant Palla,DTC253ZHP,275,DL16 S 3387,Driver,Karol Bagh,15:19:10,17:19:10
+Udant Balasubramanian,DTC213LIT,275,DL16 S 3387,Conductor,Karol Bagh,15:19:10,17:19:10
+Oni Bajwa,DTC267IUN,978,DL33 S 7973,Driver,Rajiv Chowk,20:00:20,23:00:20
+Hardik Kuruvilla,DTC231KII,978,DL33 S 7973,Conductor,Rajiv Chowk,20:00:20,23:00:20
+Aayush Lala,DTC668JSA,331,DL74 S 6750,Driver,Saket,13:41:32,18:41:32
+Jagdish Guha,DTC785LZJ,331,DL74 S 6750,Conductor,Saket,13:41:32,18:41:32
+Ryan Banik,DTC770ZFJ,891,DL86 S 1682,Driver,Janakpuri,07:26:53,09:26:53
+Jackson Ramesh,DTC948OOA,891,DL86 S 1682,Conductor,Janakpuri,07:26:53,09:26:53
+Dominic Dani,DTC728FCM,499,DL13 S 3670,Driver,Rajiv Chowk,09:33:46,11:33:46
+Manya Thakur,DTC590CSM,499,DL13 S 3670,Conductor,Rajiv Chowk,09:33:46,11:33:46
+Harshil Mallick,DTC171FXO,337,DL60 S 5506,Driver,Hauz Khas,04:41:30,08:41:30
+Mitali Seshadri,DTC204XXS,337,DL60 S 5506,Conductor,Hauz Khas,04:41:30,08:41:30
+Aarna Karpe,DTC905BTC,156,DL74 S 9127,Driver,Lajpat Nagar,16:11:00,19:11:00
+Wyatt Raja,DTC630NZR,156,DL74 S 9127,Conductor,Lajpat Nagar,16:11:00,19:11:00
+Sachi Pradhan,DTC143UIA,775,DL31 S 2462,Driver,Rajiv Chowk,03:00:56,06:00:56
+Fitan Atwal,DTC604DOI,775,DL31 S 2462,Conductor,Rajiv Chowk,03:00:56,06:00:56
+Anika Dugal,DTC736JUK,602,DL21 S 6859,Driver,Karol Bagh,08:00:42,10:00:42
+Andrew Chada,DTC932BYV,602,DL21 S 6859,Conductor,Karol Bagh,08:00:42,10:00:42
+Anika Chada,DTC523FZB,103,DL10 S 2676,Driver,Lajpat Nagar,03:26:40,05:26:40
+Jeet Baral,DTC666WFM,103,DL10 S 2676,Conductor,Lajpat Nagar,03:26:40,05:26:40
+Aadi Krish,DTC708UHT,809,DL27 S 4777,Driver,AIIMS,15:15:01,19:15:01
+Mugdha Mahajan,DTC716JWR,809,DL27 S 4777,Conductor,AIIMS,15:15:01,19:15:01
+Kiaan Mahal,DTC973YAC,937,DL45 S 4064,Driver,Saket,10:10:57,13:10:57
+Chavvi Chakraborty,DTC759XJL,937,DL45 S 4064,Conductor,Saket,10:10:57,13:10:57
+Anvi Cherian,DTC140QDI,767,DL83 S 3203,Driver,Nehru Place,19:17:00,22:17:00
+Ekani Sandhu,DTC569YOV,767,DL83 S 3203,Conductor,Nehru Place,19:17:00,22:17:00
+Samarth Basu,DTC862ZGZ,670,DL51 S 5749,Driver,Kashmere Gate,23:48:21,03:48:21
+Nihal Dara,DTC345VFK,670,DL51 S 5749,Conductor,Kashmere Gate,23:48:21,03:48:21
+Jatin Chatterjee,DTC125OVA,531,DL84 S 4907,Driver,Janakpuri,14:55:17,17:55:17
+Rudra Memon,DTC770QWD,531,DL84 S 4907,Conductor,Janakpuri,14:55:17,17:55:17
+Shivani Rege,DTC903EYO,942,DL71 S 5273,Driver,Janakpuri,07:09:41,09:09:41
+Rajata Mane,DTC416WBM,942,DL71 S 5273,Conductor,Janakpuri,07:09:41,09:09:41
+Parth Din,DTC538DTE,676,DL80 S 6849,Driver,Lajpat Nagar,09:58:52,13:58:52
+Eta Viswanathan,DTC649JZG,676,DL80 S 6849,Conductor,Lajpat Nagar,09:58:52,13:58:52
+Jagdish Setty,DTC294LSS,426,DL81 S 5564,Driver,Rajiv Chowk,07:20:10,12:20:10
+Bhavani Bobal,DTC335LWD,426,DL81 S 5564,Conductor,Rajiv Chowk,07:20:10,12:20:10
+Matthew Vora,DTC439INO,522,DL14 S 8999,Driver,Rajiv Chowk,09:41:09,11:41:09
+Rachana Dayal,DTC778XXT,522,DL14 S 8999,Conductor,Rajiv Chowk,09:41:09,11:41:09
+Jagvi Tak,DTC391DVM,870,DL85 S 8264,Driver,Lajpat Nagar,04:18:12,08:18:12
+Rachit Char,DTC856DNL,870,DL85 S 8264,Conductor,Lajpat Nagar,04:18:12,08:18:12
+Gopal Morar,DTC172MHT,421,DL73 S 2689,Driver,Lajpat Nagar,20:39:01,01:39:01
+Jason Dara,DTC721HOT,421,DL73 S 2689,Conductor,Lajpat Nagar,20:39:01,01:39:01
+Riya Kannan,DTC221TST,970,DL93 S 1141,Driver,Karol Bagh,19:23:40,22:23:40
+Ayaan Dada,DTC476CAS,970,DL93 S 1141,Conductor,Karol Bagh,19:23:40,22:23:40
+Qarin Singhal,DTC710BQJ,992,DL64 S 7989,Driver,Lajpat Nagar,11:14:10,14:14:10
+Sanya Sachdev,DTC879NJS,992,DL64 S 7989,Conductor,Lajpat Nagar,11:14:10,14:14:10
+Aryan Nadkarni,DTC196VAQ,743,DL83 S 2112,Driver,Kashmere Gate,05:55:22,07:55:22
+Ekansh Tiwari,DTC307ABG,743,DL83 S 2112,Conductor,Kashmere Gate,05:55:22,07:55:22
+Vamakshi Mukhopadhyay,DTC646TKK,627,DL17 S 4461,Driver,Kashmere Gate,10:21:14,13:21:14
+Reva Vasa,DTC277NNN,627,DL17 S 4461,Conductor,Kashmere Gate,10:21:14,13:21:14
+Niharika Doctor,DTC981SCY,955,DL22 S 4083,Driver,Lajpat Nagar,14:43:04,18:43:04
+Veda Kannan,DTC984SML,955,DL22 S 4083,Conductor,Lajpat Nagar,14:43:04,18:43:04
+Oliver Ravi,DTC708WFC,679,DL65 S 8811,Driver,Rajiv Chowk,19:47:21,22:47:21
+Leena Bail,DTC402NFW,679,DL65 S 8811,Conductor,Rajiv Chowk,19:47:21,22:47:21
+Chavvi Khalsa,DTC279PSQ,303,DL55 S 8860,Driver,Lajpat Nagar,02:29:58,07:29:58
+Samar Pathak,DTC460XUQ,303,DL55 S 8860,Conductor,Lajpat Nagar,02:29:58,07:29:58
+Lila Peri,DTC316BXN,704,DL28 S 3751,Driver,Kashmere Gate,03:35:43,06:35:43
+Dayamai Chaudhry,DTC482NMV,704,DL28 S 3751,Conductor,Kashmere Gate,03:35:43,06:35:43
+Falak Sheth,DTC983BAM,485,DL79 S 5714,Driver,Janakpuri,21:53:25,00:53:25
+Vinaya Bahri,DTC443FXA,485,DL79 S 5714,Conductor,Janakpuri,21:53:25,00:53:25
+Kamala Goda,DTC992RTV,949,DL87 S 5180,Driver,AIIMS,19:30:57,22:30:57
+Bhavika Arya,DTC863FCG,949,DL87 S 5180,Conductor,AIIMS,19:30:57,22:30:57
+Amrita Jha,DTC899LPO,745,DL99 S 4013,Driver,Nehru Place,04:36:10,07:36:10
+Aishani Nazareth,DTC429XZR,745,DL99 S 4013,Conductor,Nehru Place,04:36:10,07:36:10
+Daniel Sarkar,DTC938SXI,232,DL65 S 2908,Driver,Kashmere Gate,12:29:15,16:29:15
+Nidra Goda,DTC794WQT,232,DL65 S 2908,Conductor,Kashmere Gate,12:29:15,16:29:15
+Advaith Chowdhury,DTC585WTJ,734,DL48 S 7505,Driver,Hauz Khas,10:13:18,12:13:18
+Yutika Dhar,DTC537YYE,734,DL48 S 7505,Conductor,Hauz Khas,10:13:18,12:13:18
+Caleb Nagi,DTC320GLS,196,DL32 S 8771,Driver,Sarojini Nagar,13:48:14,18:48:14
+Owen Joshi,DTC757IMS,196,DL32 S 8771,Conductor,Sarojini Nagar,13:48:14,18:48:14
+Chandran Sachar,DTC439VDC,869,DL59 S 4472,Driver,Nehru Place,16:41:43,21:41:43
+Irya Pradhan,DTC997MDN,869,DL59 S 4472,Conductor,Nehru Place,16:41:43,21:41:43
+Bhanumati Agrawal,DTC580CCC,512,DL19 S 3380,Driver,AIIMS,21:36:48,02:36:48
+Edhitha Rau,DTC118KUJ,512,DL19 S 3380,Conductor,AIIMS,21:36:48,02:36:48
+Pallavi Nayak,DTC530VQW,568,DL48 S 4302,Driver,Hauz Khas,20:23:43,01:23:43
+Faqid Brahmbhatt,DTC176HYF,568,DL48 S 4302,Conductor,Hauz Khas,20:23:43,01:23:43
+Naksh Kulkarni,DTC429RRH,661,DL39 S 3172,Driver,Rajiv Chowk,14:20:05,19:20:05
+Hemani Mallick,DTC744ZJB,661,DL39 S 3172,Conductor,Rajiv Chowk,14:20:05,19:20:05
+Aadhya Sandal,DTC379NXF,304,DL52 S 3760,Driver,Hauz Khas,10:25:20,14:25:20
+Kamala Sanghvi,DTC375SMQ,304,DL52 S 3760,Conductor,Hauz Khas,10:25:20,14:25:20
+Aayush Aggarwal,DTC744QFA,880,DL85 S 5096,Driver,AIIMS,14:21:53,18:21:53
+Baljiwan Vig,DTC261XQK,880,DL85 S 5096,Conductor,AIIMS,14:21:53,18:21:53
+Hiral Sodhi,DTC262KYW,392,DL33 S 9637,Driver,Karol Bagh,18:19:47,23:19:47
+Bachittar Batra,DTC291TNF,392,DL33 S 9637,Conductor,Karol Bagh,18:19:47,23:19:47
+Ladli Sachar,DTC696TZI,847,DL98 S 6043,Driver,Rajiv Chowk,10:57:24,15:57:24
+Jai Deep,DTC542XDS,847,DL98 S 6043,Conductor,Rajiv Chowk,10:57:24,15:57:24
+Odika Bhat,DTC514YLM,873,DL22 S 4095,Driver,Sarojini Nagar,03:16:59,08:16:59
+Frado Walla,DTC931WNX,873,DL22 S 4095,Conductor,Sarojini Nagar,03:16:59,08:16:59
+Alexander Anne,DTC335CMC,278,DL52 S 7347,Driver,Nehru Place,17:01:32,19:01:32
+Max Arora,DTC497NEK,278,DL52 S 7347,Conductor,Nehru Place,17:01:32,19:01:32
+Harita Dani,DTC200FXF,698,DL31 S 3296,Driver,Rajiv Chowk,10:32:45,15:32:45
+Samesh Sarraf,DTC203MAZ,698,DL31 S 3296,Conductor,Rajiv Chowk,10:32:45,15:32:45
+Jagdish Warrior,DTC484ZWN,905,DL31 S 1852,Driver,Kashmere Gate,02:53:06,06:53:06
+Yash Kari,DTC258KUW,905,DL31 S 1852,Conductor,Kashmere Gate,02:53:06,06:53:06
+Jeevika Choudhary,DTC519FVA,839,DL28 S 5008,Driver,Rajiv Chowk,04:43:54,07:43:54
+Lucky Raju,DTC528COF,839,DL28 S 5008,Conductor,Rajiv Chowk,04:43:54,07:43:54
+Ishani D’Alia,DTC288CHP,917,DL65 S 6423,Driver,Janakpuri,22:02:53,01:02:53
+Sai Choudhury,DTC512YUL,917,DL65 S 6423,Conductor,Janakpuri,22:02:53,01:02:53
+Jeet Raja,DTC425EUF,909,DL89 S 3369,Driver,Nehru Place,14:29:31,17:29:31
+Panini Sankaran,DTC394YIE,909,DL89 S 3369,Conductor,Nehru Place,14:29:31,17:29:31
+Advaith Bali,DTC158EDV,827,DL39 S 2703,Driver,AIIMS,15:54:39,19:54:39
+Nitara Kamdar,DTC101YOR,827,DL39 S 2703,Conductor,AIIMS,15:54:39,19:54:39
+Neha Ravi,DTC940SOL,503,DL52 S 5302,Driver,Lajpat Nagar,19:36:36,00:36:36
+Anamika Subramanian,DTC737LBY,503,DL52 S 5302,Conductor,Lajpat Nagar,19:36:36,00:36:36
+Nathan Chaudhuri,DTC577WSX,684,DL79 S 1068,Driver,Karol Bagh,16:21:58,20:21:58
+Guneet Bhatt,DTC681VNC,684,DL79 S 1068,Conductor,Karol Bagh,16:21:58,20:21:58
+Faris De,DTC163ZEN,791,DL53 S 1753,Driver,Hauz Khas,23:56:46,02:56:46
+Victor Merchant,DTC895XES,791,DL53 S 1753,Conductor,Hauz Khas,23:56:46,02:56:46
+Upasna Chatterjee,DTC186EPO,544,DL27 S 6412,Driver,Hauz Khas,01:30:20,05:30:20
+Amaira Hayre,DTC520KEO,544,DL27 S 6412,Conductor,Hauz Khas,01:30:20,05:30:20
+Upadhriti Sha,DTC969BYQ,193,DL63 S 7933,Driver,Karol Bagh,18:04:47,20:04:47
+Damini Sekhon,DTC220FYX,193,DL63 S 7933,Conductor,Karol Bagh,18:04:47,20:04:47
+Kritika Bora,DTC934BYH,868,DL85 S 7485,Driver,Rajiv Chowk,15:46:11,18:46:11
+Yug Arya,DTC138IIE,868,DL85 S 7485,Conductor,Rajiv Chowk,15:46:11,18:46:11
+Kevin Misra,DTC997BLH,972,DL97 S 6859,Driver,Nehru Place,09:39:54,13:39:54
+Yahvi Balan,DTC354ZNZ,972,DL97 S 6859,Conductor,Nehru Place,09:39:54,13:39:54
+Inaya Chana,DTC960SDZ,609,DL57 S 1075,Driver,Karol Bagh,22:34:07,00:34:07
+Quincy Pathak,DTC431BXR,609,DL57 S 1075,Conductor,Karol Bagh,22:34:07,00:34:07
+Ayaan Hari,DTC641SZF,596,DL57 S 2054,Driver,Sarojini Nagar,01:08:35,05:08:35
+Jagdish Prashad,DTC655QKI,596,DL57 S 2054,Conductor,Sarojini Nagar,01:08:35,05:08:35
+Netra Kadakia,DTC800SPT,812,DL96 S 1385,Driver,Lajpat Nagar,00:11:41,05:11:41
+Ishanvi Lanka,DTC776AVM,812,DL96 S 1385,Conductor,Lajpat Nagar,00:11:41,05:11:41
+Quincy Boase,DTC324FOC,176,DL60 S 3587,Driver,Saket,12:10:40,16:10:40
+Chaitaly Reddy,DTC630WXT,176,DL60 S 3587,Conductor,Saket,12:10:40,16:10:40
+Oni Hans,DTC388IXJ,206,DL18 S 1047,Driver,Janakpuri,23:26:53,04:26:53
+Aarini Cherian,DTC582WQB,206,DL18 S 1047,Conductor,Janakpuri,23:26:53,04:26:53
+Kai Rajagopal,DTC442EJU,934,DL55 S 1148,Driver,AIIMS,19:30:26,22:30:26
+Nicholas Bhatti,DTC347DGB,934,DL55 S 1148,Conductor,AIIMS,19:30:26,22:30:26
+Kala Kadakia,DTC789REC,240,DL66 S 7701,Driver,Rajiv Chowk,02:27:06,06:27:06
+Aadi Jani,DTC327EXZ,240,DL66 S 7701,Conductor,Rajiv Chowk,02:27:06,06:27:06

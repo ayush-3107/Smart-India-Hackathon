@@ -2,7 +2,7 @@ import random
 import string
 import json
 
-my_dict = {
+bus_data = {
   "234_EXTDOWN": [
     "Stop Names",
     "Harsh Vihar",
@@ -24552,77 +24552,93 @@ my_dict = {
   ]
 }
 
+# def generate_number_plate():
+#     # Define the format for the plates
+#     district_code = 'DL' + str(random.randint(10, 99))  # Random district code DL10 to DL99
+#     series = random.choice(string.ascii_uppercase)  # Random letter A to Z
+#     number = f'{random.randint(1000, 9999)}'  # Random 4-digit number
+#     return f'{district_code} {series} {number}'
 
-def generate_number_plate():
-    # Define the format for the plates
-    district_code = 'DL' + str(random.randint(10, 99))  # Random district code DL10 to DL99
-    series = random.choice(string.ascii_uppercase)  # Random letter A to Z
-    number = f'{random.randint(1000, 9999)}'  # Random 4-digit number
-    return f'{district_code} {series} {number}'
+# import random
+# import string
 
-import random
-import string
+# def generate_number_plate():
+#     # Define the format for the plates
+#     district_code = 'DL' + str(random.randint(10, 99))  # Random district code DL10 to DL99
+#     series = random.choice(string.ascii_uppercase)  # Random letter A to Z
+#     number = f'{random.randint(1000, 9999)}'  # Random 4-digit number
+#     return f'{district_code} {series} {number}'
 
-def generate_number_plate():
-    # Define the format for the plates
-    district_code = 'DL' + str(random.randint(10, 99))  # Random district code DL10 to DL99
-    series = random.choice(string.ascii_uppercase)  # Random letter A to Z
-    number = f'{random.randint(1000, 9999)}'  # Random 4-digit number
-    return f'{district_code} {series} {number}'
+# def generate_route_id():
+#     # Generate a random route_id between 1 and 30
+#     return random.randint(1, 30)
 
-def generate_route_id():
-    # Generate a random route_id between 1 and 30
-    return random.randint(1, 30)
+# def generate_bus_shift():
+#     # Randomly select a bus_shift
+#     return random.choice(['Morning', 'Afternoon', 'Evening'])
 
-def generate_bus_shift():
-    # Randomly select a bus_shift
-    return random.choice(['Morning', 'Afternoon', 'Evening'])
-
-# Convert lists to dictionaries with 'bus_id', 'route_id', and 'bus_shift'
-for key in list(my_dict.keys()):
-    # Generate the bus_id, route_id, and bus_shift
-    bus_id = generate_number_plate()
-    route_id = generate_route_id()
-    bus_shift = generate_bus_shift()
+# # Convert lists to dictionaries with 'bus_id', 'route_id', and 'bus_shift'
+# for key in list(my_dict.keys()):
+#     # Generate the bus_id, route_id, and bus_shift
+#     bus_id = generate_number_plate()
+#     route_id = generate_route_id()
+#     bus_shift = generate_bus_shift()
     
-    # Ensure there are enough elements in the list
-    if len(my_dict[key]) > 1:
-        # Remove the first entry from the list of stops
-        stops = my_dict[key][1:]  # List of stops excluding the first element
-    else:
-        stops = []
+#     # Ensure there are enough elements in the list
+#     if len(my_dict[key]) > 1:
+#         # Remove the first entry from the list of stops
+#         stops = my_dict[key][1:]  # List of stops excluding the first element
+#     else:
+#         stops = []
 
-    # Convert the list to a dictionary with the new keys
-    my_dict[key] = {
-        'bus_no.': bus_id,
-        'route_id': route_id,
-        'bus_shift': bus_shift,
-        'stops': stops  # Keep the original list under the 'stops' key
-    }
+#     # Convert the list to a dictionary with the new keys
+#     my_dict[key] = {
+#         'bus_no.': bus_id,
+#         'route_id': route_id,
+#         'bus_shift': bus_shift,
+#         'stops': stops  # Keep the original list under the 'stops' key
+#     }
 
-# Save the updated dictionary to a JSON file
-with open('bus_data.json', 'w') as file:
-    json.dump(my_dict, file, indent=4)
+# # Save the updated dictionary to a JSON file
+# with open('bus_data.json', 'w') as file:
+#     json.dump(my_dict, file, indent=4)
 
-print("Data saved to bus_data.json")
+# print("Data saved to bus_data.json")
 
-# Create the route_mapping dictionary
-route_mapping = {}
+# # Create the route_mapping dictionary
+# route_mapping = {}
 
-for key, value in my_dict.items():
-    route_id = value['route_id']
-    bus_id = value['bus_no.']
+# for key, value in my_dict.items():
+#     route_id = value['route_id']
+#     bus_id = value['bus_no.']
     
-    if route_id not in route_mapping:
-        route_mapping[route_id] = []
+#     if route_id not in route_mapping:
+#         route_mapping[route_id] = []
     
-    route_mapping[route_id].append(bus_id)
+#     route_mapping[route_id].append(bus_id)
 
-# Sort the route_mapping dictionary by route_id
-route_mapping = dict(sorted(route_mapping.items()))
+# # Sort the route_mapping dictionary by route_id
+# route_mapping = dict(sorted(route_mapping.items()))
 
-with open('route_mapping.json', 'w') as file:
-    json.dump(route_mapping, file, indent=4)
+# with open('route_mapping.json', 'w') as file:
+#     json.dump(route_mapping, file, indent=4)
 
-print("Data saved to route_mapping.json")
-print("Number of routes:", len(route_mapping))
+# print("Data saved to route_mapping.json")
+# print("Number of routes:", len(route_mapping))
+
+
+
+# Extract the key
+bus_id = list(bus_data.keys())[0]
+
+# Convert to the desired format
+converted_data = {
+    "bus_id": bus_id,
+    "busNumber": bus_data[bus_id]["bus_no."],
+    "routeNumber": bus_data[bus_id]["route_id"],
+    "timing": bus_data[bus_id]["bus_shift"],
+    "routes": bus_data[bus_id]["stops"]
+}
+
+# Print the converted data
+print(json.dumps(converted_data, indent=4))
