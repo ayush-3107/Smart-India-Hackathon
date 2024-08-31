@@ -111,11 +111,13 @@ async function handleLoginUser(req, res) {
 
 
 async function getDashboardCrewId(req, res) {
+  console.log(req);
+  
   try {
       const crewId = req.params.id;
 
       // Find the crew member by ID and populate the AssignedDB field
-      const crewMember = await Crew.findById(crewId).populate('AssignedDB').exec();
+      const crewMember = await AssignedDB.findById(crewId);;
       
       if (!crewMember) {
           return res.status(404).json({ message: 'Crew member not found' });
@@ -126,6 +128,8 @@ async function getDashboardCrewId(req, res) {
   } catch (error) {
       console.error('Error fetching crew member:', error);
       res.status(500).json({ message: 'Internal Server Error' });
+  }
+}
 
 async function getDashboardManagerDetails(req, res) {
   try {
