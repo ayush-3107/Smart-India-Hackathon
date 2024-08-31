@@ -1,0 +1,3002 @@
+[
+    {
+        "busNumber": "097 XUN",
+        "routeNumber": 22,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "4-46339",
+        "routeNumber": 37,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "5N X6426",
+        "routeNumber": 33,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "448-AAJ",
+        "routeNumber": 10,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "7510 GA",
+        "routeNumber": 45,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "400-JKU",
+        "routeNumber": 46,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "832 HXU",
+        "routeNumber": 21,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "AZD 603",
+        "routeNumber": 24,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "KK6 6839",
+        "routeNumber": 2,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "LMQ E84",
+        "routeNumber": 48,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "XQ-2320",
+        "routeNumber": 9,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "7-30860P",
+        "routeNumber": 24,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "F33-OOU",
+        "routeNumber": 22,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "2DH6201",
+        "routeNumber": 41,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "23YU150",
+        "routeNumber": 27,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "05U\u2022627",
+        "routeNumber": 36,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "22Y A21",
+        "routeNumber": 25,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "9I DT856",
+        "routeNumber": 44,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "5VK7555",
+        "routeNumber": 20,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "37IP8",
+        "routeNumber": 42,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "3ZTB 56",
+        "routeNumber": 22,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "MJU 264",
+        "routeNumber": 50,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "748 HQD",
+        "routeNumber": 40,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "S02 6ID",
+        "routeNumber": 49,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "A87 7JQ",
+        "routeNumber": 34,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "P83 4GF",
+        "routeNumber": 10,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "EIH 084",
+        "routeNumber": 40,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "221 YXH",
+        "routeNumber": 22,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "MWJ-8914",
+        "routeNumber": 33,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "B 575130",
+        "routeNumber": 40,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "588-XXO",
+        "routeNumber": 20,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "0O E9110",
+        "routeNumber": 4,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "2Y 1R9FEP",
+        "routeNumber": 27,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "JMY-3682",
+        "routeNumber": 2,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "YWH-9356",
+        "routeNumber": 47,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "BHL 637",
+        "routeNumber": 27,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "14F F01",
+        "routeNumber": 18,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "4166",
+        "routeNumber": 10,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "006 YIQ",
+        "routeNumber": 26,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "SHR-338",
+        "routeNumber": 30,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "926 1563",
+        "routeNumber": 50,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "HWX 697",
+        "routeNumber": 39,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "7LV3636",
+        "routeNumber": 27,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "39S II7",
+        "routeNumber": 40,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "624 SWO",
+        "routeNumber": 11,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "993-ZUN",
+        "routeNumber": 14,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "2D 5321L",
+        "routeNumber": 11,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "38YB4",
+        "routeNumber": 13,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "827 UYN",
+        "routeNumber": 8,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "832 GAN",
+        "routeNumber": 28,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "5CW 091",
+        "routeNumber": 40,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "ZCW 914",
+        "routeNumber": 23,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "CMF 091",
+        "routeNumber": 7,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "90QU197",
+        "routeNumber": 38,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "DBJ-8078",
+        "routeNumber": 44,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "EYK D62",
+        "routeNumber": 50,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "QQC-827",
+        "routeNumber": 20,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "6-I6379",
+        "routeNumber": 13,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "U66-72M",
+        "routeNumber": 32,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "498 CQR",
+        "routeNumber": 50,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "5AL2655",
+        "routeNumber": 23,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "447-ALT",
+        "routeNumber": 18,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "0H 7123T",
+        "routeNumber": 41,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "505R",
+        "routeNumber": 11,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "05-6259O",
+        "routeNumber": 2,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "CXU-0197",
+        "routeNumber": 13,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "LKR 304",
+        "routeNumber": 13,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "9DL68",
+        "routeNumber": 44,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "5NY B74",
+        "routeNumber": 9,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "060-RKD",
+        "routeNumber": 17,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "037 XOU",
+        "routeNumber": 10,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "GWX 494",
+        "routeNumber": 24,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "57V X40",
+        "routeNumber": 27,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "32JN095",
+        "routeNumber": 25,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "7RY 477",
+        "routeNumber": 4,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "3OJ A97",
+        "routeNumber": 43,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "1M DV060",
+        "routeNumber": 43,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "ZQU-7592",
+        "routeNumber": 42,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "025-ASJ",
+        "routeNumber": 27,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "56I X51",
+        "routeNumber": 17,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "29-3754M",
+        "routeNumber": 32,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "9LI 890",
+        "routeNumber": 6,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "N49 0OK",
+        "routeNumber": 28,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "863NFI",
+        "routeNumber": 34,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "37M TX6",
+        "routeNumber": 45,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "12V\u2022520",
+        "routeNumber": 35,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "396-460",
+        "routeNumber": 1,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "8W 5Y1UYI",
+        "routeNumber": 45,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "EID-746",
+        "routeNumber": 47,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "TIY-4974",
+        "routeNumber": 32,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "SBK 7969",
+        "routeNumber": 17,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "3OP 267",
+        "routeNumber": 4,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "GJS-698",
+        "routeNumber": 26,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "HUH-1089",
+        "routeNumber": 47,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "T90-ZXU",
+        "routeNumber": 1,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "006-103",
+        "routeNumber": 3,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "XOK 431",
+        "routeNumber": 21,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "081 CB8",
+        "routeNumber": 11,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "193 2AV",
+        "routeNumber": 42,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "9KH65",
+        "routeNumber": 41,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "24-8245W",
+        "routeNumber": 1,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "930-PRY",
+        "routeNumber": 28,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "978 9VA",
+        "routeNumber": 49,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "5268 TI",
+        "routeNumber": 3,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "451 TWA",
+        "routeNumber": 10,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "NY8 Q2O",
+        "routeNumber": 20,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "OFE-8899",
+        "routeNumber": 34,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "RTI1767",
+        "routeNumber": 40,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "UGL E48",
+        "routeNumber": 9,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "895 SUF",
+        "routeNumber": 38,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "662-QPG",
+        "routeNumber": 13,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "490 7YI",
+        "routeNumber": 13,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "9I 5A8GYP",
+        "routeNumber": 34,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "QZJ-0067",
+        "routeNumber": 48,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "VJW-5736",
+        "routeNumber": 11,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "DXR 255",
+        "routeNumber": 31,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "33NA450",
+        "routeNumber": 50,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "IRD9931",
+        "routeNumber": 20,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "C84 1TE",
+        "routeNumber": 48,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "TMC-043",
+        "routeNumber": 16,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "893 HKO",
+        "routeNumber": 46,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "X75 0DU",
+        "routeNumber": 31,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "TJM-345",
+        "routeNumber": 29,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "1CB 044",
+        "routeNumber": 27,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "P54 0FX",
+        "routeNumber": 37,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "JR6 2424",
+        "routeNumber": 24,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "K23 0KV",
+        "routeNumber": 49,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "08CG331",
+        "routeNumber": 45,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "NSZ-641",
+        "routeNumber": 41,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "68YM9",
+        "routeNumber": 15,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "ICJ 279",
+        "routeNumber": 22,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "808 MRH",
+        "routeNumber": 4,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "267-GEF",
+        "routeNumber": 11,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "VQZ 410",
+        "routeNumber": 43,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "O 159435",
+        "routeNumber": 41,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "15U 471",
+        "routeNumber": 4,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "688 PNM",
+        "routeNumber": 14,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "QWL 2669",
+        "routeNumber": 46,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "731K",
+        "routeNumber": 37,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "BJY-7015",
+        "routeNumber": 46,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "GIA-0575",
+        "routeNumber": 25,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "8286 CK",
+        "routeNumber": 23,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "TUS-971",
+        "routeNumber": 43,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "58NF139",
+        "routeNumber": 44,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "IGM-5548",
+        "routeNumber": 39,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "325-CFP",
+        "routeNumber": 26,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "562257",
+        "routeNumber": 41,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "29ED8",
+        "routeNumber": 9,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "379 ZJ4",
+        "routeNumber": 39,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "67F 7343",
+        "routeNumber": 50,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "995-910",
+        "routeNumber": 32,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "999 JZM",
+        "routeNumber": 33,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "748-UWQ",
+        "routeNumber": 23,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "ELM-895",
+        "routeNumber": 2,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "PJJ-3645",
+        "routeNumber": 32,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "487 HAI",
+        "routeNumber": 50,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "KBB 463",
+        "routeNumber": 43,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "876-682",
+        "routeNumber": 1,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "120 ECI",
+        "routeNumber": 37,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "VSC-107",
+        "routeNumber": 6,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "044-XZG",
+        "routeNumber": 47,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "544 YRE",
+        "routeNumber": 15,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "8-Z7146",
+        "routeNumber": 26,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "B 644687",
+        "routeNumber": 47,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "224YW",
+        "routeNumber": 33,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "5AD69",
+        "routeNumber": 24,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "SZC 749",
+        "routeNumber": 2,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "ZUV-4797",
+        "routeNumber": 31,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "455-DRJ",
+        "routeNumber": 21,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "Y57 3GE",
+        "routeNumber": 15,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "0EX19",
+        "routeNumber": 49,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "537 ATZ",
+        "routeNumber": 47,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "768 FX4",
+        "routeNumber": 44,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "KIQ 613",
+        "routeNumber": 46,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "PLI-5605",
+        "routeNumber": 39,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "498 0GS",
+        "routeNumber": 28,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "VZE 123",
+        "routeNumber": 41,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "15-G860",
+        "routeNumber": 23,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "3499",
+        "routeNumber": 17,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "LHP7940",
+        "routeNumber": 4,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "PAU9434",
+        "routeNumber": 36,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "61-03810",
+        "routeNumber": 38,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "53ZN7",
+        "routeNumber": 18,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "864 HO0",
+        "routeNumber": 14,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "004VH",
+        "routeNumber": 44,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "5938",
+        "routeNumber": 7,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "398-BGH",
+        "routeNumber": 19,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "KUF 703",
+        "routeNumber": 26,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "9BS I30",
+        "routeNumber": 8,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "266LUG",
+        "routeNumber": 29,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "866UGR",
+        "routeNumber": 36,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "745-GAZ",
+        "routeNumber": 32,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "QGM 688",
+        "routeNumber": 44,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "098PC",
+        "routeNumber": 28,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "2FU20",
+        "routeNumber": 48,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "846-BZT",
+        "routeNumber": 39,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "HDB 991",
+        "routeNumber": 20,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "63X\u2022198",
+        "routeNumber": 23,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "548Y",
+        "routeNumber": 22,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "38HJ827",
+        "routeNumber": 13,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "STF6753",
+        "routeNumber": 33,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "572 FVO",
+        "routeNumber": 23,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "7P674",
+        "routeNumber": 2,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "E09 8VY",
+        "routeNumber": 45,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "9SL33",
+        "routeNumber": 46,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "818112",
+        "routeNumber": 44,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "9714",
+        "routeNumber": 18,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "EPN-2056",
+        "routeNumber": 33,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "C08 8PG",
+        "routeNumber": 1,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "670 2843",
+        "routeNumber": 38,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "3C EP316",
+        "routeNumber": 29,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "6-02771Q",
+        "routeNumber": 37,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "BBK 766",
+        "routeNumber": 44,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "XRV 715",
+        "routeNumber": 17,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "606T",
+        "routeNumber": 27,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "J46 8YH",
+        "routeNumber": 22,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "XZC 735",
+        "routeNumber": 12,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "03-VF04",
+        "routeNumber": 33,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "419 VSV",
+        "routeNumber": 21,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "70-LZ13",
+        "routeNumber": 28,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "0GG22",
+        "routeNumber": 42,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "596 OGI",
+        "routeNumber": 24,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "ZYB 229",
+        "routeNumber": 32,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "UA-5232",
+        "routeNumber": 31,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "7YK C70",
+        "routeNumber": 32,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "06K\u2022855",
+        "routeNumber": 35,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "3-7019R",
+        "routeNumber": 11,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "165 2500",
+        "routeNumber": 44,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "0-F3601",
+        "routeNumber": 11,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "818-QVC",
+        "routeNumber": 3,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "2-D7890",
+        "routeNumber": 10,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "ALZ 510",
+        "routeNumber": 37,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "8YI K88",
+        "routeNumber": 23,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "HCN 815",
+        "routeNumber": 36,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "6WM 118",
+        "routeNumber": 45,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "506 7WL",
+        "routeNumber": 13,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "825-OSM",
+        "routeNumber": 3,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "872XH",
+        "routeNumber": 25,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "MXX 306",
+        "routeNumber": 9,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "86X R53",
+        "routeNumber": 40,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "LNG 471",
+        "routeNumber": 45,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "PFW 235",
+        "routeNumber": 50,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "LFS-0144",
+        "routeNumber": 3,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "238 9ZB",
+        "routeNumber": 1,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "471JMG",
+        "routeNumber": 47,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "MH1 G5C",
+        "routeNumber": 7,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "698N",
+        "routeNumber": 18,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "626 VHY",
+        "routeNumber": 50,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "KKU 522",
+        "routeNumber": 23,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "48D GA5",
+        "routeNumber": 22,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "1374 ZT",
+        "routeNumber": 5,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "CSE-4123",
+        "routeNumber": 28,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "NSF-688",
+        "routeNumber": 41,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "771 CCY",
+        "routeNumber": 20,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "777-HAMC",
+        "routeNumber": 49,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "7-20426",
+        "routeNumber": 39,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "WBK-036",
+        "routeNumber": 16,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "66J P30",
+        "routeNumber": 6,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "9LH7561",
+        "routeNumber": 48,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "ZUC 448",
+        "routeNumber": 50,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "OB2 2899",
+        "routeNumber": 32,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "1RZ 305",
+        "routeNumber": 49,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "73N O50",
+        "routeNumber": 34,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "ZRZ 798",
+        "routeNumber": 47,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "SGF-5709",
+        "routeNumber": 11,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "2GJ C13",
+        "routeNumber": 40,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "5-7249F",
+        "routeNumber": 28,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "WL-8269",
+        "routeNumber": 8,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "9-7122U",
+        "routeNumber": 42,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "XUT 6563",
+        "routeNumber": 46,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "266895",
+        "routeNumber": 29,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "UGM-8008",
+        "routeNumber": 31,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "KCL 329",
+        "routeNumber": 29,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "478 TTJ",
+        "routeNumber": 37,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "LCP 868",
+        "routeNumber": 43,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "CYG-411",
+        "routeNumber": 27,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "1YJ Z07",
+        "routeNumber": 42,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "SLT-2762",
+        "routeNumber": 45,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "2OC 386",
+        "routeNumber": 10,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "0126 QG",
+        "routeNumber": 45,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "I96-94F",
+        "routeNumber": 24,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "A72 7JS",
+        "routeNumber": 46,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "FYB-126",
+        "routeNumber": 4,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "9-41162",
+        "routeNumber": 35,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "6AT 147",
+        "routeNumber": 42,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "TQY 964",
+        "routeNumber": 25,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "745 RSG",
+        "routeNumber": 42,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "58SB819",
+        "routeNumber": 44,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "6FJ 953",
+        "routeNumber": 7,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "FJ9 Y0D",
+        "routeNumber": 12,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "1KL 796",
+        "routeNumber": 50,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "6KGN 05",
+        "routeNumber": 16,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "612-AYQ",
+        "routeNumber": 37,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "924 ESX",
+        "routeNumber": 24,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "ARA-839",
+        "routeNumber": 29,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "ALI2888",
+        "routeNumber": 23,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "621-IOB",
+        "routeNumber": 23,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "HZO 039",
+        "routeNumber": 3,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "F01 3HK",
+        "routeNumber": 16,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "1R 4399L",
+        "routeNumber": 34,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "GUI 379",
+        "routeNumber": 5,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "PUG 628",
+        "routeNumber": 19,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "YPB 849",
+        "routeNumber": 34,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "854 BPG",
+        "routeNumber": 23,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "01YM441",
+        "routeNumber": 48,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "CUT 066",
+        "routeNumber": 40,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "OLC5438",
+        "routeNumber": 34,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "YSQ-457",
+        "routeNumber": 28,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "LIB-1953",
+        "routeNumber": 32,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "NIM R21",
+        "routeNumber": 46,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "JLI-662",
+        "routeNumber": 49,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "242 4SY",
+        "routeNumber": 12,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "755 JDW",
+        "routeNumber": 27,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "272P9",
+        "routeNumber": 20,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "0TF 933",
+        "routeNumber": 17,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "QKK 188",
+        "routeNumber": 8,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "8F 5T8CZD",
+        "routeNumber": 19,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "HHS 285",
+        "routeNumber": 6,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "4HP 848",
+        "routeNumber": 43,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "6-2404O",
+        "routeNumber": 43,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "HDP4352",
+        "routeNumber": 20,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "2QL 745",
+        "routeNumber": 14,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "M 847205",
+        "routeNumber": 18,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "324 QKY",
+        "routeNumber": 34,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "016TU",
+        "routeNumber": 1,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "2-38046W",
+        "routeNumber": 8,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "363 9GD",
+        "routeNumber": 35,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "94Z\u2022524",
+        "routeNumber": 47,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "406N",
+        "routeNumber": 3,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "635-PFN",
+        "routeNumber": 12,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "LMX 901",
+        "routeNumber": 19,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "WU 0245",
+        "routeNumber": 9,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "5MP1004",
+        "routeNumber": 29,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "788 RY4",
+        "routeNumber": 49,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "63NZ6",
+        "routeNumber": 16,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "924RDX",
+        "routeNumber": 26,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "4FE V78",
+        "routeNumber": 37,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "6SIW 68",
+        "routeNumber": 36,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "0-N0712",
+        "routeNumber": 7,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "CGA 721",
+        "routeNumber": 5,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "148R",
+        "routeNumber": 33,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "JKY0388",
+        "routeNumber": 34,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "KGK 488",
+        "routeNumber": 37,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "HEH 488",
+        "routeNumber": 15,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "948-XGH",
+        "routeNumber": 50,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "8JO 352",
+        "routeNumber": 26,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "995 IWB",
+        "routeNumber": 12,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "682WUF",
+        "routeNumber": 27,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "09J PE4",
+        "routeNumber": 8,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "I 916353",
+        "routeNumber": 33,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "TM 10234",
+        "routeNumber": 35,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "9TN 236",
+        "routeNumber": 47,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "FAS7563",
+        "routeNumber": 13,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "M02 8MH",
+        "routeNumber": 9,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "960 NOG",
+        "routeNumber": 38,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "1V 0822X",
+        "routeNumber": 32,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "46OO291",
+        "routeNumber": 30,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "LS6 5516",
+        "routeNumber": 47,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "17O D77",
+        "routeNumber": 22,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "840837",
+        "routeNumber": 43,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "NLK 373",
+        "routeNumber": 8,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "ZSH 820",
+        "routeNumber": 47,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "DZC 1395",
+        "routeNumber": 30,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "ALD 158",
+        "routeNumber": 31,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "875 SIL",
+        "routeNumber": 35,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "295-ALQZ",
+        "routeNumber": 49,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "YWM-906",
+        "routeNumber": 22,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "635 1409",
+        "routeNumber": 28,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "AFH-803",
+        "routeNumber": 25,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "95H 0706",
+        "routeNumber": 11,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "MN 1145",
+        "routeNumber": 17,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "XLX-523",
+        "routeNumber": 29,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "204-TNN",
+        "routeNumber": 22,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "CHI 531",
+        "routeNumber": 1,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "XWF 712",
+        "routeNumber": 18,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "LCR 838",
+        "routeNumber": 39,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "W 092886",
+        "routeNumber": 43,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "45L UT3",
+        "routeNumber": 31,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "LIZ 580",
+        "routeNumber": 2,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "36E\u2022602",
+        "routeNumber": 22,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "80-2762B",
+        "routeNumber": 19,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "IWZ-0685",
+        "routeNumber": 3,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "204A",
+        "routeNumber": 10,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "ITO 120",
+        "routeNumber": 36,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "ZS 81186",
+        "routeNumber": 27,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "JDJ-131",
+        "routeNumber": 6,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "RIF-2953",
+        "routeNumber": 12,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "82Y 555",
+        "routeNumber": 31,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "9-62734",
+        "routeNumber": 36,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "RDQ 993",
+        "routeNumber": 6,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "R95 8MT",
+        "routeNumber": 41,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "941L",
+        "routeNumber": 44,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "QXA-9394",
+        "routeNumber": 8,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "MZA 624",
+        "routeNumber": 32,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "GUS8396",
+        "routeNumber": 23,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "9EYC 46",
+        "routeNumber": 10,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "87M M63",
+        "routeNumber": 26,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "HQE 822",
+        "routeNumber": 30,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "MJB 960",
+        "routeNumber": 24,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "03-R491",
+        "routeNumber": 18,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "5RZ47",
+        "routeNumber": 44,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "8AB40",
+        "routeNumber": 22,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "IVC 551",
+        "routeNumber": 42,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "8CU 007",
+        "routeNumber": 30,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "945 HG0",
+        "routeNumber": 12,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "9MCI 95",
+        "routeNumber": 2,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "8W RT056",
+        "routeNumber": 18,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "ZXN 368",
+        "routeNumber": 49,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "UAA-4475",
+        "routeNumber": 16,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "790-STI",
+        "routeNumber": 19,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "TFC-6256",
+        "routeNumber": 43,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "8Z U6966",
+        "routeNumber": 34,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "8QS6659",
+        "routeNumber": 44,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "23-I843",
+        "routeNumber": 37,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "5-H8368",
+        "routeNumber": 28,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "95-6472K",
+        "routeNumber": 35,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "GXU 480",
+        "routeNumber": 7,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "QNT8758",
+        "routeNumber": 15,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "95CD318",
+        "routeNumber": 48,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "69-R219",
+        "routeNumber": 20,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "LX 8996",
+        "routeNumber": 25,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "477 RW7",
+        "routeNumber": 29,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "28Z Y04",
+        "routeNumber": 5,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "QYV 719",
+        "routeNumber": 49,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "ZYC 039",
+        "routeNumber": 46,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "KQV 158",
+        "routeNumber": 24,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "296 LDS",
+        "routeNumber": 33,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "8195",
+        "routeNumber": 39,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "C50 9CG",
+        "routeNumber": 4,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "8YD 716",
+        "routeNumber": 44,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "44R 4067",
+        "routeNumber": 20,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "LRB 572",
+        "routeNumber": 49,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "554 FJG",
+        "routeNumber": 9,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "175-386",
+        "routeNumber": 16,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "FOO-0812",
+        "routeNumber": 11,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "542 LWF",
+        "routeNumber": 34,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "QBV 906",
+        "routeNumber": 36,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "7SU4214",
+        "routeNumber": 9,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "1VL 808",
+        "routeNumber": 11,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "215811",
+        "routeNumber": 45,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "970 FKO",
+        "routeNumber": 41,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "842-FBO",
+        "routeNumber": 14,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "ZKS 485",
+        "routeNumber": 1,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "ZWY 418",
+        "routeNumber": 26,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "CQE-7151",
+        "routeNumber": 1,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "HAL 396",
+        "routeNumber": 14,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "PRH-530",
+        "routeNumber": 17,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "AJN-750",
+        "routeNumber": 6,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "7S JW699",
+        "routeNumber": 21,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "928 5WD",
+        "routeNumber": 27,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "MLS9411",
+        "routeNumber": 47,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "6-2223H",
+        "routeNumber": 32,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "66-E959",
+        "routeNumber": 8,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "MCW3776",
+        "routeNumber": 48,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "571-VAR",
+        "routeNumber": 45,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "65-J171",
+        "routeNumber": 37,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "445 LHZ",
+        "routeNumber": 10,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "ECJ 400",
+        "routeNumber": 35,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "43LI3",
+        "routeNumber": 12,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "K41-99V",
+        "routeNumber": 8,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "477-VOM",
+        "routeNumber": 26,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "PWN 526",
+        "routeNumber": 8,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "363-JGK",
+        "routeNumber": 46,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "401SV",
+        "routeNumber": 16,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "ZSC 214",
+        "routeNumber": 27,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "IMG-5621",
+        "routeNumber": 36,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "505-KZH",
+        "routeNumber": 26,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "37-1841G",
+        "routeNumber": 45,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "0-1511N",
+        "routeNumber": 16,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "MDP 957",
+        "routeNumber": 5,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "9-C2384",
+        "routeNumber": 47,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "158ELC",
+        "routeNumber": 35,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "101 MLA",
+        "routeNumber": 8,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "D91 4DT",
+        "routeNumber": 33,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "032-TLVR",
+        "routeNumber": 46,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "ISW 134",
+        "routeNumber": 41,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "862-GPH",
+        "routeNumber": 32,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "161 FBL",
+        "routeNumber": 14,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "HHV 259",
+        "routeNumber": 1,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "380 6VD",
+        "routeNumber": 3,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "4SD7035",
+        "routeNumber": 31,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "LJE-6428",
+        "routeNumber": 48,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "458-BAU",
+        "routeNumber": 31,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "07X PL2",
+        "routeNumber": 38,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "UBT 636",
+        "routeNumber": 13,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "JGJ-1769",
+        "routeNumber": 3,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "KER 743",
+        "routeNumber": 41,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "35X\u2022661",
+        "routeNumber": 40,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "LSX 974",
+        "routeNumber": 39,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "4K 09539",
+        "routeNumber": 17,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "588 HAM",
+        "routeNumber": 17,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "4N 63126",
+        "routeNumber": 11,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "AKE-504",
+        "routeNumber": 11,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "G07-05F",
+        "routeNumber": 33,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "2QR3077",
+        "routeNumber": 1,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "BMT-9099",
+        "routeNumber": 14,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "HIO 055",
+        "routeNumber": 37,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "646-VWT",
+        "routeNumber": 40,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "WCF 780",
+        "routeNumber": 16,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "CGZ-226",
+        "routeNumber": 18,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "396GWR",
+        "routeNumber": 30,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "648 HVO",
+        "routeNumber": 39,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "LFN 077",
+        "routeNumber": 34,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "EAX 572",
+        "routeNumber": 43,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "DVS 5319",
+        "routeNumber": 37,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "8S 3488R",
+        "routeNumber": 26,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "69G Q65",
+        "routeNumber": 11,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "73J H01",
+        "routeNumber": 30,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "491007",
+        "routeNumber": 15,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "6-6252P",
+        "routeNumber": 16,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "5C 3H3YMC",
+        "routeNumber": 40,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "MJG 965",
+        "routeNumber": 11,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "98X\u2022467",
+        "routeNumber": 9,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "3J 27852",
+        "routeNumber": 27,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "HWL 623",
+        "routeNumber": 27,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "00R W87",
+        "routeNumber": 38,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "KDW-9543",
+        "routeNumber": 45,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "750-ABQ",
+        "routeNumber": 8,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "FLM 049",
+        "routeNumber": 11,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "41O 9758",
+        "routeNumber": 30,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "TRI 029",
+        "routeNumber": 30,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "723-XFJ",
+        "routeNumber": 42,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "ELC9979",
+        "routeNumber": 42,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "4X 3605V",
+        "routeNumber": 12,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "03EY0",
+        "routeNumber": 3,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "587-LAO",
+        "routeNumber": 41,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "GRD6877",
+        "routeNumber": 49,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "JXM 976",
+        "routeNumber": 14,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "NMQ 800",
+        "routeNumber": 27,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "T53 1WD",
+        "routeNumber": 34,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "0W V3873",
+        "routeNumber": 47,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "8059",
+        "routeNumber": 23,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "VWZ 746",
+        "routeNumber": 26,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "JQS-244",
+        "routeNumber": 37,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "313-YCTP",
+        "routeNumber": 37,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "814 KAF",
+        "routeNumber": 35,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "TQS6968",
+        "routeNumber": 47,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "98P 347",
+        "routeNumber": 43,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "2KL 205",
+        "routeNumber": 45,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "361 UUD",
+        "routeNumber": 42,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "KIZ 842",
+        "routeNumber": 11,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "639-JXXM",
+        "routeNumber": 37,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "0LD 025",
+        "routeNumber": 45,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "040-FKL",
+        "routeNumber": 20,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "864 GGO",
+        "routeNumber": 37,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "HJY 117",
+        "routeNumber": 17,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "AM 52594",
+        "routeNumber": 46,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "076 GMN",
+        "routeNumber": 36,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "9E 29203",
+        "routeNumber": 37,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "ISY7942",
+        "routeNumber": 49,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "BUH 075",
+        "routeNumber": 37,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "0BG 498",
+        "routeNumber": 41,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "FC0 7120",
+        "routeNumber": 23,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "415-CJV",
+        "routeNumber": 46,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "SWE-927",
+        "routeNumber": 35,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "561 KWU",
+        "routeNumber": 38,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "10-S160",
+        "routeNumber": 33,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "203-RGK",
+        "routeNumber": 8,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "205 MWE",
+        "routeNumber": 23,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "129N9",
+        "routeNumber": 48,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "6ITU 21",
+        "routeNumber": 40,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "668 XJX",
+        "routeNumber": 12,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "SJ-8107",
+        "routeNumber": 36,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "518187",
+        "routeNumber": 14,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "780XDF",
+        "routeNumber": 6,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "CKZ-295",
+        "routeNumber": 12,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "067S4",
+        "routeNumber": 35,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "460 JLX",
+        "routeNumber": 27,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "7F Z0258",
+        "routeNumber": 16,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "1J 6W0YET",
+        "routeNumber": 38,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "6JV K09",
+        "routeNumber": 7,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "996 UKT",
+        "routeNumber": 37,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "S40 3AO",
+        "routeNumber": 4,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "NIV-353",
+        "routeNumber": 11,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "820 IJ4",
+        "routeNumber": 33,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "471-TSL",
+        "routeNumber": 16,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "FD5 5696",
+        "routeNumber": 47,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "5FR V81",
+        "routeNumber": 35,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "470-RVT",
+        "routeNumber": 31,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "769 WQX",
+        "routeNumber": 10,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "6H 2N3WFM",
+        "routeNumber": 35,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "39M 855",
+        "routeNumber": 20,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "114396",
+        "routeNumber": 10,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "960 UMN",
+        "routeNumber": 22,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "13-I538",
+        "routeNumber": 7,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "W 906659",
+        "routeNumber": 32,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "ADI4119",
+        "routeNumber": 27,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "HJ-5424",
+        "routeNumber": 14,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "26V VG2",
+        "routeNumber": 14,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "UXQ-360",
+        "routeNumber": 38,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "484 EU2",
+        "routeNumber": 39,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "71R\u2022384",
+        "routeNumber": 42,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "0-21219",
+        "routeNumber": 38,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "157-GKM",
+        "routeNumber": 44,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "560-BWJ",
+        "routeNumber": 42,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "N02 9OW",
+        "routeNumber": 46,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "LJG 521",
+        "routeNumber": 47,
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "5NO 750",
+        "routeNumber": 30,
+        "timing": "Evening"
+    },
+    {
+        "busNumber": "MVC 076",
+        "routeNumber": 31,
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "MGR 2075",
+        "routeNumber": 37,
+        "timing": "Morning"
+    }
+]
