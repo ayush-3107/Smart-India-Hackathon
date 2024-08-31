@@ -1,5 +1,9 @@
+
 // src/DashboardCrew.js
 import React, { useState, useEffect } from 'react';
+
+import Header from './Header/Header';
+import Footer from './Footer/Footer';
 
 const DashboardCrew = () => {
   const [data, setData] = useState([]);
@@ -30,6 +34,7 @@ const DashboardCrew = () => {
   if (error) return <p>Error loading data: {error.message}</p>;
 
   return (
+    <>
     <div>
       <table>
         <thead>
@@ -50,6 +55,9 @@ const DashboardCrew = () => {
         </tbody>
       </table>
     </div>
+    <Header />
+    <Footer />
+    </>
   );
 };
 
