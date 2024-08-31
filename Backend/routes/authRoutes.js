@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { handleRegisterUser, handleLoginUser } = require('../controllers/authController');
+const { handleRegisterUser, handleLoginUser,getDashboardCrewId } = require('../controllers/authController');
 const verifyToken = require('../middlewares/authMiddleware');
 
 
@@ -16,9 +16,6 @@ router.get('/dashboard-manager', verifyToken , (req, res) => {
     res.json(assignmentData);
 });
 
-router.get('/dashboard-crew', verifyToken, (req, res) => {
-    const assignmentData = assignBusToCrew();
-    res.json(assignmentData);
-});
+router.get('/dashboard-crew/:id', getDashboardCrewId);
 
 module.exports = router;

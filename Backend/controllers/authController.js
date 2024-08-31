@@ -103,11 +103,32 @@ async function handleLoginUser(req, res) {
       //return res.status(200).json({ token,role: user.role });
     
   } catch (error) {
-    console.error('Login error:', error); // Log the error details
+    console.error('Login error:', error); 
     res.status(500).json({ message: 'Server error' });
   }
 }
+
+async function getDashboardCrewId(req, res) {
+  try {
+      const crewId = req.params.id;
+
+      // Find the crew member by ID and populate the AssignedDB field
+      const crewMember = await Crew.findById(crewId).populate('AssignedDB').exec();
+      
+      if (!crewMember) {
+          return res.status(404).json({ message: 'Crew member not found' });
+      }
+
+      // Respond with the crew member data including AssignedDB
+      res.status(200).json(crewMember);
+  } catch (error) {
+      console.error('Error fetching crew member:', error);
+      res.status(500).json({ message: 'Internal Server Error' });
+  }
+}
+
 module.exports = {
   handleRegisterUser,
   handleLoginUser,
+  getDashboardCrewId,  
 };
