@@ -6,7 +6,7 @@ function Contact() {
     const handleSubmit = (e) => {
         e.preventDefault();
         if(checked) {
-            
+
         }
 
     }

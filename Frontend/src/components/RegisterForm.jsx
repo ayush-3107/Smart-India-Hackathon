@@ -59,7 +59,7 @@ const RegisterForm = () => {
       alert("Phone number must be of 10 digits")
       window.location.reload();
     } 
-    if(!userid.test(id)) {
+    else if(!userid.test(id)) {
       alert("Invalid User Id Format")
       window.location.reload();
     } 
