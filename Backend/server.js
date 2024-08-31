@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const authRoutes = require('./routes/authRoutes');
+const authMiddleware= require('./middlewares/authMiddleware');
 const cors = require('cors');
 require('dotenv').config(); // Load environment variables from .env file
 const connectMongodb=require("./db/connection")
