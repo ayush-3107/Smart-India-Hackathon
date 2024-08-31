@@ -8,7 +8,6 @@ const userSchema = new mongoose.Schema({
   email: { type: String, required: true, unique: true },
   dob: { type: Date, required: true },
   gender: { type: String, required: true },
-  yearOfJoining: { type: Number, required: true },
   address: { type: String, required: true },
   role: { type: String, enum:['manager', 'crew'], required: true }, // Manager or Crew
 
