@@ -91,7 +91,7 @@ def get_lat_long_with_retry(address, retries=3, delay=1):
             result = geocoder.geocode(address)
             if result and len(result):
                 return result[0]['geometry']['lat'], result[0]['geometry']['lng']
-        except RateLimitExceededError:
+        except RateLimitExceededError: 
             print(f"Rate limit exceeded for address '{address}'. Retrying after delay...")
             time.sleep(delay * 2)  # wait longer in case of rate limits
         except UnknownError as e:
