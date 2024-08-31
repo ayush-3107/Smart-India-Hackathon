@@ -1,6 +1,6 @@
-const crewMembers = require('./mockCrewMembers'); // Import crew members mock data
-const buses = require('./updated_mockBuses_101_to_120.json'); // Import buses mock data
-const preferredRoutes = require('./preferred_routes_mockCrewMembers.json'); // Import preferred routes mock data
+const crewMembers = require("../AI_model/Data.json"); // Import crew members mock data
+const buses = require('../AI_model/delhi_bus_routes_with_shift_assignments.json'); // Import buses mock data
+const preferredRoutes = require('../'); // Import preferred routes mock data
 
 const fs = require('fs');
 
@@ -10,7 +10,15 @@ const assignBusToCrew = (crewMember, allBuses, assignedBuses) => {
 
     // Find buses that match the preferred route and shift
     const preferredBus = allBuses.find(
-        bus => bus.routeNumber === preferredRoute && bus.timing === shift && !assignedBuses.some(assigned => assigned.busNumber === bus.busNumber && assigned.timing === shift && assigned.crewRole === crewRole)
+        bus =>
+            bus.routeNumber === preferredRoute &&
+            bus.timing === shift &&
+            !assignedBuses.some(
+                assigned =>
+                    assigned.busNumber === bus.busNumber &&
+                    assigned.timing === shift &&
+                    assigned.crewRole === crewRole
+            )
     );
 
     if (preferredBus) {
@@ -19,7 +27,13 @@ const assignBusToCrew = (crewMember, allBuses, assignedBuses) => {
     } else {
         // If preferred bus is not available, find the nearest available bus route
         const nearestBus = allBuses.find(
-            bus => !assignedBuses.some(assigned => assigned.busNumber === bus.busNumber && assigned.timing === shift && assigned.crewRole === crewRole)
+            bus =>
+                !assignedBuses.some(
+                    assigned =>
+                        assigned.busNumber === bus.busNumber &&
+                        assigned.timing === shift &&
+                        assigned.crewRole === crewRole
+                )
         );
 
         if (nearestBus) {
@@ -29,8 +43,10 @@ const assignBusToCrew = (crewMember, allBuses, assignedBuses) => {
     return assignedBuses;
 };
 
+// Array to keep track of assigned buses
 let assignedBuses = [];
 
+// Iterate over each preferred route to assign buses to crew members
 preferredRoutes.forEach(route => {
     const crewMember = crewMembers.find(member => member.id === route.id);
     if (crewMember) {
@@ -45,7 +61,7 @@ try {
     fs.writeFileSync('assigned_buses.json', assignedBusesJson);
     console.log('Assigned buses data has been saved to assigned_buses.json');
 } catch (err) {
-    console.error(err);
+    console.error('Error saving assigned buses data:', err);
 }
 
 module.exports = assignBusToCrew;

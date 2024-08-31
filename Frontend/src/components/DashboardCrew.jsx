@@ -7,11 +7,12 @@ import Footer from './Footer/Footer';
 
 const DashboardCrew = () => {
 
+
   return (
     <>
-    <div className="shadow-lg rounded-lg flex flex-col items-center justify-center">
-    <img src="ScheduLine_Tagline_img.png" className="bg-cover bg-center" alt="Banner" />
-    </div>
+      <div className="shadow-lg rounded-lg flex flex-col items-center justify-center">
+        <img src="ScheduLine_Tagline_img.png" className="bg-cover bg-center" alt="Banner" />
+      </div>
     </>
   );
 };
