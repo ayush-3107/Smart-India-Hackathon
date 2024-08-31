@@ -115,9 +115,10 @@ async function getDashboardCrewId(req, res) {
   
   try {
       const crewId = req.params.id;
+      
 
       // Find the crew member by ID and populate the AssignedDB field
-      const crewMember = await AssignedDB.findById(crewId);;
+      const crewMember = await AssignedDB.find({userId:crewId});;
       
       if (!crewMember) {
           return res.status(404).json({ message: 'Crew member not found' });
