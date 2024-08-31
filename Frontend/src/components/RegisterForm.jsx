@@ -4,6 +4,8 @@ import axios from 'axios';
 import config from '../config';
 
 const RegisterForm = () => {
+  const regularexp = /^\d{10}$/
+  const userid = /^DTC\d{3}[A-Z]{3}$/
   const [formData, setFormData] = useState({
     name: '',
     id: '',
@@ -53,6 +55,14 @@ const RegisterForm = () => {
       alert('All fields are required');
       return;
     }
+    if(!regularexp.test(phoneNumber)) {
+      alert("Phone number must be of 10 digits")
+      window.location.reload();
+    } 
+    if(!userid.test(id)) {
+      alert("Invalid User Id Format")
+      window.location.reload();
+    } 
     try {
       await axios.post(`${config.apiUrl}/auth/register`, {
         name,
@@ -97,7 +107,7 @@ const RegisterForm = () => {
                   <input
                     type="text"
                     name="id"
-                    placeholder="ID"
+                    placeholder="ID (e.g. DTC123ABC)"
                     value={formData.id}
                     onChange={handleChange}
                     className="w-full px-8 py-4 rounded-lg font-medium bg-[rgb(254,255,250)] border border-[#95D2B3] placeholder-gray-500 text-sm focus:outline-none focus:border-[#55AD9B] focus:bg-white mt-5"
@@ -202,7 +212,7 @@ const RegisterForm = () => {
                       <input
                         type="text"
                         name="timingPreferences"
-                        placeholder="Timing Preferences (e.g., Day/Night Shift)"
+                        placeholder="Timing Preferences (e.g., Morning/Evening Shift)"
                         value={formData.timingPreferences}
                         onChange={handleChange}
                         className="w-full px-8 py-4 rounded-lg font-medium bg-[rgb(254,255,250)] border border-[#95D2B3] placeholder-gray-500 text-sm focus:outline-none focus:border-[#55AD9B] focus:bg-white mt-5"
