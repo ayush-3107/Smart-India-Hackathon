@@ -4,6 +4,8 @@ const DashboardManager = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [currentPage, setCurrentPage] = useState(1);
+  const entriesPerPage = 20;
 
   useEffect(() => {
     // Fetch the JSON file when the component mounts
@@ -31,6 +33,23 @@ const DashboardManager = () => {
   // Extract headers from the keys of the first data item
   const headers = data.length > 0 ? Object.keys(data[0]) : [];
 
+  // Calculate the index of the first and last entry on the current page
+  const indexOfLastEntry = currentPage * entriesPerPage;
+  const indexOfFirstEntry = indexOfLastEntry - entriesPerPage;
+
+  // Get the current entries to display
+  const currentEntries = data.slice(indexOfFirstEntry, indexOfLastEntry);
+
+  // Calculate the total number of pages
+  const totalPages = Math.ceil(data.length / entriesPerPage);
+
+  // Change page handler
+  const handlePageChange = (pageNumber) => {
+    if (pageNumber > 0 && pageNumber <= totalPages) {
+      setCurrentPage(pageNumber);
+    }
+  };
+
   return (
     <>
       <div className="shadow-lg rounded-lg flex flex-col items-center justify-center">
@@ -47,7 +66,7 @@ const DashboardManager = () => {
             </tr>
           </thead>
           <tbody className="bg-white">
-            {data.map((row, index) => (
+            {currentEntries.map((row, index) => (
               <tr key={index}>
                 {headers.map((header) => (
                   <td key={header} className="py-4 px-6 border-b border-gray-200 break-words">
@@ -58,6 +77,25 @@ const DashboardManager = () => {
             ))}
           </tbody>
         </table>
+        <div className="flex justify-between mt-4 w-[90%]">
+          <button
+            onClick={() => handlePageChange(currentPage - 1)}
+            disabled={currentPage === 1}
+            className="px-4 py-2 bg-blue-500 text-white rounded-lg"
+          >
+            Previous
+          </button>
+          <span className="text-lg">
+            Page {currentPage} of {totalPages}
+          </span>
+          <button
+            onClick={() => handlePageChange(currentPage + 1)}
+            disabled={currentPage === totalPages}
+            className="px-4 py-2 bg-blue-500 text-white rounded-lg"
+          >
+            Next
+          </button>
+        </div>
       </div>
     </>
   );
