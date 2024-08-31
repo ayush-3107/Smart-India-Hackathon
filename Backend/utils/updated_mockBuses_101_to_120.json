@@ -1,0 +1,27 @@
+[
+    {
+        "busNumber": "097 XUN",
+        "routeNumber": "Route 101",
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "4-46339",
+        "routeNumber": "Route 102",
+        "timing": "Afternoon"
+    },
+    {
+        "busNumber": "5N X6426",
+        "routeNumber": "Route 103",
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "448-AAJ",
+        "routeNumber": "Route 104",
+        "timing": "Morning"
+    },
+    {
+        "busNumber": "7510 GA",
+        "routeNumber": "Route 105",
+        "timing": "Afternoon"
+    }
+]
