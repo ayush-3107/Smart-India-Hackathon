@@ -38,14 +38,14 @@ preferredRoutes.forEach(route => {
     }
 });
 
-// Convert assigned buses data to JSON and save it to a file
-const assignedBusesJson = JSON.stringify(assignedBuses, null, 2);
+// // Convert assigned buses data to JSON and save it to a file
+// const assignedBusesJson = JSON.stringify(assignedBuses, null, 2);
 
-try {
-    fs.writeFileSync('assigned_buses.json', assignedBusesJson);
-    console.log('Assigned buses data has been saved to assigned_buses.json');
-} catch (err) {
-    console.error(err);
-}
+// try {
+//     fs.writeFileSync('assigned_buses.json', assignedBusesJson);
+//     console.log('Assigned buses data has been saved to assigned_buses.json');
+// } catch (err) {
+//     console.error(err);
+// }
 
 module.exports = assignBusToCrew;
