@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
 const { handleRegisterUser, handleLoginUser } = require('../controllers/authController');
-const assignBusToCrew=require("../utils/busAssignment");
 const verifyToken = require('../middlewares/authMiddleware');
 
 

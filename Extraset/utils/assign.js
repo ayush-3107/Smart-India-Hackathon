@@ -1,6 +1,6 @@
 const crewMembers = require("../AI_model/Data.json"); // Import crew members mock data
-const buses = require('../AI_model/delhi_bus_routes_with_shift_assignments.json'); // Import buses mock data
-const preferredRoutes = require('../'); // Import preferred routes mock data
+const buses = require('../Backend/AI_model/delhi_bus_routes_with_shift_assignments.json'); // Import buses mock data
+const preferredRoutes = require('../Backend/server'); // Import preferred routes mock data
 
 const fs = require('fs');
 
