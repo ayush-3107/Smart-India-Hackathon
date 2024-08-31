@@ -16,7 +16,6 @@ function Contact() {
 
   return (
     <section className="flex flex-col min-h-screen">
-      <Header />
       <main className="flex-grow">
         <div className="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat">
           <iframe
@@ -182,7 +181,6 @@ function Contact() {
           </div>
         </div>
       </main>
-      <Footer />
     </section>
   );
 }
