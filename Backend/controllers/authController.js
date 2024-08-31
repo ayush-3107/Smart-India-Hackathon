@@ -2,6 +2,7 @@ const bcrypt = require('bcrypt');
 const User = require('../models/User');
 const jwt = require('jsonwebtoken');
 const secretKey = 'schedule_line_crew&manager:999';
+const AssignedDB = require("../models/AssignedDB");
 
 // Handle user registration
 async function handleRegisterUser(req, res) {
@@ -108,6 +109,7 @@ async function handleLoginUser(req, res) {
   }
 }
 
+
 async function getDashboardCrewId(req, res) {
   try {
       const crewId = req.params.id;
@@ -124,11 +126,38 @@ async function getDashboardCrewId(req, res) {
   } catch (error) {
       console.error('Error fetching crew member:', error);
       res.status(500).json({ message: 'Internal Server Error' });
+
+async function getDashboardManagerDetails(req, res) {
+  try {
+    // Fetch all records from the AssignedDB collection
+    const assignments = await AssignedDB.find({});
+
+    // If no records are found, return a message
+    if (assignments.length === 0) {
+      console.log("No data");
+      
+      return res.status(404).json({ message: 'No assignments found' });
+    }
+
+    // Return the assignments as a JSON response
+    console.log("data is here");
+    console.log(assignments);
+    
+    return res.status(200).json(assignments);
+  } catch (error) {
+    // Handle any errors that occur during the database query
+    console.error('Error fetching manager dashboard details:', error);
+    return res.status(500).json({ message: 'Server Error', error });
+
   }
 }
 
 module.exports = {
   handleRegisterUser,
   handleLoginUser,
+
   getDashboardCrewId,  
+
+  getDashboardManagerDetails ,
+
 };
