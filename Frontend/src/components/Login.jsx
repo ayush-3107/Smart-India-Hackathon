@@ -4,19 +4,19 @@ import axios from 'axios';
 import config from '../config';
 
 const LoginForm = () => {
-  const [userid, setUserid] = useState('');
+  const [id, setid] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!userid || !password) {
-      alert('Username and password are required');
+    if (!id || !password) {
+      alert('User ID and password are required');
       return;
     }
     try {
       const response = await axios.post(`${config.apiUrl}/auth/login`, {
-        userid,
+        id,
         password,
       });
 
@@ -24,6 +24,10 @@ const LoginForm = () => {
 
       const { token, role } = response.data;
       localStorage.setItem('token', token);
+      console.log(response);
+      
+      console.log(`role is `,role);
+      
 
       if (role === 'manager') {
         navigate('/dashboard-manager');
@@ -49,9 +53,9 @@ const LoginForm = () => {
                 <form onSubmit={handleSubmit} className="flex flex-col">
                   <input
                     type="text"
-                    placeholder="UserId"
-                    value={userid}
-                    onChange={(e) => setUserid(e.target.value)}
+                    placeholder="User ID"
+                    value={id}
+                    onChange={(e) => setid(e.target.value)}
                     className="w-full px-8 py-4 rounded-lg font-medium bg-[rgb(254,255,250)] border border-[#95D2B3] placeholder-gray-500 text-sm focus:outline-none focus:border-[#55AD9B] focus:bg-white"
                     required
                   />
