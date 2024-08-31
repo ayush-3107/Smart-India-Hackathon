@@ -4,28 +4,52 @@ import axios from 'axios';
 import config from '../config';
 
 const RegisterForm = () => {
-  const [name, setName] = useState('');
-  const [id, setId] = useState('');
-  const [password, setPassword] = useState('');
-  const [phoneNumber, setPhoneNumber] = useState('');
-  const [email, setEmail] = useState('');
-  const [dob, setDob] = useState('');
-  const [gender, setGender] = useState('');
-  const [yearOfJoining, setYearOfJoining] = useState('');
-  const [address, setAddress] = useState('');
-  const [role, setRole] = useState('manager');
-
-  // Crew-specific fields
-  const [crewRole, setCrewRole] = useState('');
-  const [experience, setExperience] = useState('');
-  const [skillLevel, setSkillLevel] = useState('');
-  const [timingPreferences, setTimingPreferences] = useState('');
+  const [formData, setFormData] = useState({
+    name: '',
+    id: '',
+    password: '',
+    phoneNumber: '',
+    email: '',
+    dob: '',
+    gender: '',
+    yearOfJoining: '',
+    address: '',
+    role: 'manager',
+    crewRole: '',
+    experience: '',
+    skillLevel: '',
+    timingPreferences: '',
+  });
 
   const navigate = useNavigate();
 
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
   const handleRegister = async (e) => {
     e.preventDefault();
-    if (!name || !id || !password || !phoneNumber || !email || !dob || !gender || !yearOfJoining || !address || !role) {
+    const {
+      name,
+      id,
+      password,
+      phoneNumber,
+      email,
+      dob,
+      gender,
+      address,
+      role,
+      crewRole,
+      experience,
+      skillLevel,
+      timingPreferences,
+    } = formData;
+
+    if (!name || !id || !password || !phoneNumber || !email || !dob || !gender || !address || !role) {
       alert('All fields are required');
       return;
     }
@@ -38,13 +62,12 @@ const RegisterForm = () => {
         email,
         dob,
         gender,
-        yearOfJoining,
         address,
         role,
-        crewRole: role === 'Crew' ? crewRole : undefined,
-        experience: role === 'Crew' ? experience : undefined,
-        skillLevel: role === 'Crew' ? skillLevel : undefined,
-        timingPreferences: role === 'Crew' ? timingPreferences : undefined,
+        crewRole: role === 'crew' ? crewRole : undefined,
+        experience: role === 'crew' ? experience : undefined,
+        skillLevel: role === 'crew' ? skillLevel : undefined,
+        timingPreferences: role === 'crew' ? timingPreferences : undefined,
       });
       alert('Registration successful');
       navigate('/');
@@ -64,105 +87,109 @@ const RegisterForm = () => {
                 <form onSubmit={handleRegister} className="flex flex-col">
                   <input
                     type="text"
+                    name="name"
                     placeholder="Name"
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
+                    value={formData.name}
+                    onChange={handleChange}
                     className="w-full px-8 py-4 rounded-lg font-medium bg-[rgb(254,255,250)] border border-[#95D2B3] placeholder-gray-500 text-sm focus:outline-none focus:border-[#55AD9B] focus:bg-white"
                     required
                   />
                   <input
                     type="text"
+                    name="id"
                     placeholder="ID"
-                    value={id}
-                    onChange={(e) => setId(e.target.value)}
+                    value={formData.id}
+                    onChange={handleChange}
                     className="w-full px-8 py-4 rounded-lg font-medium bg-[rgb(254,255,250)] border border-[#95D2B3] placeholder-gray-500 text-sm focus:outline-none focus:border-[#55AD9B] focus:bg-white mt-5"
                     required
                   />
                   <input
                     type="password"
+                    name="password"
                     placeholder="Password"
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
+                    value={formData.password}
+                    onChange={handleChange}
                     className="w-full px-8 py-4 rounded-lg font-medium bg-[rgb(254,255,250)] border border-[#95D2B3] placeholder-gray-500 text-sm focus:outline-none focus:border-[#55AD9B] focus:bg-white mt-5"
                     required
                   />
                   <input
                     type="text"
+                    name="phoneNumber"
                     placeholder="Phone Number"
-                    value={phoneNumber}
-                    onChange={(e) => setPhoneNumber(e.target.value)}
+                    value={formData.phoneNumber}
+                    onChange={handleChange}
                     className="w-full px-8 py-4 rounded-lg font-medium bg-[rgb(254,255,250)] border border-[#95D2B3] placeholder-gray-500 text-sm focus:outline-none focus:border-[#55AD9B] focus:bg-white mt-5"
                     required
                   />
                   <input
                     type="email"
+                    name="email"
                     placeholder="Email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
+                    value={formData.email}
+                    onChange={handleChange}
                     className="w-full px-8 py-4 rounded-lg font-medium bg-[rgb(254,255,250)] border border-[#95D2B3] placeholder-gray-500 text-sm focus:outline-none focus:border-[#55AD9B] focus:bg-white mt-5"
                     required
                   />
                   <input
                     type="date"
+                    name="dob"
                     placeholder="Date of Birth"
-                    value={dob}
-                    onChange={(e) => setDob(e.target.value)}
+                    value={formData.dob}
+                    onChange={handleChange}
                     className="w-full px-8 py-4 rounded-lg font-medium bg-[rgb(254,255,250)] border border-[#95D2B3] text-sm focus:outline-none focus:border-[#55AD9B] focus:bg-white mt-5"
                     required
                   />
                   <input
                     type="text"
+                    name="gender"
                     placeholder="Gender"
-                    value={gender}
-                    onChange={(e) => setGender(e.target.value)}
-                    className="w-full px-8 py-4 rounded-lg font-medium bg-[rgb(254,255,250)] border border-[#95D2B3] placeholder-gray-500 text-sm focus:outline-none focus:border-[#55AD9B] focus:bg-white mt-5"
-                    required
-                  />
-                  <input
-                    type="number"
-                    placeholder="Year of Joining"
-                    value={yearOfJoining}
-                    onChange={(e) => setYearOfJoining(e.target.value)}
+                    value={formData.gender}
+                    onChange={handleChange}
                     className="w-full px-8 py-4 rounded-lg font-medium bg-[rgb(254,255,250)] border border-[#95D2B3] placeholder-gray-500 text-sm focus:outline-none focus:border-[#55AD9B] focus:bg-white mt-5"
                     required
                   />
                   <input
                     type="text"
+                    name="address"
                     placeholder="Address"
-                    value={address}
-                    onChange={(e) => setAddress(e.target.value)}
+                    value={formData.address}
+                    onChange={handleChange}
                     className="w-full px-8 py-4 rounded-lg font-medium bg-[rgb(254,255,250)] border border-[#95D2B3] placeholder-gray-500 text-sm focus:outline-none focus:border-[#55AD9B] focus:bg-white mt-5"
                     required
                   />
                   <select
-                    value={role}
-                    onChange={(e) => setRole(e.target.value)}
+                    name="role"
+                    value={formData.role}
+                    onChange={handleChange}
                     className="w-full px-8 py-4 rounded-lg font-medium bg-[rgb(254,255,250)] border border-[#95D2B3] text-sm focus:outline-none focus:border-[#55AD9B] focus:bg-white mt-5"
                     required
                   >
                     <option value="manager">Manager</option>
                     <option value="crew">Crew</option>
                   </select>
-                  
-                  {role === 'crew' && (
+
+                  {formData.role === 'crew' && (
                     <>
                       <input
                         type="text"
+                        name="crewRole"
                         placeholder="Crew Role (e.g., Conductor/Driver)"
-                        value={crewRole}
-                        onChange={(e) => setCrewRole(e.target.value)}
+                        value={formData.crewRole}
+                        onChange={handleChange}
                         className="w-full px-8 py-4 rounded-lg font-medium bg-[rgb(254,255,250)] border border-[#95D2B3] placeholder-gray-500 text-sm focus:outline-none focus:border-[#55AD9B] focus:bg-white mt-5"
                       />
                       <input
                         type="number"
+                        name="experience"
                         placeholder="Experience (in years)"
-                        value={experience}
-                        onChange={(e) => setExperience(e.target.value)}
+                        value={formData.experience}
+                        onChange={handleChange}
                         className="w-full px-8 py-4 rounded-lg font-medium bg-[rgb(254,255,250)] border border-[#95D2B3] placeholder-gray-500 text-sm focus:outline-none focus:border-[#55AD9B] focus:bg-white mt-5"
                       />
                       <select
-                        value={skillLevel}
-                        onChange={(e) => setSkillLevel(e.target.value)}
+                        name="skillLevel"
+                        value={formData.skillLevel}
+                        onChange={handleChange}
                         className="w-full px-8 py-4 rounded-lg font-medium bg-[rgb(254,255,250)] border border-[#95D2B3] text-sm focus:outline-none focus:border-[#55AD9B] focus:bg-white mt-5"
                       >
                         <option value="">Select Skill Level</option>
@@ -174,9 +201,10 @@ const RegisterForm = () => {
                       </select>
                       <input
                         type="text"
-                        placeholder="Timing Preferences"
-                        value={timingPreferences}
-                        onChange={(e) => setTimingPreferences(e.target.value)}
+                        name="timingPreferences"
+                        placeholder="Timing Preferences (e.g., Day/Night Shift)"
+                        value={formData.timingPreferences}
+                        onChange={handleChange}
                         className="w-full px-8 py-4 rounded-lg font-medium bg-[rgb(254,255,250)] border border-[#95D2B3] placeholder-gray-500 text-sm focus:outline-none focus:border-[#55AD9B] focus:bg-white mt-5"
                       />
                     </>
@@ -184,38 +212,47 @@ const RegisterForm = () => {
 
                   <button
                     type="submit"
-                    className="mt-5 tracking-wide font-semibold bg-[#95D2B3] text-gray-900 w-full py-4 rounded-lg hover:bg-[#55AD9B] transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none"
+                    className="mt-5 tracking-wide font-semibold bg-[#95D2B3] text-gray-100 w-full py-4 rounded-lg hover:bg-[#55AD9B] transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none"
                   >
                     <svg
                       className="w-6 h-6 -ml-2"
                       fill="none"
                       stroke="currentColor"
                       strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <path d="M16 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
-                      <circle cx="8.5" cy="7" r="4" />
-                      <path d="M20 8v6M23 11h-6" />
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M16 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"
+                      ></path>
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M12 11a4 4 0 100-8 4 4 0 000 8z"
+                      ></path>
                     </svg>
                     <span className="ml-3">Register</span>
                   </button>
                 </form>
-                <p className="mt-6 text-xs text-gray-600 text-center">
-                  Already a member?{' '}
-                  <Link to="/" className="text-[#55AD9B] hover:underline">
-                    Log In
-                  </Link>
-                </p>
+                <div className="mt-5 text-center">
+                  <p className="text-sm">
+                    Already have an account?{' '}
+                    <Link to="/" className="text-[#95D2B3]">
+                      Sign in
+                    </Link>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="flex-1 bg-[#c4dca9] text-center hidden lg:flex"> 
+        <div className="flex-1 bg-[#c4dca9] text-center hidden lg:flex ">
           <div
-            className="m-12 xl:m-16 w-full bg-contain bg-center bg-no-repeat"
+            className="m-12 xl:m-16 w-full bg-contain bg-center bg-no-repeat "
             style={{
-              backgroundImage: 'url("/login_bg.jpg")', // Path to your image
+              backgroundImage: 'url("/login_bg.jpg")', 
             }}
           ></div>
         </div>

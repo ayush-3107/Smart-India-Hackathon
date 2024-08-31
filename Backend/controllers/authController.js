@@ -41,7 +41,6 @@ async function handleRegisterUser(req, res) {
       email,
       dob,
       gender,
-      yearOfJoining,
       address,
       role,
     };
