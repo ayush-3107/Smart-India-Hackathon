@@ -22,22 +22,19 @@ const LoginForm = () => {
 
       console.log('Response data:', response.data);
 
-      const { token, role } = response.data;
-      localStorage.setItem('token', token);
-      console.log(token);
+      const dat = response.data;
+      localStorage.setItem('token', dat.token);
       
-      axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
-
-
-      console.log(response);
+      axios.defaults.headers.common['Authorization'] = `Bearer ${dat.token}`;
       
-      console.log(`role is `,role);
-      
-
-      if (role === 'manager') {
+      if (dat.role === 'manager') {
         navigate('/dashboard-manager');
-      } else if (role === 'crew') {
-        navigate('/dashboard-crew',);
+      } else if (dat.role === 'crew') {
+        // Make a GET request to fetch the crew data
+        const crewResponse = await axios.get(`http://localhost:5000/api/auth/dashboard-crew/${dat.id}`);
+        
+        // Navigate to DashboardCrew with the fetched crew data
+        navigate(`/dashboard-crew/${dat.id}`);
       } else {
         alert('Unknown role');
       }
@@ -48,11 +45,11 @@ const LoginForm = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#F1F8E8] text-gray-900 flex justify-center"> {/* Updated background color */}
+    <div className="min-h-screen bg-[#F1F8E8] text-gray-900 flex justify-center">
       <div className="max-w-screen-xl m-0 sm:m-10 bg-white shadow sm:rounded-lg flex justify-center flex-1">
         <div className="lg:w-1/2 xl:w-5/12 p-6 sm:p-12">
           <div className="mt-12 flex flex-col items-center">
-            <h1 className="text-2xl xl:text-3xl font-extrabold text-[#55AD9B]">Sign In</h1> {/* Updated text color */}
+            <h1 className="text-2xl xl:text-3xl font-extrabold text-[#55AD9B]">Sign In</h1>
             <div className="w-full flex-1 mt-8">
               <div className="mx-auto max-w-xs">
                 <form onSubmit={handleSubmit} className="flex flex-col">
@@ -105,7 +102,7 @@ const LoginForm = () => {
           <div
             className="m-12 xl:m-16 w-full bg-contain bg-center bg-no-repeat "
             style={{
-              backgroundImage: 'url("/login_bg.jpg")', 
+              backgroundImage: 'url("/login_bg.jpg")',
             }}
           ></div>
         </div>

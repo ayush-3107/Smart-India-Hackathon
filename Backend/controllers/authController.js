@@ -97,10 +97,10 @@ async function handleLoginUser(req, res) {
 
     // Respond with the token and user role
     return res.status(200).json({ 
-      message: 'Login successful', 
+      'message': 'Login successful', 
       token, 
-      role: user.role ,
-      id:user.id,
+      'role': user.role ,
+      'id':user.id,
     });
       //return res.status(200).json({ token,role: user.role });
     

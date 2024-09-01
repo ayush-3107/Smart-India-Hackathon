@@ -1,34 +1,46 @@
 import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
 const DashboardManager = () => {
   const [data, setData] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [filterData, setFilterData] = useState([]);
+  // const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
   const [searchQuery, setSearchQuery] = useState('');
+  const entries = ["_id","__v","routeShortName"];
   const entriesPerPage = 20;
+
 
   useEffect(() => {
     // Fetch the JSON file when the component mounts
-    fetch('/bus_service_data.json')
+    axios.get('http://localhost:5000/api/auth/dashboard-manager')
       .then(response => {
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        return response.json();
-      })
-      .then(jsonData => {
-        setData(jsonData);
-        setLoading(false);
+        setData(response.data);
+
+        // Filter out the unwanted keys
+        const filtereddata = response.data.map(item => {
+          const filteredItem = {};
+          for (let key in item) {
+            if (!entries.includes(key)) {
+              filteredItem[key] = item[key];
+            }
+          }
+          return filteredItem;
+        });
+
+        setFilterData(filtereddata);
+
       })
       .catch(error => {
         console.error('Error fetching JSON data:', error);
         setError(error);
-        setLoading(false);
       });
   }, []);
 
-  if (loading) return <p>Loading...</p>;
+
+
+  // if (loading) return <p>Loading...</p>;
   if (error) return <p>Error loading data: {error.message}</p>;
 
   // Handle search functionality
@@ -37,7 +49,8 @@ const DashboardManager = () => {
     setCurrentPage(1); // Reset to the first page when searching
   };
 
-  const filteredData = data.filter(row => 
+
+  const filteredData = filterData.filter(row => 
     Object.values(row).find(value =>
       value.toString().toLowerCase().includes(searchQuery.toLowerCase())
     )
